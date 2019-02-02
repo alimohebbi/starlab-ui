@@ -23,9 +23,31 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/linearicons.css",
+              "src/assets/css/font-awesome.min.css" ,
+              "src/assets/css/bootstrap.css",
+              "src/assets/css/magnific-popup.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/animate.min.css",
+              "src/assets/css/owl.carousel.css",
+              "src/assets/css/main.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/vendor/jquery-2.2.4.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/vendor/bootstrap.min.js",
+              "src/assets/js/easing.min.js",
+              "src/assets/js/jquery.ajaxchimp.min.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/jquery.sticky.js",
+              "src/assets/js/jquery.nice-select.min.js",
+              "src/assets/js/parallax.min.js",
+              "src/assets/js/mail-script.js",
+              "src/assets/js/isotope.pkgd.min.js",
+              "src/assets/js/main.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {

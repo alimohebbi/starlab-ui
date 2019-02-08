@@ -7,6 +7,7 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { HomeComponent } from './site/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PeopleComponent } from './site/people/people.component';
+import { ResearchComponent } from './site/research/research.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PeopleComponent } from './site/people/people.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    PeopleComponent
+    PeopleComponent,
+    ResearchComponent
   ],
   imports: [
     BrowserModule,

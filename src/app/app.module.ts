@@ -8,6 +8,10 @@ import { HomeComponent } from './site/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PeopleComponent } from './site/people/people.component';
 import { ResearchComponent } from './site/research/research.component';
+import { SoftwareDataComponent } from './site/software-data/software-data.component';
+import { PublicationComponent } from './site/publication/publication.component';
+import {HttpClientModule} from '@angular/common/http';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -16,11 +20,16 @@ import { ResearchComponent } from './site/research/research.component';
     FooterComponent,
     HomeComponent,
     PeopleComponent,
-    ResearchComponent
+    ResearchComponent,
+    SoftwareDataComponent,
+    PublicationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    HttpModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

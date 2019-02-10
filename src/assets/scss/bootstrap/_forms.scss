@@ -63,7 +63,7 @@ select.form-control {
 
   &:focus::-ms-value {
     // Suppress the nested default white text on blue background highlight given to
-    // the selected option text when the (still closed) <select> receives focus
+    // the selectedBib option text when the (still closed) <select> receives focus
     // in IE and (under certain conditions) Edge, as it looks bad and cannot be made to
     // match the appearance of the native widget.
     // See https://github.com/twbs/bootstrap/issues/19398.

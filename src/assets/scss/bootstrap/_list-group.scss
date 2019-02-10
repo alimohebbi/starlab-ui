@@ -15,7 +15,7 @@
 // Interactive list items
 //
 // Use anchor or button elements instead of `li`s or `div`s to create interactive
-// list items. Includes an extra `.active` modifier class for selected items.
+// list items. Includes an extra `.active` modifier class for selectedBib items.
 
 .list-group-item-action {
   width: 100%; // For `<button>`s (anchors become 100% by default though)

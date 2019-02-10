@@ -1,3 +1,48 @@
-<p>
-  publication works! {{en}}
-</p>
+
+
+
+<section class="generic-banner relative">
+  <div class="container">
+    <div class="row height align-items-center justify-content-center">
+      <div class="col-lg-10">
+        <div class="generic-banner-content">
+          <h2 class="text-white">Publications</h2>
+          <!--<p class="text-white">It won’t be a bigger problem to find one video game lover in your <br> neighbor. Since the introduction of Virtual Game.</p>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End banner Area -->
+
+<!-- About Generic Start -->
+<div class="main-wrapper">
+
+  <!-- Start Generic Area -->
+  <section class="about-generic-area section-gap">
+    <div class="container border-top-generic">
+
+
+
+      <div class=" container alert alert-warning" *ngFor="let paper of a" >
+        <div class="row align-items-center">
+          <div class="col-10 ">
+            <span *ngIf="paper.author">{{paper.author}}, </span>
+            <span *ngIf="paper.title">{{paper.title}}, </span>
+            <span *ngIf="paper.year">{{paper.year}}, </span>
+            <span *ngIf="paper.jouranl"><i>{{paper.journal}}</i>, </span>
+            <span *ngIf="paper.booktitle"><i>{{paper.booktitle}}</i>, </span>
+            <span *ngIf="paper.publisher">{{paper.publisher}}, </span>
+            <span *ngIf="paper.pages">{{paper.pages}}, </span>
+          </div>
+          <div  class="col-2  btn btn-info " (click)="onSelect(paper);">bibtex</div>
+        </div>
+        <div class="row" *ngIf="paper.ID === selected.ID">
+          <div class="col-6 alert alert-light mt-2">
+            {{selectedBib}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

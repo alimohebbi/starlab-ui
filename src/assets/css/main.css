@@ -2170,9 +2170,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
   background: url(../img/header-bg.jpg) center;
   background-size: cover;
+
 }
 
-@media (max-width: 1199.98px) {
+
+@media (max-width: 2000.98px) {
   .banner-area .fullscreen {
     height: 800px !important;
   }
@@ -2229,6 +2231,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   letter-spacing: 3px;
   font-size: 14px;
+}
+
+a[role=button] {
+  letter-spacing: 0px;
 }
 
 @media (max-width: 1280px) {

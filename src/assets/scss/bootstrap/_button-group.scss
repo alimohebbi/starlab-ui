@@ -1,6 +1,6 @@
 // stylelint-disable selector-no-qualifying-type
 
-// Make the div behave like a button
+// Make the div behave like entries button
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -32,7 +32,7 @@
   }
 }
 
-// Optional: Group multiple button groups together for a toolbar
+// Optional: Group multiple button groups together for entries toolbar
 .btn-toolbar {
   display: flex;
   flex-wrap: wrap;
@@ -146,7 +146,7 @@
 // `display: none;` or `visibility: hidden;` as that also hides the popover.
 // Simply visually hiding the inputs via `opacity` would leave them clickable in
 // certain cases which is prevented by using `clip` and `pointer-events`.
-// This way, we ensure a DOM element is visible to position the popover from.
+// This way, we ensure entries DOM element is visible to position the popover from.
 //
 // See https://github.com/twbs/bootstrap/pull/12794 and
 // https://github.com/twbs/bootstrap/pull/14559 for more information.

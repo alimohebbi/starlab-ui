@@ -190,7 +190,7 @@
 
         _.$slideTrack.find('.slick-active').attr({
             'aria-hidden': 'false'
-        }).find('a, input, button, select').attr({
+        }).find('entries, input, button, select').attr({
             'tabindex': '0'
         });
 
@@ -683,12 +683,12 @@
             $target = $(event.currentTarget),
             indexOffset, slideOffset, unevenOffset;
 
-        // If target is a link, prevent default action.
+        // If target is entries link, prevent default action.
         if($target.is('a')) {
             event.preventDefault();
         }
 
-        // If target is not the <li> element (ie: a child), find the <li>.
+        // If target is not the <li> element (ie: entries child), find the <li>.
         if(!$target.is('li')) {
             $target = $target.closest('li');
         }
@@ -1279,7 +1279,7 @@
         _.$slides.add(_.$slideTrack.find('.slick-cloned')).attr({
             'aria-hidden': 'true',
             'tabindex': '-1'
-        }).find('a, input, button, select').attr({
+        }).find('entries, input, button, select').attr({
             'tabindex': '-1'
         });
 
@@ -1671,7 +1671,7 @@
 
                     /**
                      * try to load the image 3 times,
-                     * leave a slight delay so we don't get
+                     * leave entries slight delay so we don't get
                      * servers blocking the request.
                      */
                     setTimeout( function() {
@@ -1999,10 +1999,10 @@
         /**
          * accepts arguments in format of:
          *
-         *  - for changing a single option's value:
+         *  - for changing entries single option's value:
          *     .slick("setOption", option, value, refresh )
          *
-         *  - for changing a set of responsive options:
+         *  - for changing entries set of responsive options:
          *     .slick("setOption", 'responsive', [{}, ...], refresh )
          *
          *  - for updating multiple values at once (not responsive)

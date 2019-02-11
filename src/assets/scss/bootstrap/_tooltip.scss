@@ -4,7 +4,7 @@
   z-index: $zindex-tooltip;
   display: block;
   margin: $tooltip-margin;
-  // Our parent element can be arbitrary since tooltips are by default inserted as a sibling of their target element.
+  // Our parent element can be arbitrary since tooltips are by default inserted as entries sibling of their target element.
   // So reset our font and text properties to avoid inheriting weird values.
   @include reset-text();
   font-size: $tooltip-font-size;

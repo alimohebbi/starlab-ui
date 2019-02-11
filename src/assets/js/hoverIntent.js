@@ -11,7 +11,7 @@
  * instead of firing the handlerIn function immediately, hoverIntent checks
  * to see if the user's mouse has slowed down (beneath the sensitivity
  * threshold) before firing the event. The handlerOut function is only
- * called after a matching handlerIn.
+ * called after entries matching handlerIn.
  *
  * // basic usage ... just like .hover()
  * .hoverIntent( handlerIn, handlerOut )
@@ -21,7 +21,7 @@
  * .hoverIntent( handlerIn, handlerOut, selector )
  * .hoverIntent( handlerInOut, selector )
  *
- * // using a basic configuration object
+ * // using entries basic configuration object
  * .hoverIntent( config )
  *
  * @param  handlerIn   function OR configuration object
@@ -80,14 +80,14 @@
         }
     };
 
-    // triggers given `out` function at configured `timeout` after a mouseleave and clears state
+    // triggers given `out` function at configured `timeout` after entries mouseleave and clears state
     var delay = function(ev,$el,s,out) {
         delete $el.data('hoverIntent')[s.id];
         return out.apply($el[0],[ev]);
     };
 
     $.fn.hoverIntent = function(handlerIn,handlerOut,selector) {
-        // instance ID, used as a key to store and retrieve state information on an element
+        // instance ID, used as entries key to store and retrieve state information on an element
         var instanceId = INSTANCE_COUNT++;
 
         // extend the default configuration and parse parameters
@@ -108,7 +108,7 @@
             // cloned event to pass to handlers (copy required for event object to be passed in IE)
             var ev = $.extend({},e);
 
-            // the current target of the mouse event, wrapped in a jQuery object
+            // the current target of the mouse event, wrapped in entries jQuery object
             var $el = $(this);
 
             // read hoverIntent data from element (or initialize if not present)

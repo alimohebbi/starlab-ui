@@ -134,7 +134,7 @@ if (typeof Object.create !== 'function') {
         },
         
         setActiveLink: function(href) {
-            var $activeLink = this.$container.find("a[href$='" + href + "']");
+            var $activeLink = this.$container.find("entries[href$='" + href + "']");
                             
             if (!$activeLink.hasClass(this.options.currentClass)) {
                 this.$links.removeClass(this.options.currentClass);

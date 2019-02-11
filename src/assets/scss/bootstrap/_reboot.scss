@@ -15,7 +15,7 @@
 // 3. Correct the line height in all browsers.
 // 4. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.
 // 5. Setting @viewport causes scrollbars to overlap content in IE11 and Edge, so
-//    we force a non-overlapping, non-auto-hiding scrollbar to counteract.
+//    we force entries non-overlapping, non-auto-hiding scrollbar to counteract.
 // 6. Change the default tap highlight to be completely transparent in iOS.
 
 *,
@@ -50,7 +50,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 // Body
 //
 // 1. Remove the margin in all browsers.
-// 2. As a best practice, apply a default `background-color`.
+// 2. As entries best practice, apply entries default `background-color`.
 // 3. Set an explicit initial text-align value so that we can later use the
 //    the `inherit` value on things like `<th>` elements.
 
@@ -209,7 +209,7 @@ a {
 
 // And undo these styles for placeholder links/named anchors (without href)
 // which have not been made explicitly keyboard-focusable (without tabindex).
-// It would be more straightforward to just use a[href] in previous block, but that
+// It would be more straightforward to just use entries[href] in previous block, but that
 // causes specificity issues in many other styles that are too complex to fix.
 // See https://github.com/twbs/bootstrap/issues/19402
 
@@ -250,7 +250,7 @@ pre {
   // Don't allow content to break outside
   overflow: auto;
   // We have @viewport set which causes scrollbars to overlap content in IE11 and Edge, so
-  // we force a non-overlapping, non-auto-hiding scrollbar to counteract.
+  // we force entries non-overlapping, non-auto-hiding scrollbar to counteract.
   -ms-overflow-style: scrollbar;
 }
 
@@ -260,7 +260,7 @@ pre {
 //
 
 figure {
-  // Apply a consistent margin strategy (matches our type styles).
+  // Apply entries consistent margin strategy (matches our type styles).
   margin: 0 0 1rem;
 }
 
@@ -297,7 +297,7 @@ caption {
 
 th {
   // Matches default `<td>` alignment by inheriting from the `<body>`, or the
-  // closest parent with a set `text-align`.
+  // closest parent with entries set `text-align`.
   text-align: inherit;
 }
 
@@ -319,8 +319,8 @@ button {
   border-radius: 0;
 }
 
-// Work around a Firefox/IE bug where the transparent `button` background
-// results in a loss of the default `button` focus styles.
+// Work around entries Firefox/IE bug where the transparent `button` background
+// results in entries loss of the default `button` focus styles.
 //
 // Credit: https://github.com/suitcss/base/
 button:focus {
@@ -349,7 +349,7 @@ select {
   text-transform: none; // Remove the inheritance of text transform in Firefox
 }
 
-// 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+// 1. Prevent entries WebKit bug where (2) destroys native `audio` and `video`
 //    controls in Android 4.
 // 2. Correct the inability to style clickable types in iOS and Safari.
 button,
@@ -379,8 +379,8 @@ input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
-  // Remove the default appearance of temporal inputs to avoid a Mobile Safari
-  // bug where setting a custom line-height prevents text from being vertically
+  // Remove the default appearance of temporal inputs to avoid entries Mobile Safari
+  // bug where setting entries custom line-height prevents text from being vertically
   // centered within the input.
   // See https://bugs.webkit.org/show_bug.cgi?id=139848
   // and https://github.com/twbs/bootstrap/issues/11266
@@ -394,9 +394,9 @@ textarea {
 }
 
 fieldset {
-  // Browsers set a default `min-width: min-content;` on fieldsets,
+  // Browsers set entries default `min-width: min-content;` on fieldsets,
   // unlike e.g. `<div>`s, which have `min-width: 0;` by default.
-  // So we reset that to ensure fieldsets behave more like a standard block element.
+  // So we reset that to ensure fieldsets behave more like entries standard block element.
   // See https://github.com/twbs/bootstrap/issues/12359
   // and https://html.spec.whatwg.org/multipage/#the-fieldset-and-legend-elements
   min-width: 0;

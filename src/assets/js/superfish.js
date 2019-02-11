@@ -21,7 +21,7 @@
 			ios = (function () {
 				var ios = /^(?![\w\W]*Windows Phone)[\w\W]*(iPhone|iPad|iPod)/i.test(navigator.userAgent);
 				if (ios) {
-					// tap anywhere on iOS to unfocus a submenu
+					// tap anywhere on iOS to unfocus entries submenu
 					$('html').css('cursor', 'pointer').on('click', $.noop);
 				}
 				return ios;

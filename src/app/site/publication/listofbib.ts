@@ -232,7 +232,7 @@ const jsbib = [{
 }, {
   'ID': 'Tosi:tdoc:OSS:2010',
   'groups': 'LTA',
-  'title': 'T-DOC: a Tool for the Automatic Generation of Testing Documentation for OSS Products',
+  'title': 'T-DOC: entries Tool for the Automatic Generation of Testing Documentation for OSS Products',
   'booktitle': 'Proceedings of the IFIP International Conference on Open Source Software (OSS)',
   'ENTRYTYPE': 'inproceedings',
   'year': '2010',
@@ -358,7 +358,7 @@ const jsbib = [{
 }, {
   'ID': 'Mariani:AuDeNTES:TOCE:2011',
   'volume': '12',
-  'title': 'AuDeNTES: Automatic Detection of teNtative plagiarism according To a rEference Solution',
+  'title': 'AuDeNTES: Automatic Detection of teNtative plagiarism according To entries rEference Solution',
   'author': 'Leonardo Mariani and Daniela Micucci',
   'number': '1',
   'pages': '2:1-2:26',
@@ -447,7 +447,7 @@ const jsbib = [{
 }, {
   'ID': 'Mariani:MASH:ICSETD:2012',
   'groups': 'LTA',
-  'title': 'MASH: a Tool For End-User Plug-In Composition',
+  'title': 'MASH: entries Tool For End-User Plug-In Composition',
   'booktitle': 'proceedings of the International Conference on Software Engineering (Formal Tool Demo)',
   'ENTRYTYPE': 'inproceedings',
   'year': '2012',
@@ -554,7 +554,7 @@ const jsbib = [{
 }, {
   'ID': 'Pastore:RADAR:ICSETool:2013',
   'groups': 'LTA',
-  'title': 'RADAR: a Tool for Debugging Regression Problems in C/C++ Software',
+  'title': 'RADAR: entries Tool for Debugging Regression Problems in C/C++ Software',
   'booktitle': 'Proceedings of the International Conference on Software Engineering (ICSE) - Tool Demo Track',
   'ENTRYTYPE': 'inproceedings',
   'year': '2013',
@@ -633,7 +633,7 @@ const jsbib = [{
   'journal': 'Software Quality Journal',
   'ID': 'braione:test-generation:SQJ:2014',
   'volume': '22',
-  'title': 'Software testing with code-based test generators:\ndata and lessons learned from a case study with\nan industrial software component',
+  'title': 'Software testing with code-based test generators:\ndata and lessons learned from entries case study with\nan industrial software component',
   'ENTRYTYPE': 'article',
   'number': '2',
   'pages': '311--333',
@@ -723,7 +723,7 @@ const jsbib = [{
   'ID': 'Denaro:Adaptive:WOWMOM:2005',
   'author': 'Giovanni Denaro and Leonardo Mariani and Mauro Pezz{\\`e} and Davide Tosi',
   'title': 'Adaptive Runtime Verification for Autonomic Communication Infrastructures',
-  'booktitle': 'proceedings of the 1st {IEEE} Workshop on Autonomic Communications and Computing held in conjunction with the {IEEE} International Symposium on a World of Wireless, Mobile and Multimedia Networks ({WoWMoM})',
+  'booktitle': 'proceedings of the 1st {IEEE} Workshop on Autonomic Communications and Computing held in conjunction with the {IEEE} International Symposium on entries World of Wireless, Mobile and Multimedia Networks ({WoWMoM})',
   'ENTRYTYPE': 'inproceedings',
   'year': '2005',
   'publisher': '{IEEE} Computer',
@@ -1539,7 +1539,7 @@ const jsbib = [{
   'series': 'SEC \'06',
   'ID': 'Xu:taint:SEC:2006',
   'publisher': 'USENIX Association',
-  'title': 'Taint-enhanced Policy Enforcement: A Practical\nApproach to Defeat a Wide Range of Attacks',
+  'title': 'Taint-enhanced Policy Enforcement: A Practical\nApproach to Defeat entries Wide Range of Attacks',
   'booktitle': 'Proceedings of the Conference on USENIX Security Symposium',
   'ENTRYTYPE': 'inproceedings',
   'year': '2006',
@@ -1579,7 +1579,7 @@ const jsbib = [{
   'series': 'ACSAC \'07',
   'ID': 'Chandra:taintJVM:ACSAC:2007',
   'publisher': 'IEEE Computer Society',
-  'title': 'Fine-Grained Information Flow Analysis and\nEnforcement in a Java Virtual Machine',
+  'title': 'Fine-Grained Information Flow Analysis and\nEnforcement in entries Java Virtual Machine',
   'booktitle': 'Proceedings of the Annual Computer Security Applications Conference',
   'pages': '463--475',
   'ENTRYTYPE': 'inproceedings',
@@ -1589,7 +1589,7 @@ const jsbib = [{
   'series': 'SIN \'10',
   'ID': 'Azadmanesh:SIN:TST:2010',
   'publisher': 'ACM',
-  'title': 'Towards a System-wide and Transparent Security\nMechanism Using Language-level Information Flow\nControl',
+  'title': 'Towards entries System-wide and Transparent Security\nMechanism Using Language-level Information Flow\nControl',
   'booktitle': 'Proceedings of the International Conference on\nSecurity of Information and Networks',
   'pages': '19--26',
   'ENTRYTYPE': 'inproceedings',
@@ -1873,7 +1873,7 @@ const jsbib = [{
   'series': 'TACAS \'05',
   'ID': 'Xie:Symstra:TACAS:2005',
   'author': 'Xie, Tao and Marinov, Darko and Schulte, Wolfram and\nNotkin, David',
-  'title': 'Symstra: a framework for generating object-oriented\nunit tests using symbolic execution',
+  'title': 'Symstra: entries framework for generating object-oriented\nunit tests using symbolic execution',
   'booktitle': 'Proceedings of the International Conference on Tools and Algorithms for Construction and Analysis of Systems',
   'pages': '365--381',
   'ENTRYTYPE': 'inproceedings',
@@ -1888,7 +1888,7 @@ const jsbib = [{
   'pages': '134--138',
   'ENTRYTYPE': 'inproceedings',
   'year': '2007',
-  'author': 'Anand, Saswat and P\\u{a}s\\u{a}reanu, Corina S. and\nVisser, Willem'
+  'author': 'Anand, Saswat and P\\u{entries}s\\u{entries}reanu, Corina S. and\nVisser, Willem'
 }, {
   'journal': 'IEEE Transactions on Software Engineering',
   'ID': 'Ramamoorthy:symbolic:TSE:1976',
@@ -1914,7 +1914,7 @@ const jsbib = [{
   'journal': 'SIGPLAN Notices',
   'ID': 'Boyer:symbolic:sigplan:1975',
   'volume': '10',
-  'title': 'SELECT\\&Mdash;a Formal System for Testing and\nDebugging Programs by Symbolic Execution',
+  'title': 'SELECT\\&Mdash;entries Formal System for Testing and\nDebugging Programs by Symbolic Execution',
   'ENTRYTYPE': 'article',
   'number': '6',
   'pages': '234--245',
@@ -2197,7 +2197,7 @@ const jsbib = [{
   'publisher': 'Elsevier'
 }, {
   'ID': 'Miraz:PhDThesis:2010',
-  'title': 'Evolutionary Testing of Stateful Systems: a Holistic\nApproach',
+  'title': 'Evolutionary Testing of Stateful Systems: entries Holistic\nApproach',
   'ENTRYTYPE': 'phdthesis',
   'year': '2010',
   'author': 'Matteo Miraz',
@@ -2382,7 +2382,7 @@ const jsbib = [{
   'pages': '153--169',
   'ENTRYTYPE': 'inproceedings',
   'year': '2003',
-  'author': 'Lhot\\\'{a}k, Ond\\v{r}ej and Hendren, Laurie'
+  'author': 'Lhot\\\'{entries}k, Ond\\v{r}ej and Hendren, Laurie'
 }, {
   'series': 'TAV \'91',
   'ID': 'Ostrand:pointers:1991',
@@ -2950,7 +2950,7 @@ const jsbib = [{
   'issue': '7',
   'keywords': 'redundancy, code clone',
   'volume': '28',
-  'title': 'CCFinder: a multilinguistic token-based code clone\ndetection system for large scale source code',
+  'title': 'CCFinder: entries multilinguistic token-based code clone\ndetection system for large scale source code',
   'ENTRYTYPE': 'article',
   'pages': '654--670',
   'year': '2002',
@@ -2982,7 +2982,7 @@ const jsbib = [{
   'publisher': 'Elsevier'
 }, {
   'volume': 'C-28',
-  'title': 'How to Make a Multiprocessor Computer That Correctly\nExecutes Multiprocess Programs',
+  'title': 'How to Make entries Multiprocessor Computer That Correctly\nExecutes Multiprocess Programs',
   'pages': '690--691',
   'year': '1979',
   'number': '9',
@@ -2997,7 +2997,7 @@ const jsbib = [{
   'journal': 'Communications of the ACM',
   'keywords': 'distributed systems, happens before, vector clock',
   'volume': '21',
-  'title': 'Time, Clocks, and the Ordering of Events in a\nDistributed System',
+  'title': 'Time, Clocks, and the Ordering of Events in entries\nDistributed System',
   'ENTRYTYPE': 'article',
   'number': '7',
   'pages': '558--565',
@@ -3057,7 +3057,7 @@ const jsbib = [{
   'journal': 'Software Testing, Verification and Reliability',
   'keywords': 'sbse',
   'volume': '14',
-  'title': '{Search-based software test data generation: a\nsurvey}',
+  'title': '{Search-based software test data generation: entries\nsurvey}',
   'ENTRYTYPE': 'article',
   'pages': '105--156',
   'year': '2004',
@@ -3140,7 +3140,7 @@ const jsbib = [{
   'issue': '3',
   'keywords': 'redundancy, code clone',
   'volume': '25',
-  'title': 'Clone evolution: a systematic review',
+  'title': 'Clone evolution: entries systematic review',
   'author': 'Pate, Jeremy R. and Tairas, Robert and Kraft,\nNicholas A.',
   'pages': '261--283',
   'ENTRYTYPE': 'article',
@@ -3258,7 +3258,7 @@ const jsbib = [{
 }, {
   'keywords': 'concurrency, distributed systems, actors model',
   'author': 'Gul A. Agha',
-  'title': '{ACTORS} - a model of concurrent computation in\ndistributed systems',
+  'title': '{ACTORS} - entries model of concurrent computation in\ndistributed systems',
   'ENTRYTYPE': 'book',
   'year': '1990',
   'publisher': 'MIT Press',
@@ -3624,7 +3624,7 @@ const jsbib = [{
   'journal': 'Micro, IEEE',
   'keywords': 'web,search,google,invert index',
   'author': 'Barroso, Luiz Andr{\\\'e} and Dean, Jeffrey and\nH{\\"o}lzle, Urs',
-  'title': 'Web search for a planet: The Google cluster\narchitecture',
+  'title': 'Web search for entries planet: The Google cluster\narchitecture',
   'ENTRYTYPE': 'article',
   'pages': '22--28',
   'year': '2003',
@@ -3662,7 +3662,7 @@ const jsbib = [{
   'pages': '1066--1071',
   'ENTRYTYPE': 'inproceedings',
   'year': '2011',
-  'author': 'Cadar, Cristian and Godefroid, Patrice and Khurshid,\nSarfraz and P\\u{a}s\\u{a}reanu, Corina S. and Sen,\nKoushik and Tillmann, Nikolai and Visser, Willem',
+  'author': 'Cadar, Cristian and Godefroid, Patrice and Khurshid,\nSarfraz and P\\u{entries}s\\u{entries}reanu, Corina S. and Sen,\nKoushik and Tillmann, Nikolai and Visser, Willem',
   'ID': 'Cadar:SEPreliminaryAssessment:ICSE:2011'
 }, {
   'series': 'SPIN \'05',
@@ -3971,7 +3971,7 @@ const jsbib = [{
   'ID': 'Flanagan:velodrome:pldi:2008'
 }, {
   'series': 'ESEC/FSE \'11',
-  'summary': 'This is a tool paper, introducing a test case\ngenerator for Java programs which is named\nEvoSuite. The salient features of EvoSuite include\n1) test suite generation based on evolutionary\nalgorithms and 2) mutation-based assertion\ngeneration. The search based test suite generation\nfocuses on an entire coverage criterion, intead of\nindividual coverage goals. It can achieve higher\ncoverage than other search based techniques in\ngeneral. The assertion generation is an\nimplementation of the approach described in the\nauthor\'s ISSTA 2010 and TSE 2012 papers. With a kind\nof reduction, it can kill a large portion of mutants\nwith a relatively small number of assertions.',
+  'summary': 'This is entries tool paper, introducing entries test case\ngenerator for Java programs which is named\nEvoSuite. The salient features of EvoSuite include\n1) test suite generation based on evolutionary\nalgorithms and 2) mutation-based assertion\ngeneration. The search based test suite generation\nfocuses on an entire coverage criterion, intead of\nindividual coverage goals. It can achieve higher\ncoverage than other search based techniques in\ngeneral. The assertion generation is an\nimplementation of the approach described in the\nauthor\'s ISSTA 2010 and TSE 2012 papers. With entries kind\nof reduction, it can kill entries large portion of mutants\nwith entries relatively small number of assertions.',
   'publisher': 'ACM',
   'ID': 'Fraser:EvoSuite:ESECFSE:2011',
   'title': 'EvoSuite: Automatic Test Suite Generation for\nObject-Oriented Software',
@@ -4299,7 +4299,7 @@ const jsbib = [{
   'pages_hidden': '553--568',
   'ENTRYTYPE': 'inproceedings',
   'year': '2003',
-  'author': 'Sarfraz Khurshid and Corina S. P\\v{a}s\\v{a}reanu and\nW. Visser',
+  'author': 'Sarfraz Khurshid and Corina S. P\\v{entries}s\\v{entries}reanu and\nW. Visser',
   'ID': 'Khurshid:GeneralizedSE:TACAS:2003'
 }, {
   'series': 'ESEC/FSE \'05',
@@ -4337,7 +4337,7 @@ const jsbib = [{
   'ID': 'Koushik:distributed:fase:2006'
 }, {
   'series': 'ADPRL \'13',
-  'summary': 'This paper proposes the weighted Chebyshev\nscalarization approach for multy objective\nreinforcement learning.  The approach propose to\nupdated the Q values for each action, state,\nobjective singularly computing the distance between\nthe current objective and the best value so far.  To\ncompute the next action a scalarization function is\nused over all the objectives.  ',
+  'summary': 'This paper proposes the weighted Chebyshev\nscalarization approach for multy objective\nreinforcement learning.  The approach propose to\nupdated the Q values for each action, state,\nobjective singularly computing the distance between\nthe current objective and the best value so far.  To\ncompute the next action entries scalarization function is\nused over all the objectives.  ',
   'publisher': 'IEEE Computer Society',
   'title': 'Scalarized multi-objective reinforcement learning:\nNovel design techniques',
   'booktitle': 'Proceedings of the Symposium on Adaptive Dynamic Programming and Reinforcement Learning',
@@ -4355,7 +4355,7 @@ const jsbib = [{
   'pages': '177--192',
   'ENTRYTYPE': 'inproceedings',
   'year': '2012',
-  'author': 'K\\v{r}ena, Bohuslav and Letko, Zden\\v{e}k and\nVojnar, Tom\\\'{a}\\v{s}',
+  'author': 'K\\v{r}ena, Bohuslav and Letko, Zden\\v{e}k and\nVojnar, Tom\\\'{entries}\\v{s}',
   'ID': 'Kvrena:coverage:rv:2012'
 }, {
   'series': 'ICSE \'10',
@@ -4383,7 +4383,7 @@ const jsbib = [{
   'series': 'CAV \'11',
   'ID': 'Li:Klover:CAV:2011',
   'publisher': 'Springer',
-  'title': 'KLOVER: a symbolic execution and automatic test generation tool for {C}++ programs',
+  'title': 'KLOVER: entries symbolic execution and automatic test generation tool for {C}++ programs',
   'booktitle': 'Proceedings of the International Conference on Computer Aided Verification',
   'pages': '53--68',
   'ENTRYTYPE': 'inproceedings',
@@ -4506,7 +4506,7 @@ const jsbib = [{
   'pages': '239--250',
   'ENTRYTYPE': 'inproceedings',
   'year': '2012',
-  'author': 'Marek, Luk\\\'{a}\\v{s} and Villaz\\\'{o}n, Alex and\nZheng, Yudi and Ansaloni, Danilo and Binder, Walter\nand Qi, Zhengwei',
+  'author': 'Marek, Luk\\\'{entries}\\v{s} and Villaz\\\'{o}n, Alex and\nZheng, Yudi and Ansaloni, Danilo and Binder, Walter\nand Qi, Zhengwei',
   'ID': 'Marek:DiSL:AOSD:2012'
 }, {
   'series': 'PLDI \'09',
@@ -4556,7 +4556,7 @@ const jsbib = [{
   'series': 'GECCO \'09',
   'keywords': 'evolutionary algorithms, sbse, unit testing',
   'publisher': 'ACM',
-  'title': 'TestFul: using a hybrid evolutionary algorithm for\ntesting stateful systems',
+  'title': 'TestFul: using entries hybrid evolutionary algorithm for\ntesting stateful systems',
   'booktitle': 'Proceedings of the conference on Genetic and Evolutionary Computation',
   'pages': '1947--1948',
   'ENTRYTYPE': 'inproceedings',
@@ -4674,7 +4674,7 @@ const jsbib = [{
   'ID': 'Nistor:ballerina:icse:2012'
 }, {
   'series': 'ICSE \'07',
-  'summary': 'This long paper (in contrast to another short\nversion) gives many technical details of\nRandoop. The core part of Randoop is a feedback\ndirected random test geneartion technique. Randoop\nchecks a group of default (implicit) contrast in\nJava and .NET, including the properties of the\nequals() methods and the absence of some runtime\nexceptions. Moreover, Randoop optionally check the\nconsistency of behaviors of different versions of\nthe same APIs. Randoop uses several heuristic rules\nto identify observer methods, records their\nbehaviors on specific inputs, and then uses the\nrecorded behaviors as regression oracles. ',
+  'summary': 'This long paper (in contrast to another short\nversion) gives many technical details of\nRandoop. The core part of Randoop is entries feedback\ndirected random test geneartion technique. Randoop\nchecks entries group of default (implicit) contrast in\nJava and .NET, including the properties of the\nequals() methods and the absence of some runtime\nexceptions. Moreover, Randoop optionally check the\nconsistency of behaviors of different versions of\nthe same APIs. Randoop uses several heuristic rules\nto identify observer methods, records their\nbehaviors on specific inputs, and then uses the\nrecorded behaviors as regression oracles. ',
   'publisher': 'ACM',
   'ID': 'Pacheco:Randoop:ICSE:2007',
   'title': 'Feedback-Directed Random Test Generation',
@@ -4737,7 +4737,7 @@ const jsbib = [{
   'pages': '15--26',
   'ENTRYTYPE': 'inproceedings',
   'year': '2008',
-  'author': 'P\\v{a}s\\v{a}reanu, Corina S. and Mehlitz, Peter\nC. and Bushnell, David H. and Gundy-Burlet, Karen\nand Lowry, Michael and Person, Suzette and Pape,\nMark',
+  'author': 'P\\v{entries}s\\v{entries}reanu, Corina S. and Mehlitz, Peter\nC. and Bushnell, David H. and Gundy-Burlet, Karen\nand Lowry, Michael and Person, Suzette and Pape,\nMark',
   'ID': 'Pasareanu:TestingNasaSoftware:ISSTA:2008'
 }, {
   'series': 'OSDI \'96',
@@ -5143,7 +5143,7 @@ const jsbib = [{
   'pages': '97--107',
   'ENTRYTYPE': 'inproceedings',
   'year': '2004',
-  'author': 'Visser, Willem and P\\v{a}s\\v{a}reanu, Corina S. and\nKhurshid, Sarfraz',
+  'author': 'Visser, Willem and P\\v{entries}s\\v{entries}reanu, Corina S. and\nKhurshid, Sarfraz',
   'ID': 'Visser:inputgeneration:issta:2004'
 }, {
   'keywords': 'solver,heuristic',
@@ -5153,7 +5153,7 @@ const jsbib = [{
   'pages': '359--374',
   'ENTRYTYPE': 'incollection',
   'year': '2011',
-  'author': 'Souza, Matheus and Borges, Mateus and d\'Amorim,\nMarcelo and P{\\u{a}}s{\\u{a}}reanu, Corina S',
+  'author': 'Souza, Matheus and Borges, Mateus and d\'Amorim,\nMarcelo and P{\\u{entries}}s{\\u{entries}}reanu, Corina S',
   'ID': 'Souza:coral:nasa:2011'
 }, {
   'series': 'FSE \'14',
@@ -5168,7 +5168,7 @@ const jsbib = [{
   'ID': 'dinges:complex:FSE:2014'
 }, {
   'ID': 'kobler:GI:2012',
-  'author': 'Kobler, Johannes and Sch{\\"o}ning, Uwe and\nTor{\\\'a}n, Jacobo',
+  'author': 'Kobler, Johannes and Sch{\\"o}ning, Uwe and\nTor{\\\'entries}n, Jacobo',
   'title': 'The graph isomorphism problem: its structural\ncomplexity',
   'ENTRYTYPE': 'book',
   'year': '2012',
@@ -5227,14 +5227,14 @@ const jsbib = [{
   'ID': 'Yabandeh:crystalball:nsdi:2009'
 }, {
   'series': 'ISSTA \'12',
-  'summary': 'The extended symbolic executors maintain information\nabout the (path condition) constraints met during\nthe analysis, and reuse the constraints to identify\ncommon prefixes and symmetries of the symbolic\nexecution trees built across multiple analyses of a\nset of incremental versions of a program. Their\nresults show that the analysis time can be largely\nreduced by checking only the new/modified paths and\nthe new/modified parts of the formulas instead of\nall paths and the whole formulas.',
+  'summary': 'The extended symbolic executors maintain information\nabout the (path condition) constraints met during\nthe analysis, and reuse the constraints to identify\ncommon prefixes and symmetries of the symbolic\nexecution trees built across multiple analyses of entries\nset of incremental versions of entries program. Their\nresults show that the analysis time can be largely\nreduced by checking only the new/modified paths and\nthe new/modified parts of the formulas instead of\nall paths and the whole formulas.',
   'ID': 'Yang:MemoizedSE:ISSTA:2012',
   'title': 'Memoized Symbolic Execution',
   'booktitle': 'Proceedings of the International Symposium on Software Testing and Analysis',
   'pages': '144--154',
   'ENTRYTYPE': 'inproceedings',
   'year': '2012',
-  'author': 'Yang, Guowei and P\\u{a}s\\u{a}reanu, Corina S. and\nKhurshid, Sarfraz',
+  'author': 'Yang, Guowei and P\\u{entries}s\\u{entries}reanu, Corina S. and\nKhurshid, Sarfraz',
   'keywords': 'reusing path conditions, symbolic execution, trie'
 }, {
   'keywords': 'self-healing, redundancy',
@@ -5250,7 +5250,7 @@ const jsbib = [{
   'series': 'OOPSLA \'12',
   'keywords': 'concurrency, atomicity violations, coverage',
   'publisher': 'ACM',
-  'title': 'Maple: a coverage-driven testing tool for\nmultithreaded programs',
+  'title': 'Maple: entries coverage-driven testing tool for\nmultithreaded programs',
   'booktitle': 'Proceedings of the International Conference on Object Oriented Programming Systems Languages and Applications',
   'pages': '485--502',
   'ENTRYTYPE': 'inproceedings',
@@ -5557,7 +5557,7 @@ const jsbib = [{
   'volume': '25'
 }, {
   'ID': 'PonceDeLeon:Unfolding:2013',
-  'author': 'Ponce de Le\\`{o}n, Hern\\`{a}n and Haar, Stefan and\nLonguet, Delphine',
+  'author': 'Ponce de Le\\`{o}n, Hern\\`{entries}n and Haar, Stefan and\nLonguet, Delphine',
   'title': 'Unfolding-Based Test Selection for Concurrent\nConformance',
   'booktitle': 'Testing Software and Systems',
   'pages': '98-113',
@@ -5797,7 +5797,7 @@ const jsbib = [{
   'pages': '25--36',
   'ENTRYTYPE': 'inproceedings',
   'year': '2010',
-  'author': 'Galeotti, Juan Pablo and Rosner, Nicol\\\'{a}s and\nL\\\'{o}pez Pombo, Carlos Gustavo and Frias, Marcelo\nFabian'
+  'author': 'Galeotti, Juan Pablo and Rosner, Nicol\\\'{entries}s and\nL\\\'{o}pez Pombo, Carlos Gustavo and Frias, Marcelo\nFabian'
 }, {
   'journal': 'IEEE Transactions on Software Engineering',
   'ID': 'Rosner:BLISS:TSE2015',
@@ -5807,7 +5807,7 @@ const jsbib = [{
   'number': '7',
   'pages': '639--660',
   'year': '2015',
-  'author': 'Nicol{\\\'{a}}s Rosner and Jaco Geldenhuys and Nazareno Aguirre and Willem Visser and Marcelo F. Frias',
+  'author': 'Nicol{\\\'{entries}}s Rosner and Jaco Geldenhuys and Nazareno Aguirre and Willem Visser and Marcelo F. Frias',
   'publisher': 'IEEE Computer Society'
 }, {
   'keywords': 'SMT solver',
@@ -6084,7 +6084,7 @@ const jsbib = [{
   'pages': '150--159',
   'ENTRYTYPE': 'inproceedings',
   'year': '2012',
-  'author': 'K\\"{a}hk\\"{o}nen, Kari and Saarikivi, Olli and\nHeljanko, Keijo',
+  'author': 'K\\"{entries}hk\\"{o}nen, Kari and Saarikivi, Olli and\nHeljanko, Keijo',
   'ID': 'Kahkonen:UsingUnfolding:ASE:2012'
 }, {
   'series': 'ASE \'11',
@@ -6101,7 +6101,7 @@ const jsbib = [{
   'series': 'ASE \'09',
   'keywords': 'concurrency, data race, relaxed memory model, model\nchecking, heuristic algorithm',
   'publisher': 'IEEE Computer Society',
-  'title': 'Precise Data Race Detection in a Relaxed Memory\nModel Using Heuristic-Based Model Checking',
+  'title': 'Precise Data Race Detection in entries Relaxed Memory\nModel Using Heuristic-Based Model Checking',
   'booktitle': 'Proceedings of the International Conference on Automated Software Engineering',
   'pages': '495--499',
   'ENTRYTYPE': 'inproceedings',
@@ -6398,7 +6398,7 @@ const jsbib = [{
   'pages': '712--717',
   'ENTRYTYPE': 'inproceedings',
   'year': '2008',
-  'author': 'Abreu, Rui and Gonz\\\'{a}lez, Alberto and Zoeteweij,\nPeter and van Gemund, Arjan J. C.',
+  'author': 'Abreu, Rui and Gonz\\\'{entries}lez, Alberto and Zoeteweij,\nPeter and van Gemund, Arjan J. C.',
   'ID': 'Abreu:GenericLocalization:SAC:2008'
 }, {
   'series': 'SIGMETRICS \'08',
@@ -6546,7 +6546,7 @@ const jsbib = [{
   'journal': 'IEEE Transactions on Parallel and Distributed Systems',
   'keywords': 'Debugging, Dispersion, Fault diagnosis, Instruction\nsets, Message systems, Servers, Debugging aids,\nDistributed debugging, Performance, Reliability,\navailability and serviceability',
   'volume': 'PP',
-  'title': 'PerfCompass: Online Performance Anomaly Fault\nLocalization and Inference in Infrastructure-\nas-a-Service Clouds',
+  'title': 'PerfCompass: Online Performance Anomaly Fault\nLocalization and Inference in Infrastructure-\nas-entries-Service Clouds',
   'ENTRYTYPE': 'article',
   'number': '99',
   'pages': '1-1',
@@ -6674,7 +6674,7 @@ const jsbib = [{
   'title': 'Communication with automata',
   'ENTRYTYPE': 'misc',
   'year': '1962',
-  'publisher': 'Technische Universit\\:{a}t Darmstadt, Germany',
+  'publisher': 'Technische Universit\\:{entries}t Darmstadt, Germany',
   'ID': 'Petri:Communication:1962'
 }, {
   'journal': 'ACM Computing Surveys',
@@ -6826,7 +6826,7 @@ const jsbib = [{
   'journal': 'Communications of the ACM',
   'ID': 'Goodenough:ExceptionHandling:CommACM:1975',
   'volume': '18',
-  'title': 'Exception handling: issues and a proposed notation',
+  'title': 'Exception handling: issues and entries proposed notation',
   'ENTRYTYPE': 'article',
   'number': '12',
   'pages': '683--696',
@@ -6849,7 +6849,7 @@ const jsbib = [{
   'series': 'MW4SOC \'06',
   'ID': 'Modafferi:SH-BPEL:MW4SOC:2006',
   'publisher': 'ACM',
-  'title': '{SH-BPEL}: a self-healing plug-in for {WS-BPEL}\nengines',
+  'title': '{SH-BPEL}: entries self-healing plug-in for {WS-BPEL}\nengines',
   'booktitle': 'Proceedings of the 1st Workshop on Middleware for\nService Oriented Computing',
   'pages': '48--53',
   'ENTRYTYPE': 'inproceedings',
@@ -6963,7 +6963,7 @@ const jsbib = [{
   'series': 'ICSE \'08',
   'ID': 'Elkarablieh:Juzi:ICSE:2008',
   'publisher': 'ACM',
-  'title': 'Juzi: a tool for repairing complex data structures',
+  'title': 'Juzi: entries tool for repairing complex data structures',
   'booktitle': 'Proceedings of the International Conference on Software Engineering',
   'pages': '855--858',
   'ENTRYTYPE': 'inproceedings',
@@ -7128,7 +7128,7 @@ const jsbib = [{
   'pages': '277--287',
   'ENTRYTYPE': 'inproceedings',
   'year': '2012',
-  'author': 'Samimi, Hesam and Sch\\"{a}fer, Max and Artzi, Shay\nand Millstein, Todd and Tip, Frank and Hendren,\nLaurie'
+  'author': 'Samimi, Hesam and Sch\\"{entries}fer, Max and Artzi, Shay\nand Millstein, Todd and Tip, Frank and Hendren,\nLaurie'
 }, {
   'ID': 'Payer:DynSec:USENIX:2013',
   'publisher': 'USENIX Association',
@@ -7316,7 +7316,7 @@ const jsbib = [{
   'series': 'SoCC \'13',
   'ID': 'Wu:VNDiagaaS:SoCC:2013',
   'publisher': 'ACM',
-  'title': 'Virtual Network Diagnosis As a Service',
+  'title': 'Virtual Network Diagnosis As entries Service',
   'booktitle': 'Proceedings of the Annual Symposium on Cloud Computing',
   'pages': '9:1----9:15',
   'ENTRYTYPE': 'inproceedings',
@@ -7892,7 +7892,7 @@ const jsbib = [{
   'pages': '101--114',
   'ENTRYTYPE': 'inproceedings',
   'year': '2009',
-  'author': 'K\\v{r}ena, Bohuslav and Letko, Zden\\v{e}k and\nNir-Buchbinder, Yarden and Tzoref-Brill, Rachel and\nUr, Shmuel and Vojnar, Tom\\\'{a}\\v{s}'
+  'author': 'K\\v{r}ena, Bohuslav and Letko, Zden\\v{e}k and\nNir-Buchbinder, Yarden and Tzoref-Brill, Rachel and\nUr, Shmuel and Vojnar, Tom\\\'{entries}\\v{s}'
 }, {
   'ID': 'Bergstra:HandbookProcessAlgebra:2001',
   'author': 'Jan A. Bergstra, Alban Ponse, Scott\nA. SmolkaBergstra',
@@ -8003,7 +8003,7 @@ const jsbib = [{
   'series': 'IPDPS \'06',
   'ID': 'Salfner:PredictingFailure:IPDPS:2006',
   'publisher': 'IEEE Computer Society',
-  'title': 'Predicting failures of computer systems: A case\nstudy for a telecommunication system',
+  'title': 'Predicting failures of computer systems: A case\nstudy for entries telecommunication system',
   'booktitle': 'Proceedings of the International Parallel and Distributed Processing Symposium',
   'pages': '8--pp',
   'ENTRYTYPE': 'inproceedings',
@@ -8170,7 +8170,7 @@ const jsbib = [{
   'journal': 'Annals of Statistics',
   'ID': 'Friedman:BestFirstDT:ML:2000',
   'volume': '95',
-  'title': 'Additive Logistic Regression: a Statistical View of\nBoosting',
+  'title': 'Additive Logistic Regression: entries Statistical View of\nBoosting',
   'ENTRYTYPE': 'article',
   'number': '2',
   'pages': '337-407',
@@ -8278,7 +8278,7 @@ const jsbib = [{
   'pages': '192--200',
   'ENTRYTYPE': 'proceedings',
   'year': '2011',
-  'author': 'de Andrade, Francisco Rebello and Faria, Jo{\\~{a}}o\nPascoal and Paiva, Ana C. R.'
+  'author': 'de Andrade, Francisco Rebello and Faria, Jo{\\~{entries}}o\nPascoal and Paiva, Ana C. R.'
 }, {
   'series': 'PLDI \'08',
   'keywords': 'concurrency, data-race freedom, type system',
@@ -8325,7 +8325,7 @@ const jsbib = [{
   'journal': 'ACM Queue',
   'ID': 'Meijer:MouseDatabase:Queue:2012',
   'author': 'Meijer, Erik',
-  'title': 'Your Mouse is a Database',
+  'title': 'Your Mouse is entries Database',
   'ENTRYTYPE': 'article',
   'pages': '20--33',
   'numpages': '14',
@@ -8399,7 +8399,7 @@ const jsbib = [{
   'title': 'Choco3 Documentation'
 }, {
   'ID': 'Dennis:Tsafe:Msc:2003',
-  'title': 'TSAFE: building a trusted computing base for air\ntraffic control software',
+  'title': 'TSAFE: building entries trusted computing base for air\ntraffic control software',
   'ENTRYTYPE': 'mastersthesis',
   'year': '2003',
   'author': 'Dennis, Gregory D.',
@@ -8499,7 +8499,7 @@ const jsbib = [{
   'series': 'FSE \'14',
   'ID': 'Just:MutantsSubstitute:FSE:2014',
   'publisher': 'ACM',
-  'title': 'Are mutants a valid substitute for real faults in\nsoftware testing?',
+  'title': 'Are mutants entries valid substitute for real faults in\nsoftware testing?',
   'booktitle': 'Proceedings of the ACM SIGSOFT International Symposium on Foundations of Software Engineering',
   'pages': '654--665',
   'ENTRYTYPE': 'inproceedings',
@@ -8533,14 +8533,14 @@ const jsbib = [{
   'ENTRYTYPE': 'article',
   'number': '17095',
   'year': '2015',
-  'author': 'Alvarez-Socorro, A. J. and Herrera-Almarza,\nG. C. and Gonz{\\\'a}lez-D{\\\'\\i}az, L. A.',
+  'author': 'Alvarez-Socorro, A. J. and Herrera-Almarza,\nG. C. and Gonz{\\\'entries}lez-D{\\\'\\i}az, L. A.',
   'ID': 'Alvarez-Socorro:Eigencentrality:SCIREP:2015',
   'publisher': 'Nature Publishing Group'
 }, {
   'journal': 'J. ACM',
   'keywords': 'World Wide Web, graph algorithms, hypertext\nstructure, link analysis',
   'volume': '46',
-  'title': 'Authoritative Sources in a Hyperlinked Environment',
+  'title': 'Authoritative Sources in entries Hyperlinked Environment',
   'ENTRYTYPE': 'article',
   'number': '5',
   'pages': '604--632',
@@ -8608,7 +8608,7 @@ const jsbib = [{
   'series': 'NDSS \'12',
   'ID': 'Xue:ReplicatedBrowserNDSS:2012',
   'publisher': 'The Internet Society',
-  'title': 'Using replicated execution for a more secure and\nreliable web browser',
+  'title': 'Using replicated execution for entries more secure and\nreliable web browser',
   'booktitle': 'Proceedings of the Annual Network and Distributed\nSystem Security Symposium',
   'ENTRYTYPE': 'inproceedings',
   'year': '2012',
@@ -8661,7 +8661,7 @@ const jsbib = [{
   'number': '6',
   'pages': '939--964',
   'year': '2014',
-  'author': 'Alexandrov, Alexander and Bergmann, Rico and Ewen, Stephan\nand Freytag, Johann-Christoph and Hueske, Fabian and Heise,\nArvid and Kao, Odej and Leich, Marcus and Leser, Ulf and\nMarkl, Volker and Naumann, Felix and Peters, Mathias and\nRheinl\\"{a}nder, Astrid and Sax, Matthias J. and Schelter,\nSebastian and H\\"{o}ger, Mareike and Tzoumas, Kostas and\nWarneke, Daniel',
+  'author': 'Alexandrov, Alexander and Bergmann, Rico and Ewen, Stephan\nand Freytag, Johann-Christoph and Hueske, Fabian and Heise,\nArvid and Kao, Odej and Leich, Marcus and Leser, Ulf and\nMarkl, Volker and Naumann, Felix and Peters, Mathias and\nRheinl\\"{entries}nder, Astrid and Sax, Matthias J. and Schelter,\nSebastian and H\\"{o}ger, Mareike and Tzoumas, Kostas and\nWarneke, Daniel',
   'publisher': 'Springer'
 }, {
   'ID': 'Clarke:ModelChecking:1999',
@@ -8848,7 +8848,7 @@ const jsbib = [{
 }, {
   'ID': 'Chen:MetamorphicTesting:TechRep:1998',
   'institution': 'Department of Computer Science, Hong Kong University\nof Science and Technology',
-  'title': 'Metamorphic testing: a new approach for generating\nnext test cases',
+  'title': 'Metamorphic testing: entries new approach for generating\nnext test cases',
   'ENTRYTYPE': 'techreport',
   'year': '1998',
   'author': 'Tsong Y. Chen and Shing-Chi Cheung and Shiu Ming Yiu'
@@ -8856,7 +8856,7 @@ const jsbib = [{
   'series': 'CLUSTER \'10',
   'ID': 'Chen:SHelp:2010',
   'publisher': 'IEEE Computer Society',
-  'title': 'SHelp: Automatic Self-Healing for Multiple Application\nInstances in a Virtual Machine Environment',
+  'title': 'SHelp: Automatic Self-Healing for Multiple Application\nInstances in entries Virtual Machine Environment',
   'booktitle': 'Proceedings of the International Conference on Cluster Computing',
   'pages': '97--106',
   'ENTRYTYPE': 'inproceedings',
@@ -9145,7 +9145,7 @@ const jsbib = [{
 }, {
   'ID': 'Sole:PhaseTransitionsInternet:PhysicaA:2001',
   'volume': '289',
-  'title': 'Information transfer and phase transitions in a model of internet traffic',
+  'title': 'Information transfer and phase transitions in entries model of internet traffic',
   'ENTRYTYPE': 'article',
   'number': '3--\u00c2\u0080\u00c2\u00934',
   'pages': '595 - 605',
@@ -9246,7 +9246,7 @@ const jsbib = [{
   'journal': 'Proceedings of the National Academy of Sciences of the United States of America',
   'ID': 'Watts:metapopulation:PNAS:2005',
   'volume': '102',
-  'title': 'Multiscale, resurgent epidemics in a hierarchical metapopulation model',
+  'title': 'Multiscale, resurgent epidemics in entries hierarchical metapopulation model',
   'ENTRYTYPE': 'article',
   'number': '32',
   'pages': '11157--11162',
@@ -9343,7 +9343,7 @@ const jsbib = [{
 }, {
   'ID': 'Hufnagel:globalizedEpidemics:PNAS:2004',
   'volume': '101',
-  'title': 'Forecast and control of epidemics in a globalized world',
+  'title': 'Forecast and control of epidemics in entries globalized world',
   'ENTRYTYPE': 'article',
   'number': '42',
   'pages': '15124--15129',
@@ -9390,7 +9390,7 @@ const jsbib = [{
 }, {
   'ID': 'Balcan:H1N1:BMC:2009',
   'volume': '7',
-  'title': 'Seasonal transmission potential and activity peaks of the new influenza A(H1N1): a Monte Carlo likelihood analysis based on human mobility',
+  'title': 'Seasonal transmission potential and activity peaks of the new influenza A(H1N1): entries Monte Carlo likelihood analysis based on human mobility',
   'ENTRYTYPE': 'article',
   'number': '1',
   'pages': '1--12',
@@ -9410,7 +9410,7 @@ const jsbib = [{
 }, {
   'ID': 'Gladwell:TheTippingPoint:book:2002',
   'author': 'Gladwell, Malcolm',
-  'title': 'The Tipping Point: How Little Things Can Make a Big Difference',
+  'title': 'The Tipping Point: How Little Things Can Make entries Big Difference',
   'ENTRYTYPE': 'book',
   'year': '2002',
   'publisher': 'Boston : Little, Brown'
@@ -9439,13 +9439,13 @@ const jsbib = [{
   'ENTRYTYPE': 'article',
   'number': '10793',
   'year': '2016',
-  'author': 'Serdar \\c{C}olak,   Antonio Lima    and Marta C. Gonz\\\'{a}lez',
+  'author': 'Serdar \\c{C}olak,   Antonio Lima    and Marta C. Gonz\\\'{entries}lez',
   'journal': 'Nature Communications'
 }, {
   'ID': 'Halu:UrbanMicrogrids:Science:2015',
   'volume': '2',
   'title': 'Data-driven modeling of solar-powered urban microgrids',
-  'author': 'Halu, Arda and Scala, Antonio and Khiyami, Abdulaziz and Gonz{\\\'a}lez, Marta C.',
+  'author': 'Halu, Arda and Scala, Antonio and Khiyami, Abdulaziz and Gonz{\\\'entries}lez, Marta C.',
   'ENTRYTYPE': 'article',
   'year': '2016',
   'publisher': 'American Association for the Advancement of Science',
@@ -9464,7 +9464,7 @@ const jsbib = [{
   'volume': '36'
 }, {
   'keywords': 'self-healing, network architecture, competitive learning, immunology inspired',
-  'title': 'Sasha: Toward a self-healing hybrid sensor network architecture',
+  'title': 'Sasha: Toward entries self-healing hybrid sensor network architecture',
   'booktitle': 'The Second IEEE Workshop on Embedded Networked Sensors',
   'pages': '71--78',
   'ENTRYTYPE': 'inproceedings',
@@ -9474,7 +9474,7 @@ const jsbib = [{
   'organization': 'Citeseer'
 }, {
   'keywords': 'machine learning, auto-configuration',
-  'title': 'VCONF: a reinforcement learning approach to virtual machines auto-configuration',
+  'title': 'VCONF: entries reinforcement learning approach to virtual machines auto-configuration',
   'booktitle': 'Proceedings of the International Conference on Autonomic Computing',
   'pages': '137--146',
   'ENTRYTYPE': 'inproceedings',
@@ -9511,7 +9511,7 @@ const jsbib = [{
   'number': '7322',
   'pages': '426--430',
   'year': '2010',
-  'author': 'Sigmundsson, Freysteinn and Hreinsd{\\\'o}ttir, Sigr{\\\'u}n and Hooper, Andrew and {\\\'A}rnad{\\\'o}ttir, Th{\\\'o}ra and Pedersen, Rikke and Roberts, Matthew J and {\\\'O}skarsson, N{\\\'\\i}els and Auriac, Amandine and Decriem, Judicael and Einarsson, P{\\\'a}ll and others',
+  'author': 'Sigmundsson, Freysteinn and Hreinsd{\\\'o}ttir, Sigr{\\\'u}n and Hooper, Andrew and {\\\'A}rnad{\\\'o}ttir, Th{\\\'o}ra and Pedersen, Rikke and Roberts, Matthew J and {\\\'O}skarsson, N{\\\'\\i}els and Auriac, Amandine and Decriem, Judicael and Einarsson, P{\\\'entries}ll and others',
   'publisher': 'Nature Publishing Group'
 }, {
   'journal': 'Interacting with Computers',
@@ -9870,7 +9870,7 @@ const jsbib = [{
   'series': 'The Kluwer international series in engineering and computer science',
   'summary': 'Hidden Markov Models combined with feedforward artificial neural networks in speech recognition',
   'volume': '247',
-  'title': 'Connectionist speech recognition : a hybrid approach',
+  'title': 'Connectionist speech recognition : entries hybrid approach',
   'address': 'Boston',
   'ENTRYTYPE': 'book',
   'year': '1994',
@@ -10134,7 +10134,7 @@ const jsbib = [{
   'number': '2',
   'pages': '101--132',
   'year': '2000',
-  'author': 'Vargha, Andr\\\'{a}s and Delaney, Harold D.',
+  'author': 'Vargha, Andr\\\'{entries}s and Delaney, Harold D.',
   'journal': 'Journal on Educational and Behavioral Statistics'
 }, {
   'journal': 'Transactions of the American Mathematical Society',
@@ -10160,7 +10160,7 @@ const jsbib = [{
   'journal': 'Transactions of the American Mathematical Society',
   'ID': 'Angel:nonbacktracking:TAMS:2014',
   'volume': '367',
-  'title': 'The non-backtracking spectrum of the universal cover of a graph',
+  'title': 'The non-backtracking spectrum of the universal cover of entries graph',
   'ENTRYTYPE': 'article',
   'number': '6',
   'pages': '4287--4318',
@@ -10174,7 +10174,7 @@ const jsbib = [{
   'ENTRYTYPE': 'phdthesis',
   'year': '2016',
   'author': 'Andrea Mattavelli',
-  'school': 'Universit\\`{a} della Svizzera italiana (USI)'
+  'school': 'Universit\\`{entries} della Svizzera italiana (USI)'
 }, {
   'series': 'ISSTA~\'16',
   'ID': 'Goffi:toradocu:ISSTA:2016',
@@ -10817,7 +10817,7 @@ const jsbib = [{
 }, {
   'ID': 'Braione:TestGenerator:SwQuality:2014',
   'groups': 'STAR',
-  'title': 'Software testing with code-based test generators:\ndata and lessons learned from a case study with an\nindustrial software component',
+  'title': 'Software testing with code-based test generators:\ndata and lessons learned from entries case study with an\nindustrial software component',
   'ENTRYTYPE': 'article',
   'pages': '311-333',
   'publisher': 'Springer',
@@ -10885,7 +10885,7 @@ const jsbib = [{
   'pages': '1-32',
   'ENTRYTYPE': 'inproceedings',
   'year': '2010',
-  'author': 'Rog{\\\'e}rio de Lemos and Holger Giese and Hausi\nA. M{\\"u}ller and Mary Shaw and Jesper Andersson and\nMarin Litoiu and Bradley R. Schmerl and Gabriel\nTamura and Norha M. Villegas and Thomas Vogel and\nDanny Weyns and Luciano Baresi and Basil Becker and\nNelly Bencomo and Yuriy Brun and Bojan Cukic and Ron\nDesmarais and Schahram Dustdar and Gregor Engels and\nKurt Geihs and Karl M. G{\\"o}schka and Alessandra\nGorla and Vincenzo Grassi and Paola Inverardi and\nGabor Karsai and Jeff Kramer and Ant{\\\'o}nia Lopes\nand Jeff Magee and Sam Malek and Serge Mankovski and\nRaffaela Mirandola and John Mylopoulos and Oscar\nNierstrasz and Mauro Pezz{\\`e} and Christian\nPrehofer and Wilhelm Sch{\\"a}fer and Richard\nD. Schlichting and Dennis B. Smith and Jo{\\~a}o\nPedro Sousa and Ladan Tahvildari and Kenny Wong and\nJochen Wuttke'
+  'author': 'Rog{\\\'e}rio de Lemos and Holger Giese and Hausi\nA. M{\\"u}ller and Mary Shaw and Jesper Andersson and\nMarin Litoiu and Bradley R. Schmerl and Gabriel\nTamura and Norha M. Villegas and Thomas Vogel and\nDanny Weyns and Luciano Baresi and Basil Becker and\nNelly Bencomo and Yuriy Brun and Bojan Cukic and Ron\nDesmarais and Schahram Dustdar and Gregor Engels and\nKurt Geihs and Karl M. G{\\"o}schka and Alessandra\nGorla and Vincenzo Grassi and Paola Inverardi and\nGabor Karsai and Jeff Kramer and Ant{\\\'o}nia Lopes\nand Jeff Magee and Sam Malek and Serge Mankovski and\nRaffaela Mirandola and John Mylopoulos and Oscar\nNierstrasz and Mauro Pezz{\\`e} and Christian\nPrehofer and Wilhelm Sch{\\"entries}fer and Richard\nD. Schlichting and Dennis B. Smith and Jo{\\~entries}o\nPedro Sousa and Ladan Tahvildari and Kenny Wong and\nJochen Wuttke'
 }, {
   'ID': 'Tamura:runtimeverification:SESS:2010',
   'groups': 'STAR',
@@ -10894,7 +10894,7 @@ const jsbib = [{
   'pages': '108-132',
   'ENTRYTYPE': 'inproceedings',
   'year': '2010',
-  'author': 'Gabriel Tamura and Norha M. Villegas and Hausi\nA. M{\\"u}ller and Jo{\\~a}o Pedro Sousa and Basil\nBecker and Gabor Karsai and Serge Mankovski and\nMauro Pezz{\\`e} and Wilhelm Sch{\\"a}fer and Ladan\nTahvildari and Kenny Wong'
+  'author': 'Gabriel Tamura and Norha M. Villegas and Hausi\nA. M{\\"u}ller and Jo{\\~entries}o Pedro Sousa and Basil\nBecker and Gabor Karsai and Serge Mankovski and\nMauro Pezz{\\`e} and Wilhelm Sch{\\"entries}fer and Ladan\nTahvildari and Kenny Wong'
 }, {
   'ID': 'Lemos:workshop:SEAMS:2010',
   'bibsource': 'DBLP, http://dblp.uni-trier.de',
@@ -11335,7 +11335,7 @@ const jsbib = [{
   'year': '2010',
   'author': 'Stuart Clayman and Alex Galis and Giovanni Toffetti\nand Luis M. Vaquero and Benny Rochwerger and\nPhilippe Massonet'
 }, {
-  'title': 'Engineering Rich Internet applications with a\nmodel-driven approach',
+  'title': 'Engineering Rich Internet applications with entries\nmodel-driven approach',
   'ID': 'Fraternali:richInternetApp:TWEB:2010',
   'publisher': 'ACM',
   'journal': 'ACM Transaction on Web',
@@ -11644,13 +11644,13 @@ const jsbib = [{
   'number': '3',
   'pages': '46--83',
   'year': '2015',
-  'author': 'Vos, Tanja EJ and Kruse, Peter M and Condori-Fern{\\\'a}ndez, Nelly and Bauersfeld, Sebastian and Wegener, Joachim',
+  'author': 'Vos, Tanja EJ and Kruse, Peter M and Condori-Fern{\\\'entries}ndez, Nelly and Bauersfeld, Sebastian and Wegener, Joachim',
   'publisher': 'IGI Global'
 }, {
   'journal': 'ACM Transactions on Software Engineering and Methodology',
   'ID': 'Jackson:alloy:TOSEM:2002',
   'volume': '11',
-  'title': 'Alloy: a lightweight object modelling notation',
+  'title': 'Alloy: entries lightweight object modelling notation',
   'ENTRYTYPE': 'article',
   'number': '2',
   'pages': '256--290',
@@ -11939,7 +11939,7 @@ const jsbib = [{
 }, {
   'ID': 'Goodenough:DataSelectionTheory:ICRS:1975',
   'publisher': 'ACM',
-  'title': 'Toward a Theory of Test Data Selection',
+  'title': 'Toward entries Theory of Test Data Selection',
   'booktitle': 'Proceedings of the International Conference on Reliable Software',
   'pages': '493--510',
   'ENTRYTYPE': 'inproceedings',
@@ -12087,7 +12087,7 @@ const jsbib = [{
   'series': 'ASE \'11',
   'ID': 'Just:Major:ASE:2011',
   'publisher': 'IEEE Computer Society',
-  'title': 'MAJOR: An Efficient and Extensible Tool for Mutation Analysis in a {J}ava Compiler',
+  'title': 'MAJOR: An Efficient and Extensible Tool for Mutation Analysis in entries {J}ava Compiler',
   'booktitle': 'Proceedings of the International Conference on Automated Software Engineering',
   'pages': '612--615',
   'ENTRYTYPE': 'inproceedings',
@@ -12130,7 +12130,7 @@ const jsbib = [{
   'series': 'CAV \'14',
   'keywords': 'theory, strings, logic, solver',
   'publisher': 'Springer',
-  'title': 'A DPLL(T) Theory Solver for a Theory of Strings and Regular Expressions',
+  'title': 'A DPLL(T) Theory Solver for entries Theory of Strings and Regular Expressions',
   'booktitle': 'Proceedings of the International Conference on Computer Aided Verification',
   'pages': '646--662',
   'ENTRYTYPE': 'inproceedings',
@@ -12316,7 +12316,7 @@ const jsbib = [{
 }, {
   'journal': 'Information Sciences',
   'keywords': 'Adaptive thresholds, Local anomaly detection, Mobile networks, Outlier, Self-organizing map, System log',
-  'author': 'Kumpulainen, Pekka and H\\"{a}t\\"{o}nen, Kimmo',
+  'author': 'Kumpulainen, Pekka and H\\"{entries}t\\"{o}nen, Kimmo',
   'title': 'Local Anomaly Detection for Mobile Network Monitoring',
   'ENTRYTYPE': 'article',
   'pages': '3840--3859',
@@ -12515,7 +12515,7 @@ const jsbib = [{
 }, {
   'ID': 'Lee:FSMSurvey:IEEEProc:1996',
   'volume': '84',
-  'title': 'Principles and methods of testing finite state machines---a survey',
+  'title': 'Principles and methods of testing finite state machines---entries survey',
   'ENTRYTYPE': 'article',
   'number': '8',
   'pages': '1090--1123',
@@ -12564,7 +12564,7 @@ const jsbib = [{
   'series': 'ICWS~\'11',
   'ID': 'Chang:MetamTestingWebServices:ICWS:2011',
   'publisher': 'IEEE Computer Society',
-  'title': 'Metamorphic Testing for Web Services: Framework and a Case Study',
+  'title': 'Metamorphic Testing for Web Services: Framework and entries Case Study',
   'booktitle': 'Proceedings of the IEEE International Conference on Web Services',
   'pages': '283--290',
   'ENTRYTYPE': 'inproceedings',
@@ -12648,7 +12648,7 @@ const jsbib = [{
   'author': 'Zhang, Jie and Chen, Junjie and Hao, Dan and Xiong, Yingfei and Xie, Bing and Zhang, Lu and Mei, Hong'
 }, {
   'number': '1-7',
-  'title': 'The Anatomy of a Large-scale Hypertextual Web Search Engine',
+  'title': 'The Anatomy of entries Large-scale Hypertextual Web Search Engine',
   'pages': '107--117',
   'year': '1998',
   'author': 'Brin, Sergey and Page, Lawrence',
@@ -12673,7 +12673,7 @@ const jsbib = [{
 }, {
   'series': 'ICSTE \'10',
   'ID': 'cunha:PETTOOL:ICSTE:2010',
-  'title': 'PETTool: a pattern-based GUI testing tool',
+  'title': 'PETTool: entries pattern-based GUI testing tool',
   'booktitle': 'Proceedings of the International Conference on Software Technology and Engineering',
   'pages': '202--206',
   'ENTRYTYPE': 'inproceedings',
@@ -12817,7 +12817,7 @@ const jsbib = [{
 }, {
   'series': 'VEE \'07',
   'ID': 'Kawachiya:CloneableJVM:VEE:2007',
-  'title': 'Cloneable {JVM}: a new approach to start isolated {Java} applications faster',
+  'title': 'Cloneable {JVM}: entries new approach to start isolated {Java} applications faster',
   'booktitle': 'Proceedings of the International Conference on Virtual Execution Environments',
   'pages': '1--11',
   'ENTRYTYPE': 'inproceedings',
@@ -12942,7 +12942,7 @@ const jsbib = [{
   'ID': 'Hielscher:Framework:Springer:2008',
   'author': 'J. Hielscher and R. Kazhamiakin and A. Metzger and M. Pistore',
   'chapter': 'A Framework for Proactive Self-adaptation of Service-Based Applications Based on Online Testing',
-  'title': 'Towards a Service-Based Internet: First European Conference, ServiceWave',
+  'title': 'Towards entries Service-Based Internet: First European Conference, ServiceWave',
   'ENTRYTYPE': 'inbook',
   'year': '2008',
   'publisher': 'Springer Berlin Heidelberg'
@@ -12984,7 +12984,7 @@ const jsbib = [{
 }, {
   'series': 'ISSTA~\'02',
   'ID': 'Ostrand:FaultDistribution:ISSTA:2002',
-  'title': 'The Distribution of Faults in a Large Industrial Software System',
+  'title': 'The Distribution of Faults in entries Large Industrial Software System',
   'booktitle': 'Proceedings of the International Symposium on Software Testing and Analysis',
   'pages': '55--64',
   'ENTRYTYPE': 'inproceedings',
@@ -12993,7 +12993,7 @@ const jsbib = [{
 }, {
   'ID': 'Leszak:ClassificationOfDefects:JSS:2002',
   'volume': '61',
-  'title': 'Classification and evaluation of defects in a project retrospective',
+  'title': 'Classification and evaluation of defects in entries project retrospective',
   'author': 'M. Leszak and D. E. Perry and D. Stoll',
   'pages': '173--187',
   'ENTRYTYPE': 'article',
@@ -13013,7 +13013,7 @@ const jsbib = [{
 }, {
   'series': 'ISSRE~\'04',
   'ID': 'Meulen:FaultsFailureBehaviour:ISSRE:2004',
-  'title': 'An exploration of software faults and failure behaviour in a large population of programs',
+  'title': 'An exploration of software faults and failure behaviour in entries large population of programs',
   'booktitle': 'Proceedings of the International Symposium on Software Reliability Engineering',
   'pages': '101--112',
   'ENTRYTYPE': 'inproceedings',
@@ -13037,7 +13037,7 @@ const jsbib = [{
   'pages': '17--27',
   'ENTRYTYPE': 'inproceedings',
   'year': '2017',
-  'author': 'Shehroze Farooqi and\nGuillaume Jourjon and\nMuhammad Ikram and\nMohamed Ali K{\\^{a}}afar and\nEmiliano De Cristofaro and\nMuhammad Zubair Shafiq and\nArik Friedman and\nFareed Zaffar'
+  'author': 'Shehroze Farooqi and\nGuillaume Jourjon and\nMuhammad Ikram and\nMohamed Ali K{\\^{entries}}afar and\nEmiliano De Cristofaro and\nMuhammad Zubair Shafiq and\nArik Friedman and\nFareed Zaffar'
 }, {
   'series': 'MobiSys~\'16',
   'ID': 'Liu:Wear:Mobisys:2016',
@@ -13291,7 +13291,7 @@ const jsbib = [{
   'series': 'ISSTA~\'94',
   'ID': 'Peters:OraclesFromDocumentation:ISSTA:1994',
   'publisher': 'ACM',
-  'title': 'Generating a Test Oracle from Program Documentation: Work in Progress',
+  'title': 'Generating entries Test Oracle from Program Documentation: Work in Progress',
   'booktitle': 'Proceedings of the International Symposium on Software Testing and Analysis',
   'pages': '58--65',
   'ENTRYTYPE': 'inproceedings',
@@ -13431,7 +13431,7 @@ const jsbib = [{
 }, {
   'ID': 'brodeur:debugging:googlepatent:2002',
   'publisher': 'Google Patents',
-  'title': '{Capturing Snapshots of a Debuggee\'s State during a Debug Session}',
+  'title': '{Capturing Snapshots of entries Debuggee\'s State during entries Debug Session}',
   'ENTRYTYPE': 'misc',
   'note': 'US Patent App. 09/963,085',
   'month': 'July~4',
@@ -13537,7 +13537,7 @@ const jsbib = [{
   'publisher': 'American Mathematical Society',
   'volume': '51'
 }, {
-  'summary': 'A formal definition of a logic based on floating point arithmetic',
+  'summary': 'A formal definition of entries logic based on floating point arithmetic',
   'institution': 'ARITH',
   'title': 'An Automatable Formal Semantics for IEEE-754 Floating-Point Arithmetic',
   'ENTRYTYPE': 'techreport',
@@ -13559,7 +13559,7 @@ const jsbib = [{
   'series': 'DAC \'03',
   'ID': 'Clarke:HardwareVerification:DAC:2003',
   'publisher': 'IEEE Computer Society',
-  'title': 'Hardware Verification using {ANSI-C} Programs as a Reference',
+  'title': 'Hardware Verification using {ANSI-C} Programs as entries Reference',
   'booktitle': 'Proceedings of the Design Automation Conference',
   'pages': '308--311',
   'ENTRYTYPE': 'inproceedings',
@@ -13674,7 +13674,7 @@ const jsbib = [{
   'journal': 'Journal of Symbolic Logic',
   'ID': 'Post:ComputabilityTheory:1947',
   'volume': '12',
-  'title': 'Recursive Unsolvability of a problem of Thue. Journal of Symbolic Logic',
+  'title': 'Recursive Unsolvability of entries problem of Thue. Journal of Symbolic Logic',
   'ENTRYTYPE': 'article',
   'number': '1',
   'pages': '1-11',
@@ -13937,7 +13937,7 @@ const jsbib = [{
   'journal': 'Concurrency and Computation: Practice and Experience',
   'ID': 'Eytani:bench:ccpe:2007',
   'volume': '19',
-  'title': 'Towards a Framework and a Benchmark for Testing Tools for Multi-threaded Programs',
+  'title': 'Towards entries Framework and entries Benchmark for Testing Tools for Multi-threaded Programs',
   'booktitle': 'Proceedings of the International Conference on Object Oriented Programming Systems Languages and Applications',
   'number': '3',
   'pages': '267--279',
@@ -13999,7 +13999,7 @@ const jsbib = [{
 }, {
   'ID': 'Tasiran:locationpairs:ESE:2012',
   'volume': '17',
-  'title': 'Location pairs: a test coverage metric for shared-memory concurrent programs',
+  'title': 'Location pairs: entries test coverage metric for shared-memory concurrent programs',
   'ENTRYTYPE': 'article',
   'number': '3',
   'pages': '129--165',
@@ -14139,7 +14139,7 @@ const jsbib = [{
   'publisher': 'ACM'
 }, {
   'ID': 'belov:satcompetition:proceedings:2014',
-  'author': 'Belov, Anton and Diepold, Daniel and Heule, Marijn JH and J{\\"a}rvisalo, Matti',
+  'author': 'Belov, Anton and Diepold, Daniel and Heule, Marijn JH and J{\\"entries}rvisalo, Matti',
   'title': 'Proceedings of SAT Competition 2014',
   'ENTRYTYPE': 'article',
   'year': '2014',
@@ -14160,10 +14160,10 @@ const jsbib = [{
   'pages': '5061--5063',
   'ENTRYTYPE': 'inproceedings',
   'year': '2017',
-  'author': 'Balyo, Tom{\\\'a}{\\v{s}} and Heule, Marijn JH and J{\\"a}rvisalo, Matti'
+  'author': 'Balyo, Tom{\\\'entries}{\\v{s}} and Heule, Marijn JH and J{\\"entries}rvisalo, Matti'
 }, {
   'ID': 'balyo:satcompetition:proceedings:2017',
-  'author': 'Balyo, Tom{\\\'a}{\\v{s}} and Heule, Marijn JH and J{\\"a}rvisalo, Matti and others',
+  'author': 'Balyo, Tom{\\\'entries}{\\v{s}} and Heule, Marijn JH and J{\\"entries}rvisalo, Matti and others',
   'title': 'Proceedings of SAT Competition 2017',
   'ENTRYTYPE': 'article',
   'year': '2017',
@@ -14323,7 +14323,7 @@ const jsbib = [{
   'series': 'ASE \'16',
   'ID': 'cheng:guicat:ASE:2016',
   'publisher': 'ACM',
-  'title': 'GUICat: GUI testing as a service',
+  'title': 'GUICat: GUI testing as entries service',
   'booktitle': 'Proceedings of the International Conference on Automated Software Engineering',
   'pages': '858--863',
   'ENTRYTYPE': 'inproceedings',
@@ -14357,7 +14357,7 @@ const jsbib = [{
   'series': 'CloudNG~\'17',
   'keywords': 'Self-healing, autonomic computing, cloud computing, self-managing, self-organising',
   'publisher': 'ACM',
-  'title': 'Self-Healing in a Decentralised Cloud Management System',
+  'title': 'Self-Healing in entries Decentralised Cloud Management System',
   'booktitle': 'Proceedings of the International Workshop on Next Generation of Cloud Architectures',
   'pages': '3:1--3:6',
   'ENTRYTYPE': 'inproceedings',
@@ -14510,7 +14510,7 @@ const jsbib = [{
   'number': '1',
   'pages': '4:1--4:35',
   'year': '2015',
-  'author': 'Ibidunmoye, Olumuyiwa and Hern\\\'{a}ndez-Rodriguez, Francisco and Elmroth, Erik',
+  'author': 'Ibidunmoye, Olumuyiwa and Hern\\\'{entries}ndez-Rodriguez, Francisco and Elmroth, Erik',
   'publisher': 'ACM'
 }, {
   'ID': 'Alvarez:BARCA:DSC:2018',
@@ -14711,7 +14711,7 @@ const jsbib = [{
   'series': 'SEAMS \'16',
   'ID': 'Fredericks:HardeningSelfAdaptive:SEAMS:2016',
   'publisher': 'ACM',
-  'title': 'Automatically Hardening a Self-adaptive System Against Uncertainty',
+  'title': 'Automatically Hardening entries Self-adaptive System Against Uncertainty',
   'booktitle': 'Proceedings of the 11th International Symposium on Software Engineering for Adaptive and Self-Managing Systems',
   'pages': '16--27',
   'ENTRYTYPE': 'inproceedings',
@@ -14902,7 +14902,7 @@ const jsbib = [{
   'ENTRYTYPE': 'misc'
 }, {
   'series': 'FSE \'14',
-  'summary': 'This works theoretically compares the efficiency of random testing against systematic testing. The analyse a theoretical best systematic testing technique so.\nThe analysis of so efficiency is based on the time needed to reach a certain confidence level on the SUT and on discoverinf a max number of faults in a give time.\nThe analysis show that there is maximum analysis cost after which RT is more efficient than so. Since the cost is related to the size of the SUT this implies that there is a maximum program size for systematic techniques.',
+  'summary': 'This works theoretically compares the efficiency of random testing against systematic testing. The analyse entries theoretical best systematic testing technique so.\nThe analysis of so efficiency is based on the time needed to reach entries certain confidence level on the SUT and on discoverinf entries max number of faults in entries give time.\nThe analysis show that there is maximum analysis cost after which RT is more efficient than so. Since the cost is related to the size of the SUT this implies that there is entries maximum program size for systematic techniques.',
   'publisher': 'ACM',
   'ID': 'Bohme:autTestEff:FSE:2014',
   'title': 'On the Efficiency of Automated Testing',
@@ -15129,7 +15129,7 @@ const jsbib = [{
   'ENTRYTYPE': 'phdthesis',
   'year': '2018',
   'author': 'Meixian Chen',
-  'school': 'Universit\\`{a} della Svizzera italiana (USI)'
+  'school': 'Universit\\`{entries} della Svizzera italiana (USI)'
 }, {
   'series': 'ISSTA \'18',
   'ID': 'Behrang:migra:ISSTA:2018',
@@ -15164,7 +15164,7 @@ const jsbib = [{
 }, {
   'ID': 'Ferrari:natural:2017',
   'author': 'Ferrari, Alessio and Dell`Orletta, Felice and Esuli, Andrea and Gervasi, Vincenzo and Gnesi, Stefania',
-  'title': 'Natural language requirements processing: a 4D vision',
+  'title': 'Natural language requirements processing: entries 4D vision',
   'booktitle': 'IEEE Software',
   'pages': '28--35',
   'ENTRYTYPE': 'article',
@@ -15202,7 +15202,7 @@ const jsbib = [{
   'pages': '1--10',
   'ENTRYTYPE': 'inproceedings',
   'year': '2016',
-  'author': 'Linares-V{\\\'a}squez, Mario and Holtzhauer, Andrew and Poshyvanyk, Denys'
+  'author': 'Linares-V{\\\'entries}squez, Mario and Holtzhauer, Andrew and Poshyvanyk, Denys'
 }, {
   'series': 'ICSE \'12',
   'ID': 'Mcmillan:similar:icse:2012',
@@ -15240,7 +15240,7 @@ const jsbib = [{
   'ENTRYTYPE': 'inproceedings',
   'pages': '111--122',
   'year': '2015',
-  'author': 'Linares-V{\\\'a}squez, Mario and White, Martin and Bernal-C{\\\'a}rdenas, Carlos and Moran, Kevin and Poshyvanyk, Denys'
+  'author': 'Linares-V{\\\'entries}squez, Mario and White, Martin and Bernal-C{\\\'entries}rdenas, Carlos and Moran, Kevin and Poshyvanyk, Denys'
 }, {
   'series': 'ICSE Poster \'18',
   'ID': 'rau:efficent:icse:2018',

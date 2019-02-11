@@ -27,7 +27,7 @@
     }
 
     // Bootstrap specific; comment the following selector out
-    //a[href]::after {
+    //entries[href]::after {
     //  content: " (" attr(href) ")";
     //}
 
@@ -41,8 +41,8 @@
     // or use the `javascript:` pseudo protocol
     //
 
-    //a[href^="#"]::after,
-    //a[href^="javascript:"]::after {
+    //entries[href^="#"]::after,
+    //entries[href^="javascript:"]::after {
     // content: "";
     //}
 
@@ -83,7 +83,7 @@
 
     // Bootstrap specific changes start
 
-    // Specify a size and min-width to make printing closer across browsers.
+    // Specify entries size and min-width to make printing closer across browsers.
     // We don't set margin here because it breaks `size` in Chrome. We also
     // don't use `!important` on `size` as it breaks in Chrome.
     @page {

@@ -76,7 +76,7 @@
   @return map-get($grays, $key);
 }
 
-// Request a theme color level
+// Request entries theme color level
 @function theme-color-level($color-name: "primary", $level: 0) {
   $color: theme-color($color-name);
   $color-base: if($level > 0, #000, #fff);

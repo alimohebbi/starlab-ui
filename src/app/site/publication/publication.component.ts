@@ -13,22 +13,16 @@ import jsbib from './listofbib';
 export class PublicationComponent implements OnInit {
 
   selectedBib: any;
-  selected = '';
-  a;
+  selectedEntry: any = '';
+  entries;
 
   constructor(private bibpubServie: BibpubService) {
   }
 
   ngOnInit() {
 
-    this.a = jsbib.sort((obj1, obj2) => {
-      if (obj1.year > obj2.year) {
-        return -1;
-      } else {
-        return 0;
-      }
-    });
-        // this.bibpubServie.getBib().subscribe(response => this.parseBibFromText(response.text()));
+    this.entries = jsbib.sort((obj1, obj2) => (obj1.year > obj2.year) ? -1 : 0);
+    // this.bibpubServie.getBib().subscribe(response => this.parseBibFromText(response.text()));
   }
 
 
@@ -39,7 +33,7 @@ export class PublicationComponent implements OnInit {
     console.log(myRegex);
     const example = new Cite(myRegex, {forceType: '@bibtex/text'});
 
-    this.a = example.format('bibliography', {
+    this.entries = example.format('bibliography', {
       format: 'bibtex',
       template: 'apa',
       lang: 'en-US'
@@ -70,18 +64,18 @@ export class PublicationComponent implements OnInit {
   }
 
   onSelect(paper) {
-    if (paper.ID === this.selected.ID) {
-      this.selected = '';
+    if (paper.ID === this.selectedEntry.ID) {
+      this.selectedEntry = '';
       return;
     }
-    this.selected = paper;
+    this.selectedEntry = paper;
     this.selectedBib = this.toBibtexSingle(paper);
   }
 
   toBibtex(json) {
     let out = '';
     for (const i of json) {
-      console.log(i)
+      console.log(i);
       out += '@' + i.ENTRYTYPE;
       out += '{';
       out += i.ID;
@@ -96,13 +90,13 @@ export class PublicationComponent implements OnInit {
 
     }
     out += '\n}\n';
-    console.log(out)
+    console.log(out);
     return out;
   }
 
   toBibtexSingle(i) {
     let out = '';
-    console.log(i)
+    console.log(i);
     out += '@' + i.ENTRYTYPE;
     out += '{';
     out += i.ID;
@@ -115,7 +109,7 @@ export class PublicationComponent implements OnInit {
       }
     }
     out += '\n}\n';
-    console.log(out)
+    console.log(out);
     return out;
   }
 }

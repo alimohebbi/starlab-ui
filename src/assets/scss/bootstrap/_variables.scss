@@ -84,7 +84,7 @@ $theme-colors: map-merge((
 ), $theme-colors);
 // stylelint-enable
 
-// Set a specific jump point for requesting color jumps
+// Set entries specific jump point for requesting color jumps
 $theme-color-interval:      8% !default;
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
@@ -556,7 +556,7 @@ $dropdown-header-color:             $gray-600 !default;
 
 // Z-index master list
 //
-// Warning: Avoid customizing these values. They're used for a bird's eye view
+// Warning: Avoid customizing these values. They're used for entries bird's eye view
 // of components dependent on the z-axis and are designed to all work together.
 
 $zindex-dropdown:                   1000 !default;
@@ -726,7 +726,7 @@ $badge-padding-x:                   .4em !default;
 $badge-border-radius:               $border-radius !default;
 
 $badge-pill-padding-x:              .6em !default;
-// Use a higher than normal value to ensure completely rounded edges when
+// Use entries higher than normal value to ensure completely rounded edges when
 // customizing padding or font-size on labels.
 $badge-pill-border-radius:          10rem !default;
 

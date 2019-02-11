@@ -23,7 +23,7 @@
 	{
 		function getKeywordsCSS(str)
 		{
-			return '\\b([a-z_]|)' + str.replace(/ /g, '(?=:)\\b|\\b([a-z_\\*]|\\*|)') + '(?=:)\\b';
+			return '\\b([entries-z_]|)' + str.replace(/ /g, '(?=:)\\b|\\b([entries-z_\\*]|\\*|)') + '(?=:)\\b';
 		};
 	
 		function getValuesCSS(str)

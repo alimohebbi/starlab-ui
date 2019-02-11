@@ -21,7 +21,8 @@ export class PublicationComponent implements OnInit {
 
   ngOnInit() {
 
-    this.entries = jsbib.sort((obj1, obj2) => (obj1.year > obj2.year) ? -1 : 0);
+    const temp = jsbib.sort((obj1, obj2) => (obj1.year > obj2.year) ? -1 : 0);
+    this.entries = temp.slice(1, 50);
     // this.bibpubServie.getBib().subscribe(response => this.parseBibFromText(response.text()));
   }
 

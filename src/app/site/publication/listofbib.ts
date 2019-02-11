@@ -271,7 +271,7 @@ const jsbib = [{
   'pages': '59--66',
   'ENTRYTYPE': 'inproceedings',
   'year': '2010',
-  'author': 'Mauro Baluda and Pietro Braione and Giovanni Denaro\nand Mauro Pezz{\\`e}'
+  'author': 'Mauro Baluda and Pietro Braione and Giovanni Denaro\nand Mauro Pezzè'
 }, {
   'ID': 'Tosi:oss:esem:2010',
   'author': 'Luigi Lavazza and Sandro Morasca and D. Taibi and Davide Tosi',
@@ -325,7 +325,7 @@ const jsbib = [{
   'ENTRYTYPE': 'techreport',
   'owner': 'Fabrizio',
   'year': '2010',
-  'author': 'Leonardo Mariani and Fabrizio Pastore and Mauro Pezz{\\`e}',
+  'author': 'Leonardo Mariani and Fabrizio Pastore and Mauro Pezzè',
   'timestamp': '2011.06.29',
   'groups': 'LTA'
 }, {
@@ -336,7 +336,7 @@ const jsbib = [{
   'owner': 'Fabrizio',
   'ENTRYTYPE': 'inproceedings',
   'year': '2011',
-  'author': 'Alessio Gambi and Giovanni Toffetti, and Fabrizio Pastore and Mauro\nPezz{\\`e}',
+  'author': 'Alessio Gambi and Giovanni Toffetti, and Fabrizio Pastore and Mauro\nPezzè',
   'timestamp': '2011.05.20'
 }, {
   'ID': '159578s8',
@@ -475,7 +475,7 @@ const jsbib = [{
   'title': 'On the Integration of Software Testing and Formal Analysis',
   'pages': '158-193',
   'year': '2012',
-  'author': 'Pietro Braione and Giovanni Denaro and Mauro Pezz{\\`e}',
+  'author': 'Pietro Braione and Giovanni Denaro and Mauro Pezzè',
   'ID': 'braione:integration:laser:2012',
   'editor': 'Bertrand Meyer and Martin Nordio',
   'booktitle': 'Empirical Software Engineering and Verification',
@@ -489,7 +489,7 @@ const jsbib = [{
   'year': '2011',
   'number': '4',
   'journal': 'Software Quality Journal',
-  'author': 'Mauro Baluda and Pietro Braione and Giovanni Denaro and Mauro Pezz{\\`e}',
+  'author': 'Mauro Baluda and Pietro Braione and Giovanni Denaro and Mauro Pezzè',
   'ID': 'baluda:enhancing:sqj:2011',
   'groups': 'STAR,LTA',
   'ENTRYTYPE': 'article',
@@ -601,7 +601,7 @@ const jsbib = [{
   'title': 'Automatic testing of {GUI}-based applications',
   'pages': '341--366',
   'year': '2014',
-  'author': 'Mariani, Leonardo and Pezz{\\`e}, Mauro and Riganelli, Oliviero and Santoro, Mauro',
+  'author': 'Mariani, Leonardo and Pezzè, Mauro and Riganelli, Oliviero and Santoro, Mauro',
   'journal': 'Software Testing, Verification and Reliability',
   'volume': '24',
   'ID': 'Mariani:ABT:STVR:2014',
@@ -649,7 +649,7 @@ const jsbib = [{
   'pages': '411--421',
   'ENTRYTYPE': 'inproceedings',
   'year': '2013',
-  'author': 'Pietro Braione and Giovanni Denaro and Mauro Pezz{\\`e}'
+  'author': 'Pietro Braione and Giovanni Denaro and Mauro Pezzè'
 }, {
   'ID': 'Pastore:ZoomIn:ICSE:2015',
   'groups': 'LTA',
@@ -718,10 +718,10 @@ const jsbib = [{
   'booktitle': 'proceedings of the 10th {IEEE} International Conference on Engineering of Complex Computer Systems',
   'ENTRYTYPE': 'inproceedings',
   'year': '2005',
-  'author': 'Leonardo Mariani and Mauro Pezz{\\`e}'
+  'author': 'Leonardo Mariani and Mauro Pezzè'
 }, {
   'ID': 'Denaro:Adaptive:WOWMOM:2005',
-  'author': 'Giovanni Denaro and Leonardo Mariani and Mauro Pezz{\\`e} and Davide Tosi',
+  'author': 'Giovanni Denaro and Leonardo Mariani and Mauro Pezzè and Davide Tosi',
   'title': 'Adaptive Runtime Verification for Autonomic Communication Infrastructures',
   'booktitle': 'proceedings of the 1st {IEEE} Workshop on Autonomic Communications and Computing held in conjunction with the {IEEE} International Symposium on entries World of Wireless, Mobile and Multimedia Networks ({WoWMoM})',
   'ENTRYTYPE': 'inproceedings',
@@ -756,7 +756,7 @@ const jsbib = [{
   'title': 'A Technique for Verifying Component-Based Software',
   'booktitle': 'proceedings of the International Workshop on Test and Analysis of Component Based Systems ({TACoS}) satellite workshop at the European Joint Conferences on Theory and Practice of Software ({ETAPS})',
   'ENTRYTYPE': 'inproceedings',
-  'author': 'Leonardo Mariani and Mauro Pezz{\\`e}',
+  'author': 'Leonardo Mariani and Mauro Pezzè',
   'year': '2004',
   'publisher': 'Elsevier',
   'groups': 'LTA'
@@ -767,7 +767,7 @@ const jsbib = [{
   'booktitle': 'proceedings of Tool-Integration in System Development, Workshop at the 9th European Software Engineering Conference and the 10th International Symposium on Foundations of Software Engineering ({ESEC/FSE})',
   'ENTRYTYPE': 'inproceedings',
   'year': '2003',
-  'author': 'Leonardo Mariani and Mauro Pezz{\\`e}'
+  'author': 'Leonardo Mariani and Mauro Pezzè'
 }, {
   'ID': 'Mariani:TestingOO:Wiley:2008',
   'editor': 'A. De Lucia and F. Ferrucci and G. Tortora and M. Tucci',
@@ -775,7 +775,7 @@ const jsbib = [{
   'title': 'Testing Object Oriented Software',
   'ENTRYTYPE': 'inbook',
   'year': '2008',
-  'author': 'Leonardo Mariani and Mauro Pezz{\\`e}',
+  'author': 'Leonardo Mariani and Mauro Pezzè',
   'groups': 'LTA',
   'publisher': 'Wiley-IEEE Computer Society Press'
 }, {
@@ -796,7 +796,7 @@ const jsbib = [{
   'booktitle': 'proceedings of the 29th International Conference on Software Engineering ({ICSE} 2007)',
   'ENTRYTYPE': 'inproceedings',
   'year': '2007',
-  'author': 'Leonardo Mariani and Sofia Papagiannakis and Mauro Pezz{\\`e}'
+  'author': 'Leonardo Mariani and Sofia Papagiannakis and Mauro Pezzè'
 }, {
   'ID': 'Heckel:ConformanceTesting:FASE:2005',
   'author': 'Reiko Heckel and Leonardo Mariani',
@@ -821,7 +821,7 @@ const jsbib = [{
   'title': 'Generation of Selft-Test Components',
   'booktitle': 'proceedings of the 1st International Workshop on Integration of Testing Methodologies, FORTE 2004 Workshops',
   'pages': '337--350',
-  'author': 'Leonardo Mariani and Mauro Pezz{\\`e} and David Willmor',
+  'author': 'Leonardo Mariani and Mauro Pezzè and David Willmor',
   'year': '2004',
   'publisher': 'Springer',
   'ENTRYTYPE': 'inproceedings',
@@ -857,7 +857,7 @@ const jsbib = [{
   'title': 'Selft-Test Components for Highly Reconfigurable Systems',
   'booktitle': 'International Workshop on Test and Analysis of Component Based Systems (TACOS) satellite workshop at the European Joint Conferences on Theory and Practice of Software ({ETAPS})',
   'publisher': 'Elsevier',
-  'author': 'Giovanni Denaro and Leonardo Mariani and Mauro Pezz{\\`e}',
+  'author': 'Giovanni Denaro and Leonardo Mariani and Mauro Pezzè',
   'year': '2003',
   'number': '6',
   'ENTRYTYPE': 'inproceedings',
@@ -944,7 +944,7 @@ const jsbib = [{
   'booktitle': 'proceedings of the 22nd {IEEE/ACM} International Conference on Automated Software Engineering ({ASE})',
   'ENTRYTYPE': 'inproceedings',
   'year': '2007',
-  'author': 'Leen Lambers and Hartmut Ehrig and Leonardo Mariani and Mauro Pezz{\\`e}'
+  'author': 'Leen Lambers and Hartmut Ehrig and Leonardo Mariani and Mauro Pezzè'
 }, {
   'ID': 'lorenzoliEtAl:ISSRE:2007',
   'groups': 'LTA',
@@ -953,7 +953,7 @@ const jsbib = [{
   'ENTRYTYPE': 'inproceedings',
   'month': 'November',
   'year': '2007',
-  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro Pezz{\\`e}'
+  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro Pezzè'
 }, {
   'ID': 'Denaro:shiws:ICAC:2007',
   'publisher': '{IEEE} Computer Society',
@@ -962,7 +962,7 @@ const jsbib = [{
   'ENTRYTYPE': 'inproceedings',
   'month': 'June',
   'year': '2007',
-  'author': 'Giovanni Denaro and Mauro Pezz{\\`e} and Davide Tosi',
+  'author': 'Giovanni Denaro and Mauro Pezzè and Davide Tosi',
   'groups': 'LTA'
 }, {
   'ID': 'Tosi:aaj:ICALT:2007',
@@ -982,7 +982,7 @@ const jsbib = [{
   'ENTRYTYPE': 'inproceedings',
   'month': 'May',
   'year': '2007',
-  'author': 'Giovanni Denaro and Mauro Pezz{\\`e} and Davide Tosi',
+  'author': 'Giovanni Denaro and Mauro Pezzè and Davide Tosi',
   'groups': 'LTA'
 }, {
   'ID': 'Tosi:shiws:PHD:2006',
@@ -1003,7 +1003,7 @@ const jsbib = [{
   'ENTRYTYPE': 'inproceedings',
   'month': 'September',
   'year': '2006',
-  'author': 'Davide Lorenzoli and Stefano Mussino and Mauro Pezz{\\`e} and Daniela Schilling and Andrea Sichel and Davide Tosi',
+  'author': 'Davide Lorenzoli and Stefano Mussino and Mauro Pezzè and Daniela Schilling and Andrea Sichel and Davide Tosi',
   'groups': 'LTA'
 }, {
   'institution': 'University of Milano Bicocca',
@@ -1011,7 +1011,7 @@ const jsbib = [{
   'address': 'Rome, Italy',
   'year': '2006',
   'number': '4',
-  'author': 'Giovanni Denaro and Mauro Pezz{\\`e} and Davide Tosi',
+  'author': 'Giovanni Denaro and Mauro Pezzè and Davide Tosi',
   'ID': 'Denaro:tr:ARACNE:2006',
   'groups': 'LTA',
   'type': 'Research Report',
@@ -1026,7 +1026,7 @@ const jsbib = [{
   'ENTRYTYPE': 'inproceedings',
   'month': 'July',
   'year': '2006',
-  'author': 'Giovanni Denaro and Mauro Pezz{\\`e} and Daniela Schilling and Davide Tosi',
+  'author': 'Giovanni Denaro and Mauro Pezzè and Daniela Schilling and Davide Tosi',
   'groups': 'LTA'
 }, {
   'ID': 'Tosi:doct:ISSTA:2006',
@@ -1046,7 +1046,7 @@ const jsbib = [{
   'pages': '569-578',
   'month': 'June',
   'year': '2005',
-  'author': 'Mauro Pezz{\\`e} and Davide Tosi and Gian Pietro Picco',
+  'author': 'Mauro Pezzè and Davide Tosi and Gian Pietro Picco',
   'ENTRYTYPE': 'inproceedings',
   'groups': 'LTA'
 }, {
@@ -1057,7 +1057,7 @@ const jsbib = [{
   'ENTRYTYPE': 'inproceedings',
   'month': 'May',
   'year': '2005',
-  'author': 'Giovanni Denaro and Mauro Pezz{\\`e} and Davide Tosi',
+  'author': 'Giovanni Denaro and Mauro Pezzè and Davide Tosi',
   'groups': 'LTA'
 }, {
   'ID': 'Tosi:sip:WISE:2003',
@@ -1077,7 +1077,7 @@ const jsbib = [{
   'ENTRYTYPE': 'inproceedings',
   'month': 'May',
   'year': '2008',
-  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro Pezz{\\`e}',
+  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro Pezzè',
   'groups': 'LTA'
 }, {
   'ID': 'lorenzoliEtAl:WODA:2006',
@@ -1087,7 +1087,7 @@ const jsbib = [{
   'pages': '25--32',
   'ENTRYTYPE': 'inproceedings',
   'year': '2006',
-  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro Pezz{\\`e}',
+  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro Pezzè',
   'groups': 'LTA'
 }, {
   'ID': 'Lorenzoli:soa:SOQUA:2007',
@@ -1135,7 +1135,7 @@ const jsbib = [{
   'ENTRYTYPE': 'techreport',
   'url': 'http://www.lta.disco.unimib.it',
   'year': '2008',
-  'author': 'Leonardo Mariani and Fabrizio Pastore and Mauro Pezz{\\`e}',
+  'author': 'Leonardo Mariani and Fabrizio Pastore and Mauro Pezzè',
   'groups': 'LTA'
 }, {
   'ID': 'Mariani:Toolset:ICSE:2009',
@@ -1145,7 +1145,7 @@ const jsbib = [{
   'note': 'to appear',
   'ENTRYTYPE': 'inproceedings',
   'year': '2009',
-  'author': 'Leonardo Mariani and Fabrizio Pastore and Mauro Pezz{\\`e}'
+  'author': 'Leonardo Mariani and Fabrizio Pastore and Mauro Pezzè'
 }, {
   'ID': 'morasca:oss:FLOSS:2009',
   'groups': 'LTA',
@@ -6736,7 +6736,7 @@ const jsbib = [{
   'title': 'Using high-level Petri nets for testing concurrent\nand real-time systems',
   'ENTRYTYPE': 'article',
   'year': '1990',
-  'author': 'Morasca, Sandro and Pezz{\\`e}, Mauro',
+  'author': 'Morasca, Sandro and Pezzè, Mauro',
   'journal': 'Real-time systems: theory and applications'
 }, {
   'journal': 'IEEE Transactions on Software Engineering',
@@ -10185,7 +10185,7 @@ const jsbib = [{
   'pages': '213--224',
   'ENTRYTYPE': 'inproceedings',
   'year': '2016',
-  'author': 'Goffi, Alberto and Gorla, Alessandra and Ernst, Michael D. and Pezz{\\`e}, Mauro',
+  'author': 'Goffi, Alberto and Gorla, Alessandra and Ernst, Michael D. and Pezzè, Mauro',
   'groups': 'STAR'
 }, {
   'journal': 'Empirical Software Engineering',
@@ -10271,7 +10271,7 @@ const jsbib = [{
   'number': '4',
   'pages': '21',
   'year': '2015',
-  'author': 'Mark Harman and Mauro Pezz{\\`e}',
+  'author': 'Mark Harman and Mauro Pezzè',
   'groups': 'STAR',
   'publisher': 'ACM'
 }, {
@@ -10281,7 +10281,7 @@ const jsbib = [{
   'booktitle': 'Advances in Computers',
   'ENTRYTYPE': 'incollection',
   'year': '2015',
-  'author': 'Mariani, Leonardo and Pezz{\\`e}, Mauro and Zuddas,\nDaniele',
+  'author': 'Mariani, Leonardo and Pezzè, Mauro and Zuddas,\nDaniele',
   'ID': 'Mariani:blackbox:Advances:2015',
   'groups': 'STAR,LTA'
 }, {
@@ -10305,7 +10305,7 @@ const jsbib = [{
   'pages': '305--315',
   'ENTRYTYPE': 'inproceedings',
   'year': '2015',
-  'author': 'Aquino, Andrea and Bianchi, Francesco A. and\nChen, Meixian and Denaro, Giovanni and Pezz{\\`e},\nMauro',
+  'author': 'Aquino, Andrea and Bianchi, Francesco A. and\nChen, Meixian and Denaro, Giovanni and Pezzè,\nMauro',
   'ID': 'Aquino:Recal:ISSTA:2015',
   'groups': 'STAR'
 }, {
@@ -10341,7 +10341,7 @@ const jsbib = [{
   'pages': '947--958',
   'ENTRYTYPE': 'inproceedings',
   'year': '2015',
-  'author': 'Denaro, Giovanni and Margara, Alessandro and\nPezz{\\`e}, Mauro and Vivanti, Mattia',
+  'author': 'Denaro, Giovanni and Margara, Alessandro and\nPezzè, Mauro and Vivanti, Mattia',
   'groups': 'STAR'
 }, {
   'series': 'ICSE \'15',
@@ -10353,7 +10353,7 @@ const jsbib = [{
   'pages': '156--166',
   'ENTRYTYPE': 'inproceedings',
   'year': '2015',
-  'author': 'Carzaniga, Antonio and Mattavelli, Andrea and\nPezz{\\`e}, Mauro',
+  'author': 'Carzaniga, Antonio and Mattavelli, Andrea and\nPezzè, Mauro',
   'groups': 'STAR'
 }, {
   'series': 'SSBSE \'15',
@@ -10406,7 +10406,7 @@ const jsbib = [{
 }, {
   'series': 'FSE~\'14',
   'ID': 'Goffi:SBES:FSE:2014',
-  'author': 'Goffi, Alberto and Gorla, Alessandra and Mattavelli,\nAndrea and Pezz{\\`e}, Mauro and Tonella, Paolo',
+  'author': 'Goffi, Alberto and Gorla, Alessandra and Mattavelli,\nAndrea and Pezzè, Mauro and Tonella, Paolo',
   'title': 'Search-Based Synthesis of Equivalent Method\nSequences',
   'booktitle': 'Proceedings of the ACM SIGSOFT International Symposium on Foundations of Software Engineering',
   'pdf': 'papers/2014-fse-mattavelli-sbes.pdf',
@@ -10418,7 +10418,7 @@ const jsbib = [{
 }, {
   'series': 'ICST \'14',
   'ID': 'Denaro:objectives:ICST:2014',
-  'author': 'Denaro, Giovanni and Pezz{\\`e}, Mauro and Vivanti,\nMattia',
+  'author': 'Denaro, Giovanni and Pezzè, Mauro and Vivanti,\nMattia',
   'title': 'On the Right Objectives of Data Flow Testing',
   'booktitle': 'Proceedings of the International Conference on\nSoftware Testing, Verification and Validation',
   'pdf': 'papers/2014-icst-vivanti-dataflow.pdf',
@@ -10430,7 +10430,7 @@ const jsbib = [{
 }, {
   'series': 'ICSE \'14',
   'ID': 'Carzaniga:CrossCheck:ICSE:2014',
-  'author': 'Carzaniga, Antonio and Goffi, Alberto and Gorla,\nAlessandra and Mattavelli, Andrea and Pezz{\\`e},\nMauro',
+  'author': 'Carzaniga, Antonio and Goffi, Alberto and Gorla,\nAlessandra and Mattavelli, Andrea and Pezzè,\nMauro',
   'title': 'Cross-checking Oracles from Intrinsic Software\nRedundancy',
   'booktitle': 'Proceedings of the International Conference on\nSoftware Engineering',
   'pdf': 'papers/2014-icse-goffi-ccoracles.pdf',
@@ -10460,13 +10460,13 @@ const jsbib = [{
   'pages': '132--138',
   'ENTRYTYPE': 'inproceedings',
   'year': '2013',
-  'author': 'Giovanni Denaro and Mauro Pezz{\\`e} and Mattia\nVivanti',
+  'author': 'Giovanni Denaro and Mauro Pezzè and Mattia\nVivanti',
   'groups': 'STAR'
 }, {
   'ID': 'Cheng:Exceptions:TOSEM:2013',
   'groups': 'STAR',
   'title': 'Exception Handlers for Healing Component-Based\nSystems',
-  'author': 'Herv\\\'{e} Chang and Leonardo Mariani and Mauro\nPezz{\\`e}',
+  'author': 'Herv\\\'{e} Chang and Leonardo Mariani and Mauro\nPezzè',
   'number': '4',
   'ENTRYTYPE': 'article',
   'year': '2013',
@@ -10477,7 +10477,7 @@ const jsbib = [{
   'ID': 'Denaro:TestAndAdapt:TOSEM:2013',
   'groups': 'STAR',
   'title': 'Test-and-Adapt: An Approach for Improving Service\nInterchangeability',
-  'author': 'Giovanni Denaro and Mauro Pezz{\\`e} and Davide Tosi',
+  'author': 'Giovanni Denaro and Mauro Pezzè and Davide Tosi',
   'number': '4',
   'ENTRYTYPE': 'article',
   'year': '2013',
@@ -10488,7 +10488,7 @@ const jsbib = [{
   'ID': 'Gambi:Assurrance:ASAS:2013',
   'volume': '7740',
   'journal': 'Assurances for Self-Adaptive Systems',
-  'author': 'Gambi, Alessio and Toffetti, Giovanni and Pezz{\\`e},\nMauro',
+  'author': 'Gambi, Alessio and Toffetti, Giovanni and Pezzè,\nMauro',
   'pages': '311-339',
   'ENTRYTYPE': 'article',
   'year': '2013',
@@ -10502,7 +10502,7 @@ const jsbib = [{
   'booktitle': 'ETSE \'11: Proceedings of the 1st International\nWorkshop on End-to-End Test Script Engineering',
   'ENTRYTYPE': 'inproceedings',
   'year': '2011',
-  'author': 'Daniel, Brett and Luo, Qingzhou and Mirzaaghaei,\nMehdi and Dig, Danny and Marinov, Darko and\nPezz{\\`e}, Mauro'
+  'author': 'Daniel, Brett and Luo, Qingzhou and Mirzaaghaei,\nMehdi and Dig, Danny and Marinov, Darko and\nPezzè, Mauro'
 }, {
   'title': 'Enhancing structural software coverage by\nincrementally computing branch executability',
   'ID': 'Baluda:structural:SQJ:2011',
@@ -10512,13 +10512,13 @@ const jsbib = [{
   'number': '4',
   'pages': '725--751',
   'year': '2011',
-  'author': 'Baluda, Mauro and Braione, Pietro and Denaro,\nGiovanni and Pezz{\\`e}, Mauro',
+  'author': 'Baluda, Mauro and Braione, Pietro and Denaro,\nGiovanni and Pezzè, Mauro',
   'groups': 'STAR',
   'volume': '19'
 }, {
   'series': 'Data Mining and Knowledge Discovery',
   'ID': 'Mariani:Mining:CRC:2011',
-  'author': 'Leonardo Mariani and Fabrizio Pastore and Mauro\nPezz{\\`e} and Mauro Santoro',
+  'author': 'Leonardo Mariani and Fabrizio Pastore and Mauro\nPezzè and Mauro Santoro',
   'title': 'Mining Finite-State Automata with Annotations',
   'booktitle': 'Mining Software Specifications: Methodologies and\nApplications',
   'editor': 'David Lo and S.-C. Khoo and J. Han and C. Liu',
@@ -10535,7 +10535,7 @@ const jsbib = [{
   'number': '1',
   'pages': '93--115',
   'year': '2010',
-  'author': 'Alessandra Gorla and Leonardo Mariani and Fabrizio\nPastore and Mauro Pezz{\\`e} and Jochen Wuttke',
+  'author': 'Alessandra Gorla and Leonardo Mariani and Fabrizio\nPastore and Mauro Pezzè and Jochen Wuttke',
   'groups': 'STAR,LTA',
   'title': 'Achieving Cost-Effective Software Reliability\nThrough Self-Healing'
 }, {
@@ -10547,11 +10547,11 @@ const jsbib = [{
   'pages': '59--66',
   'ENTRYTYPE': 'inproceedings',
   'year': '2010',
-  'author': 'Baluda, Mauro and Braione, Pietro and Denaro,\nGiovanni and Pezz{\\`e}, Mauro',
+  'author': 'Baluda, Mauro and Braione, Pietro and Denaro,\nGiovanni and Pezzè, Mauro',
   'publisher': 'ACM'
 }, {
   'ID': 'Carzaniga:RAW:ICSErd:2010',
-  'author': 'Antonio Carzaniga and Alessandra Gorla and\nNicol\\`{o} Perino and Mauro Pezz{\\`e}',
+  'author': 'Antonio Carzaniga and Alessandra Gorla and\nNicol\\`{o} Perino and Mauro Pezzè',
   'title': '{RAW}: Runtime Automatic Workarounds',
   'booktitle': 'ICSE \'10: Proceedings of the 32nd {ACM}/{IEEE}\nInternational Conference on Software Engineering\n(Tool Demo)',
   'pages': '321--322',
@@ -10561,7 +10561,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Mariani:SEIM:PESOS:2010',
-  'author': 'Mariani, Leonardo and Pezz{\\`e}, Mauro and\nRiganelli, Oliviero and Santoro, Mauro',
+  'author': 'Mariani, Leonardo and Pezzè, Mauro and\nRiganelli, Oliviero and Santoro, Mauro',
   'title': '{SEIM}: static extraction of interaction models',
   'booktitle': 'PESOS \'10: Proceedings of the 2nd International\nWorkshop on Principles of Engineering\nService-Oriented Systems',
   'pages': '22--28',
@@ -10578,12 +10578,12 @@ const jsbib = [{
   'number': '1',
   'pages': '58--80',
   'year': '2009',
-  'author': 'Tosi, Davide and Denaro, Giovanni and Pezz{\\`e}, Mauro',
+  'author': 'Tosi, Davide and Denaro, Giovanni and Pezzè, Mauro',
   'groups': 'STAR',
   'volume': '1'
 }, {
   'ID': 'Brun:feedbackLoops:SESS:2009',
-  'author': 'Brun, Yuriy and Marzo Serugendo, Giovanna and Gacek,\nCristina and Giese, Holger and Kienle, Holger and\nLitoiu, Marin and M\\"{u}ller, Hausi and Pezz{\\`e},\nMauro and Shaw, Mary',
+  'author': 'Brun, Yuriy and Marzo Serugendo, Giovanna and Gacek,\nCristina and Giese, Holger and Kienle, Holger and\nLitoiu, Marin and M\\"{u}ller, Hausi and Pezzè,\nMauro and Shaw, Mary',
   'title': 'Engineering Self-Adaptive Systems through Feedback\nLoops',
   'booktitle': 'Software Engineering for Self-Adaptive Systems',
   'editor': 'Cheng, Betty H. and Lemos, Rog\\\'{e}rio and Giese,\nHolger and Inverardi, Paola and Magee, Jeff',
@@ -10597,7 +10597,7 @@ const jsbib = [{
   'address': 'Berlin, Heidelberg',
   'pages': '223--240',
   'year': '2009',
-  'author': 'Pezz{\\`e}, Mauro and Wuttke, Jochen',
+  'author': 'Pezzè, Mauro and Wuttke, Jochen',
   'ID': 'Pezze:RTFailures:SESASys:2009',
   'editor': 'Cheng, Betty H. and Lemos, Rog\\\'{e}rio and Giese,\nHolger and Inverardi, Paola and Magee, Jeff',
   'booktitle': 'Software Engineering for Self-Adaptive Systems',
@@ -10607,7 +10607,7 @@ const jsbib = [{
   'title': 'Automatic Generation of Runtime Failure Detectors\nfrom Property Templates'
 }, {
   'ID': 'Denaro:InteroperableSOA:FSE:2009',
-  'author': 'Denaro, Giovanni and Pezz{\\`e}, Mauro and Tosi,\nDavide',
+  'author': 'Denaro, Giovanni and Pezzè, Mauro and Tosi,\nDavide',
   'title': 'Ensuring interoperable service-oriented systems\nthrough engineered self-healing',
   'booktitle': 'ESEC/FSE \'09: Proceedings of the 7th Joint\nMeeting of the European Software Engineering\nConference and the {ACM} SIGSOFT Symposium on The\nFoundations of Software Engineering',
   'pages': '253--262',
@@ -10617,7 +10617,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Lo:AutomaticSteering:FSE:2009',
-  'author': 'Lo, David and Mariani, Leonardo and Pezz{\\`e},\nMauro',
+  'author': 'Lo, David and Mariani, Leonardo and Pezzè,\nMauro',
   'title': 'Automatic steering of behavioral model inference',
   'booktitle': 'ESEC/FSE \'09: Proceedings of the the 7th Joint\nMeeting of the European Software Engineering\nConference and the {ACM} SIGSOFT Symposium on The\nFoundations of Software Engineering',
   'pages': '345--354',
@@ -10627,7 +10627,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Chang:COTShealing:ICSE:2009',
-  'author': 'Chang, Herve and Mariani, Leonardo and Pezz{\\`e},\nMauro',
+  'author': 'Chang, Herve and Mariani, Leonardo and Pezzè,\nMauro',
   'title': 'In-field healing of integration problems with COTS\ncomponents',
   'booktitle': 'ICSE \'09: Proceedings of the 31st International\nConference on Software Engineering',
   'pages': '166--176',
@@ -10637,7 +10637,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Mariani:AutomatedFailureAnalysis:ICSE:2009',
-  'author': 'Mariani, Leonardo and Pastore, Fabrizio and Pezz{\\`e},\nMauro',
+  'author': 'Mariani, Leonardo and Pastore, Fabrizio and Pezzè,\nMauro',
   'title': 'A toolset for automated failure analysis',
   'booktitle': 'ICSE \'09: Proceedings of the 31st International\nConference on Software Engineering',
   'pages': '563--566',
@@ -10647,7 +10647,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Carzaniga:AdaptiveSocieties:NIER:2009',
-  'author': 'Antonio Carzaniga and Giovanni Denaro and Mauro\nPezz{\\`e} and Jacky Estublier and Alexander L. Wolf',
+  'author': 'Antonio Carzaniga and Giovanni Denaro and Mauro\nPezzè and Jacky Estublier and Alexander L. Wolf',
   'title': 'Toward deeply adaptive societies of digital systems',
   'booktitle': 'ICSE \'09: 31st International Conference on Software\nEngineering',
   'pages': '331--334',
@@ -10657,7 +10657,7 @@ const jsbib = [{
   'groups': 'STAR,LTA'
 }, {
   'ID': 'Gambi:SLA:SEAMS:2009',
-  'author': 'Gambi, Alessio and Pezz{\\`e}, Mauro and Young,\nMichal',
+  'author': 'Gambi, Alessio and Pezzè, Mauro and Young,\nMichal',
   'title': 'SLA Protection models for virtualized data centers',
   'booktitle': 'SEAMS \'09: Proceedings of the 4th Workshop on\nSoftware Engineering for Adaptive and Self-Managing\nSystems',
   'pages': '10--19',
@@ -10667,7 +10667,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Muller:VisibilityControl:ULSSIS:2008',
-  'author': 'Hausi Muller and Mauro Pezz{\\`e} and Mary Shaw',
+  'author': 'Hausi Muller and Mauro Pezzè and Mary Shaw',
   'title': 'Visibility of Control in Adaptive Systems',
   'booktitle': 'ULSSIS \'08: Proceedings of the 2nd International\nWorkshop on Ultra-Large-Scale Software-Intensive\nSystems',
   'pages': '23--26',
@@ -10677,7 +10677,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Carzaniga:AutomaticWorkarounds:SEAMS:2008',
-  'author': 'Antonio Carzaniga and Alessandra Gorla and Mauro\nPezz{\\`e}',
+  'author': 'Antonio Carzaniga and Alessandra Gorla and Mauro\nPezzè',
   'title': 'Self-Healing by Means of Automatic Workarounds',
   'booktitle': 'SEAMS \'08: Proceedings of the 5th International\nWorkshop on Software Engineering for Adaptive and\nSelf-Managing Systems',
   'pages': '17--24',
@@ -10687,7 +10687,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Chang:HealingCOTS:ARAMIS:2008',
-  'author': 'Herv\\`e Chang and Leonardo Mariani and Mauro\nPezz{\\`e}',
+  'author': 'Herv\\`e Chang and Leonardo Mariani and Mauro\nPezzè',
   'title': 'Self-Healing Strategies for Component Integration\nFaults',
   'booktitle': 'ARAMIS \'08: Proceedings of the 1st International\nWorkshop on Automated Engineering of Autonomous and\nrun-tiMe evolvIng Systems',
   'ENTRYTYPE': 'inproceedings',
@@ -10696,7 +10696,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Lorenzoli:AutomaticGeneration:ICSE:2008',
-  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro\nPezz{\\`e}',
+  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro\nPezzè',
   'title': 'Automatic Generation of Software Behavioral Models',
   'booktitle': 'ICSE \'08: Proceedings of the 30th International\nConference on Software Engineering',
   'ENTRYTYPE': 'inproceedings',
@@ -10706,7 +10706,7 @@ const jsbib = [{
 }, {
   'series': 'FASE \'08',
   'ID': 'Denaro:ContextualT:FASE:2008',
-  'author': 'Giovanni Denaro and Alessandra Gorla and Mauro\nPezz{\\`e}',
+  'author': 'Giovanni Denaro and Alessandra Gorla and Mauro\nPezzè',
   'title': 'Contextual Integration Testing of Classes',
   'booktitle': 'Proceedings of the 11th International Conference on\nFundamental Approaches to Software Engineering',
   'pages': '246--260',
@@ -10716,7 +10716,7 @@ const jsbib = [{
   'groups': 'STAR,LTA'
 }, {
   'ID': 'Lambers:Adaptable:FASE:2008',
-  'author': 'Leen Lambers and Leonardo Mariani and Hartmut Ehrig\nand Mauro Pezz{\\`e}',
+  'author': 'Leen Lambers and Leonardo Mariani and Hartmut Ehrig\nand Mauro Pezzè',
   'title': 'A Formal Framework for Developing Adaptable Service-\nBased Applications',
   'booktitle': 'FASE \'08: Proceedings of the 11th International\nConference on Fundamental Approaches to Software\nEngineering',
   'pages': '392--406',
@@ -10725,7 +10725,7 @@ const jsbib = [{
   'publisher': 'Springer',
   'groups': 'STAR,LTA'
 }, {
-  'author': 'Leonardo Mariani and Mauro Pezz{\\`e}',
+  'author': 'Leonardo Mariani and Mauro Pezzè',
   'title': 'Dynamic Detection of COTS Component Incompatibility',
   'address': 'Los Alamitos, CA, USA',
   'pages': '76--85',
@@ -10743,11 +10743,11 @@ const jsbib = [{
   'title': 'Software Testing and Analysis: Process, Principles\nand Techniques',
   'ENTRYTYPE': 'book',
   'year': '2007',
-  'author': 'Pezz{\\`e}, Mauro and Young, Michal',
+  'author': 'Pezzè, Mauro and Young, Michal',
   'groups': 'STAR'
 }, {
   'ID': 'Marini:CompatibilityRegression:ICSE:2007',
-  'author': 'Leonardo Mariani and Sofia Papagiannakis and Mauro\nPezz{\\`e}',
+  'author': 'Leonardo Mariani and Sofia Papagiannakis and Mauro\nPezzè',
   'title': 'Compatibility and Regression Testing of\nCOTS-Component-Based Software',
   'booktitle': 'ICSE \'07: Proceedings of the 29th International\nConference on Software Engineering',
   'pages': '85--95',
@@ -10757,7 +10757,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Lorenzoli:Self-Protecting:ISSRE:2007',
-  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro\nPezz{\\`e}',
+  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro\nPezzè',
   'title': 'Towards Self-Protecting Enterprise Applications',
   'booktitle': 'ISSRE \'07: Proceedings of the 18th {IEEE}\nInternational Symposium on Software Reliability\nEngineering',
   'pages': '181--190',
@@ -10767,7 +10767,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Lambers:IterativeModelDriven:ASE:2007',
-  'author': 'Leen Lambers and Hartmut Ehrig and Leonardo Mariani\nand Mauro Pezz{\\`e}',
+  'author': 'Leen Lambers and Hartmut Ehrig and Leonardo Mariani\nand Mauro Pezzè',
   'title': 'Iterative Model-driven Development of Adaptable\nService-Based Applications',
   'booktitle': 'ASE \'07: Proceedings of the 22nd {IEEE}/{ACM}\nInternational Conference on Automated Software\nEngineering',
   'ENTRYTYPE': 'inproceedings',
@@ -10776,7 +10776,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Denaro:Shiws:ICSEComp:2007',
-  'author': 'Giovanni Denaro and Mauro Pezz{\\`e} and Davide Tosi',
+  'author': 'Giovanni Denaro and Mauro Pezzè and Davide Tosi',
   'title': 'SHIWS: A Self-Healing Integrator for Web Services',
   'booktitle': 'ICSE \'07: Proceedings of the 29th International\nConference on Software Engineering',
   'pages': '55--56',
@@ -10786,7 +10786,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Denaro:DesigningSelfAdaptive:ICAC:2007',
-  'author': 'Giovanni Denaro and Mauro Pezz{\\`e} and Davide Tosi',
+  'author': 'Giovanni Denaro and Mauro Pezzè and Davide Tosi',
   'title': 'Designing Self-Adaptive Service-Oriented\nApplications',
   'booktitle': 'ICAC \'07: Proceedings of the 4th {IEEE}\nInternational Conference on Autonomic Computing',
   'pages': '16',
@@ -10796,7 +10796,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Lorenzoli:InferringBehavior:WODA:2006',
-  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro\nPezz{\\`e}',
+  'author': 'Davide Lorenzoli and Leonardo Mariani and Mauro\nPezzè',
   'title': 'Inferring State-Based Behavior Models',
   'booktitle': 'WODA \'06: Proceedings of the 4th International\nWorkshop on Dynamic Systems Analysis',
   'pages': '25--32',
@@ -10806,7 +10806,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Denaro:TowardSelfAdaptive:TAVWEB:2006',
-  'author': 'Giovanni Denaro and Mauro Pezz{\\`e} and Davide Tosi\nand Daniela Schilling',
+  'author': 'Giovanni Denaro and Mauro Pezzè and Davide Tosi\nand Daniela Schilling',
   'title': 'Towards Self-Adaptive Service-Oriented\nArchitectures',
   'booktitle': 'TAV-WEB \'06: Proceedings of the 2006 Workshop on\nTesting, Analysis, and Verification of Web Services\nand Applications',
   'pages': '10--16',
@@ -10833,7 +10833,7 @@ const jsbib = [{
   'pages': '493--502',
   'month': 'December',
   'year': '2008',
-  'author': 'Antonio Carzaniga and Alessandra Gorla and Mauro\nPezz{\\`e}',
+  'author': 'Antonio Carzaniga and Alessandra Gorla and Mauro\nPezzè',
   'groups': 'STAR',
   'title': 'Healing Web applications through automatic\nworkarounds'
 }, {
@@ -10858,7 +10858,7 @@ const jsbib = [{
 }, {
   'series': 'FSE \'10',
   'ID': 'Carzaniga:workarounds:FSE:2010',
-  'author': 'Carzaniga, Antonio and Gorla, Alessandra and Perino,\nNicol\\`{o} and Pezz{\\`e}, Mauro',
+  'author': 'Carzaniga, Antonio and Gorla, Alessandra and Perino,\nNicol\\`{o} and Pezzè, Mauro',
   'title': 'Automatic workarounds for web applications',
   'booktitle': 'Proceedings of the ACM SIGSOFT International\nSymposium on Foundations of Software Engineering',
   'pages': '237--246',
@@ -10885,7 +10885,7 @@ const jsbib = [{
   'pages': '1-32',
   'ENTRYTYPE': 'inproceedings',
   'year': '2010',
-  'author': 'Rog{\\\'e}rio de Lemos and Holger Giese and Hausi\nA. M{\\"u}ller and Mary Shaw and Jesper Andersson and\nMarin Litoiu and Bradley R. Schmerl and Gabriel\nTamura and Norha M. Villegas and Thomas Vogel and\nDanny Weyns and Luciano Baresi and Basil Becker and\nNelly Bencomo and Yuriy Brun and Bojan Cukic and Ron\nDesmarais and Schahram Dustdar and Gregor Engels and\nKurt Geihs and Karl M. G{\\"o}schka and Alessandra\nGorla and Vincenzo Grassi and Paola Inverardi and\nGabor Karsai and Jeff Kramer and Ant{\\\'o}nia Lopes\nand Jeff Magee and Sam Malek and Serge Mankovski and\nRaffaela Mirandola and John Mylopoulos and Oscar\nNierstrasz and Mauro Pezz{\\`e} and Christian\nPrehofer and Wilhelm Sch{\\"entries}fer and Richard\nD. Schlichting and Dennis B. Smith and Jo{\\~entries}o\nPedro Sousa and Ladan Tahvildari and Kenny Wong and\nJochen Wuttke'
+  'author': 'Rog{\\\'e}rio de Lemos and Holger Giese and Hausi\nA. M{\\"u}ller and Mary Shaw and Jesper Andersson and\nMarin Litoiu and Bradley R. Schmerl and Gabriel\nTamura and Norha M. Villegas and Thomas Vogel and\nDanny Weyns and Luciano Baresi and Basil Becker and\nNelly Bencomo and Yuriy Brun and Bojan Cukic and Ron\nDesmarais and Schahram Dustdar and Gregor Engels and\nKurt Geihs and Karl M. G{\\"o}schka and Alessandra\nGorla and Vincenzo Grassi and Paola Inverardi and\nGabor Karsai and Jeff Kramer and Ant{\\\'o}nia Lopes\nand Jeff Magee and Sam Malek and Serge Mankovski and\nRaffaela Mirandola and John Mylopoulos and Oscar\nNierstrasz and Mauro Pezzè and Christian\nPrehofer and Wilhelm Sch{\\"entries}fer and Richard\nD. Schlichting and Dennis B. Smith and Jo{\\~entries}o\nPedro Sousa and Ladan Tahvildari and Kenny Wong and\nJochen Wuttke'
 }, {
   'ID': 'Tamura:runtimeverification:SESS:2010',
   'groups': 'STAR',
@@ -10894,13 +10894,13 @@ const jsbib = [{
   'pages': '108-132',
   'ENTRYTYPE': 'inproceedings',
   'year': '2010',
-  'author': 'Gabriel Tamura and Norha M. Villegas and Hausi\nA. M{\\"u}ller and Jo{\\~entries}o Pedro Sousa and Basil\nBecker and Gabor Karsai and Serge Mankovski and\nMauro Pezz{\\`e} and Wilhelm Sch{\\"entries}fer and Ladan\nTahvildari and Kenny Wong'
+  'author': 'Gabriel Tamura and Norha M. Villegas and Hausi\nA. M{\\"u}ller and Jo{\\~entries}o Pedro Sousa and Basil\nBecker and Gabor Karsai and Serge Mankovski and\nMauro Pezzè and Wilhelm Sch{\\"entries}fer and Ladan\nTahvildari and Kenny Wong'
 }, {
   'ID': 'Lemos:workshop:SEAMS:2010',
   'bibsource': 'DBLP, http://dblp.uni-trier.de',
   'title': 'Fifth Workshop on Software Engineering for Adaptive\nand Self-Managing Systems, SEAMS 2010, Cape Town,\nSouth Africa, May 3-4, 2010',
   'booktitle': 'SEAMS',
-  'editor': 'Rog{\\\'e}rio de Lemos and Mauro Pezz{\\`e}',
+  'editor': 'Rog{\\\'e}rio de Lemos and Mauro Pezzè',
   'ENTRYTYPE': 'proceedings',
   'year': '2010',
   'publisher': 'ACM',
@@ -10910,7 +10910,7 @@ const jsbib = [{
   'groups': 'STAR',
   'title': '34th International Conference on Software\nEngineering, ICSE 2012, June 2-9, 2012, Zurich,\nSwitzerland',
   'booktitle': 'ICSE',
-  'editor': 'Martin Glinz and Gail C. Murphy and Mauro Pezz{\\`e}',
+  'editor': 'Martin Glinz and Gail C. Murphy and Mauro Pezzè',
   'ENTRYTYPE': 'proceedings',
   'year': '2012',
   'publisher': 'IEEE Computer Society'
@@ -10922,7 +10922,7 @@ const jsbib = [{
   'pages': '39-53',
   'ENTRYTYPE': 'inproceedings',
   'year': '2013',
-  'author': 'Carlo Ghezzi and Mauro Pezz{\\`e} and Giordano\nTamburrelli'
+  'author': 'Carlo Ghezzi and Mauro Pezzè and Giordano\nTamburrelli'
 }, {
   'ID': 'Ghezzi:REST:ISINM:2013',
   'groups': 'STAR',
@@ -10931,13 +10931,13 @@ const jsbib = [{
   'pages': '1376-1382',
   'ENTRYTYPE': 'inproceedings',
   'year': '2013',
-  'author': 'Carlo Ghezzi and Mauro Pezz{\\`e} and Giordano\nTamburrelli'
+  'author': 'Carlo Ghezzi and Mauro Pezzè and Giordano\nTamburrelli'
 }, {
   'ID': 'Pollock:conference:ISSTA:2006',
   'groups': 'STAR',
   'title': 'International Symposium on Software Testing and\nAnalysis, ISSTA, July 17-20, 2006, Portland, Maine,\nUSA',
   'ENTRYTYPE': 'proceedings',
-  'editor': 'Lori L. Pollock and Mauro Pezz{\\`e}',
+  'editor': 'Lori L. Pollock and Mauro Pezzè',
   'year': '2006',
   'publisher': 'ACM'
 }, {
@@ -10945,7 +10945,7 @@ const jsbib = [{
   'groups': 'STAR',
   'title': 'International Symposium on Software Testing and\nAnalysis, ISSTA 2013, July 15-20, 2013, Lugano,\nSwitzerland',
   'booktitle': 'ISSTA',
-  'editor': 'Mauro Pezz{\\`e} and Mark Harman',
+  'editor': 'Mauro Pezzè and Mark Harman',
   'ENTRYTYPE': 'proceedings',
   'year': '2013',
   'publisher': 'ACM'
@@ -10957,7 +10957,7 @@ const jsbib = [{
   'pages': '158-193',
   'ENTRYTYPE': 'inproceedings',
   'year': '2010',
-  'author': 'Pietro Braione and Giovanni Denaro and Mauro\nPezz{\\`e}'
+  'author': 'Pietro Braione and Giovanni Denaro and Mauro\nPezzè'
 }, {
   'series': 'ESEC/FSE \'13',
   'ID': 'Braione:TermRewritingSE:ESECFSE:2013',
@@ -10967,7 +10967,7 @@ const jsbib = [{
   'pages': '411--421',
   'ENTRYTYPE': 'inproceedings',
   'year': '2013',
-  'author': 'Braione, Pietro and Denaro, Giovanni and Pezz{\\`e},\nMauro',
+  'author': 'Braione, Pietro and Denaro, Giovanni and Pezzè,\nMauro',
   'groups': 'STAR'
 }, {
   'ID': 'Baresi:introductiontesting:ENTCS:2006',
@@ -10977,7 +10977,7 @@ const jsbib = [{
   'number': '1',
   'pages': '89--111',
   'year': '2006',
-  'author': 'Luciano Baresi and Mauro Pezz{\\`e}',
+  'author': 'Luciano Baresi and Mauro Pezzè',
   'groups': 'STAR',
   'title': 'An Introduction to Software Testing'
 }, {
@@ -10989,7 +10989,7 @@ const jsbib = [{
   'number': '3',
   'pages': '207--217',
   'year': '2013',
-  'author': 'Giovanni Toffetti and Mauro Pezz{\\`e}',
+  'author': 'Giovanni Toffetti and Mauro Pezzè',
   'groups': 'STAR',
   'volume': '24'
 }, {
@@ -11001,7 +11001,7 @@ const jsbib = [{
   'number': '2007/03',
   'month': 'January',
   'year': '2007',
-  'author': 'Giovanni Denaro and Alessandra Gorla and Mauro\nPezz{\\`e}'
+  'author': 'Giovanni Denaro and Alessandra Gorla and Mauro\nPezzè'
 }, {
   'title': 'Kriging Controllers for Cloud Applications',
   'ID': 'Gambi:Kriging:IC:2013',
@@ -11011,7 +11011,7 @@ const jsbib = [{
   'number': '4',
   'pages': '40-47',
   'year': '2013',
-  'author': 'Alessio Gambi and Giovanni Toffetti and Cesare\nPautasso and Mauro Pezz{\\`e}',
+  'author': 'Alessio Gambi and Giovanni Toffetti and Cesare\nPautasso and Mauro Pezzè',
   'groups': 'STAR',
   'volume': '17'
 }, {
@@ -11019,7 +11019,7 @@ const jsbib = [{
   'title': 'Mining Behavior Models from User-intensive Web Applications',
   'pages': '277--287',
   'year': '2014',
-  'author': 'Ghezzi, Carlo and Pezz{\\`e}, Mauro and Sama, Michele and Tamburrelli, Giordano',
+  'author': 'Ghezzi, Carlo and Pezzè, Mauro and Sama, Michele and Tamburrelli, Giordano',
   'ID': 'Ghezzi:mining:ICSE:2014',
   'groups': 'STAR',
   'booktitle': 'Proceedings of the International Conference on Software Engineering',
@@ -11041,7 +11041,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Gorla:DaTeC:ICSErd:2009',
-  'author': 'Giovanni Denaro and Alessandra Gorla and Mauro\nPezz{\\`e}',
+  'author': 'Giovanni Denaro and Alessandra Gorla and Mauro\nPezzè',
   'title': 'DaTeC: Dataflow Testing of Java Classes',
   'booktitle': 'ICSE Companion \'09: Proceedings of the International\nConference on Software Engineering (Tool Demo)',
   'pages': '421--422',
@@ -11062,7 +11062,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Gorla:FaultHandlingSWRedundancy:ADS:2009',
-  'author': 'Antonio Carzaniga and Alessandra Gorla and Mauro\nPezz{\\`e}',
+  'author': 'Antonio Carzaniga and Alessandra Gorla and Mauro\nPezzè',
   'title': 'Fault Handling with Software Redundancy',
   'booktitle': 'Architecting Dependable Systems VI',
   'editor': 'R. de Lemos and J. Fabre and C. Gacek and\nF. Gadducci and M. ter Beek',
@@ -11106,7 +11106,7 @@ const jsbib = [{
   'pages': '1013--1015',
   'ENTRYTYPE': 'inproceedings',
   'year': '2011',
-  'author': 'Mariani, Leonardo and Pezz{\\`e}, Mauro and Riganelli, Oliviero and Santoro, Mauro'
+  'author': 'Mariani, Leonardo and Pezzè, Mauro and Riganelli, Oliviero and Santoro, Mauro'
 }, {
   'series': 'ICST \'12',
   'ID': 'Mariani:Autoblacktest:ICST:2012',
@@ -11116,7 +11116,7 @@ const jsbib = [{
   'pages': '81-90',
   'ENTRYTYPE': 'inproceedings',
   'year': '2012',
-  'author': 'Mariani, Leonardo and Pezz{\\`e}, Mauro and\nRiganelli, Oliviero and Santoro, Mauro',
+  'author': 'Mariani, Leonardo and Pezzè, Mauro and\nRiganelli, Oliviero and Santoro, Mauro',
   'groups': 'STAR'
 }, {
   'journal': 'IEEE Transactions on Software Engineering',
@@ -11126,7 +11126,7 @@ const jsbib = [{
   'ENTRYTYPE': 'article',
   'pdf': 'papers/2011-tse-mariani-bct.pdf',
   'year': '2011',
-  'author': 'Leonardo Mariani and Fabrizio Pastore and Mauro Pezz{\\`e}',
+  'author': 'Leonardo Mariani and Fabrizio Pastore and Mauro Pezzè',
   'groups': 'STAR,LTA'
 }, {
   'series': 'ISSTA \'14',
@@ -11137,7 +11137,7 @@ const jsbib = [{
   'pages': '373--384',
   'ENTRYTYPE': 'inproceedings',
   'year': '2014',
-  'author': 'Mariani, Leonardo and Pezz{\\`e}, Mauro and\nRiganelli, Oliviero and Santoro, Mauro',
+  'author': 'Mariani, Leonardo and Pezzè, Mauro and\nRiganelli, Oliviero and Santoro, Mauro',
   'groups': 'STAR'
 }, {
   'ID': 'Massarelli:EnsuringQuality:CSC:2009',
@@ -11171,7 +11171,7 @@ const jsbib = [{
   'pages': '782--791',
   'ENTRYTYPE': 'inproceedings',
   'year': '2013',
-  'author': 'Carzaniga, Antonio and Gorla, Alessandra and\nMattavelli, Andrea and Pezz{\\`e}, Mauro and Perino,\nNicol\\`{o}',
+  'author': 'Carzaniga, Antonio and Gorla, Alessandra and\nMattavelli, Andrea and Pezzè, Mauro and Perino,\nNicol\\`{o}',
   'groups': 'STAR'
 }, {
   'series': 'ESEC/FSE \'11',
@@ -11192,7 +11192,7 @@ const jsbib = [{
   'pages': '1--5',
   'ENTRYTYPE': 'inproceedings',
   'year': '2010',
-  'author': 'Mehdi Mirzaaghaei and Fabrizio Pastore and Mauro Pezz{\\`e}',
+  'author': 'Mehdi Mirzaaghaei and Fabrizio Pastore and Mauro Pezzè',
   'groups': 'STAR'
 }, {
   'series': 'ICST \'12',
@@ -11204,7 +11204,7 @@ const jsbib = [{
   'pages': '231--240',
   'ENTRYTYPE': 'inproceedings',
   'year': '2012',
-  'author': 'Mehdi Mirzaaghaei and Fabrizio Pastore and Mauro Pezz{\\`e}',
+  'author': 'Mehdi Mirzaaghaei and Fabrizio Pastore and Mauro Pezzè',
   'groups': 'STAR,LTA'
 }, {
   'ID': 'Pastore:Radar:ICSE:2013',
@@ -11226,7 +11226,7 @@ const jsbib = [{
   'groups': 'STAR'
 }, {
   'ID': 'Pezze:Continuous:ICSM:2012',
-  'author': 'Mauro Pezz{\\`e}',
+  'author': 'Mauro Pezzè',
   'title': 'From off-Line to continuous on-line maintenance',
   'booktitle': 'ICSM \'12: Proceedings of the 28th IEEE International\nConference on Software Maintenance',
   'pages': '2-3',
@@ -11242,7 +11242,7 @@ const jsbib = [{
   'number': '2',
   'pages': '16-29',
   'year': '2011',
-  'author': 'Mauro Pezz{\\`e} and Martin C. Rinard and Westley\nWeimer and Andreas Zeller',
+  'author': 'Mauro Pezzè and Martin C. Rinard and Westley\nWeimer and Andreas Zeller',
   'groups': 'STAR',
   'title': 'Self-Repairing Programs (Dagstuhl Seminar 11062)'
 }, {
@@ -11282,7 +11282,7 @@ const jsbib = [{
   'booktitle': 'ICST \'13: Proceedings of 6th International\nConference on Software Testing, Verification and\nValidation',
   'ENTRYTYPE': 'inproceedings',
   'year': '2013',
-  'author': 'Pezz{\\`e}, Mauro and Rubinov, Konstantin and Wuttke,\nJochen'
+  'author': 'Pezzè, Mauro and Rubinov, Konstantin and Wuttke,\nJochen'
 }, {
   'ID': 'Vivanti:dataflow:ICSE:2014',
   'author': 'Vivanti, Mattia',
@@ -11353,7 +11353,7 @@ const jsbib = [{
   'booktitle': 'PESOS \'10: Proceedings of International Workshop on\nPrinciples of Engineering Service-Oriented Systems',
   'ENTRYTYPE': 'inproceedings',
   'year': '2010',
-  'author': 'Alessio Gambi and Mauro Pezz{\\`e} and Toffetti\nCarughi, Giovanni'
+  'author': 'Alessio Gambi and Mauro Pezzè and Toffetti\nCarughi, Giovanni'
 }, {
   'ID': 'Knapp:UML:MSE:2006',
   'groups': 'STAR',
@@ -11380,14 +11380,14 @@ const jsbib = [{
   'pages': '411--412',
   'ENTRYTYPE': 'inproceedings',
   'year': '2009',
-  'author': 'Mauro Pezz{\\`e} and Jochen Wuttke'
+  'author': 'Mauro Pezzè and Jochen Wuttke'
 }, {
   'award': 'Best paper award',
   'volume': '6189',
   'title': 'Engineering Autonomic Controllers for Virtualized\nWeb Applications',
   'pages': '66-80',
   'year': '2010',
-  'author': 'Toffetti, Giovanni and Gambi, Alessio and Pezz{\\`e},\nMauro and Pautasso, Cesare',
+  'author': 'Toffetti, Giovanni and Gambi, Alessio and Pezzè,\nMauro and Pautasso, Cesare',
   'ID': 'Toffetti:virtualized:ICWE:2010',
   'editor': 'Benatallah, Boualem and Casati, Fabio and Kappel,\nGerti and Rossi, Gustavo',
   'booktitle': 'Web Engineering',
@@ -11452,7 +11452,7 @@ const jsbib = [{
   'title': 'D3 - Self-healing Technical Research on COTS Based Telecom Cloud - Fault prediction algorithm and prototype',
   'ENTRYTYPE': 'techreport',
   'year': '2014',
-  'author': 'Mariani, Leonardo and Pezz{\\`e}, Mauro and Riganelli,\nOliviero and Xin, Rui',
+  'author': 'Mariani, Leonardo and Pezzè, Mauro and Riganelli,\nOliviero and Xin, Rui',
   'ID': 'Mariani:Huawei:Deliverable3:2014'
 }, {
   'summary': 'Deliverable 2 2015 Fault localization algorithm and methodology',
@@ -11460,7 +11460,7 @@ const jsbib = [{
   'title': 'D2 - Self-healing Technical Research on COTS Based Telecom Cloud - A Solution for fault localization of network partial grey failures - methodology and tools',
   'ENTRYTYPE': 'techreport',
   'year': '2015',
-  'author': 'Mariani, Leonardo and Monni,\nCristina and Pezz{\\`e}, Mauro and Xin, Rui',
+  'author': 'Mariani, Leonardo and Monni,\nCristina and Pezzè, Mauro and Xin, Rui',
   'ID': 'Mariani:Huawei:Deliverable2:2015'
 }, {
   'summary': 'Deliverable 1 2015 Fault localization algorithm and methodology',
@@ -11468,7 +11468,7 @@ const jsbib = [{
   'title': 'D1 - Industry trend study of fault localization technical',
   'ENTRYTYPE': 'techreport',
   'year': '2015',
-  'author': 'Mariani, Leonardo and Monni,\nCristina and Pezz{\\`e}, Mauro and Xin, Rui',
+  'author': 'Mariani, Leonardo and Monni,\nCristina and Pezzè, Mauro and Xin, Rui',
   'ID': 'Mariani:Huawei:Deliverable1:2015'
 }, {
   'series': 'SOSP \'09',
@@ -12245,7 +12245,7 @@ const jsbib = [{
   'title': 'Heuristically Matching Solution Spaces of Arithmetic Formulas to Efficiently Reuse Solutions',
   'pages': '427--437',
   'year': '2017',
-  'author': 'Aquino, Andrea and Denaro, Giovanni and Pezz{\\`e}, Mauro',
+  'author': 'Aquino, Andrea and Denaro, Giovanni and Pezzè, Mauro',
   'ID': 'Aquino:SatDelta:ICSE:2017',
   'keywords': 'sat-delta, solution reuse, SMT solving',
   'groups': 'STAR',
@@ -12350,7 +12350,7 @@ const jsbib = [{
   'title': 'Predicting Failures in Multi-Tier Distributed Systems',
   'ENTRYTYPE': 'article',
   'year': '2017',
-  'author': 'Mariani, Leonardo and Pezz{\\`e}, Mauro and Riganelli, Oliviero and Xin, Rui',
+  'author': 'Mariani, Leonardo and Pezzè, Mauro and Riganelli, Oliviero and Xin, Rui',
   'journal': 'submitted for publication'
 }, {
   'series': 'ISSTA \'17',
@@ -12361,7 +12361,7 @@ const jsbib = [{
   'pages': '90--101',
   'ENTRYTYPE': 'inproceedings',
   'year': '2017',
-  'author': 'Braione, Pietro and Denaro, Giovanni and Mattavelli, Andrea and Pezz{\\`e}, Mauro',
+  'author': 'Braione, Pietro and Denaro, Giovanni and Mattavelli, Andrea and Pezzè, Mauro',
   'groups': 'STAR,LTA'
 }, {
   'series': 'ESEC/FSE \'17',
@@ -12384,7 +12384,7 @@ const jsbib = [{
   'number': '8',
   'pages': '747--783',
   'year': '2018',
-  'author': 'Francesco A. Bianchi and Alessandro Margara and Mauro Pezz{\\`e}',
+  'author': 'Francesco A. Bianchi and Alessandro Margara and Mauro Pezzè',
   'groups': 'STAR'
 }, {
   'ID': 'Bianchi:symposium:ICST:2016',
@@ -12415,7 +12415,7 @@ const jsbib = [{
   'pdf': 'papers/2017-sattose-blasi-comments.pdf',
   'ENTRYTYPE': 'inproceedings',
   'year': '2017',
-  'author': 'Arianna Blasi and Konstantin Kuznetsov and Alberto Goffi and Sergio Delgado Castellanos and Alessandra Gorla and Michael D. Ernst and Mauro Pezz{\\`e}'
+  'author': 'Arianna Blasi and Konstantin Kuznetsov and Alberto Goffi and Sergio Delgado Castellanos and Alessandra Gorla and Michael D. Ernst and Mauro Pezzè'
 }, {
   'series': 'ICST \'11',
   'ID': 'Shrestha:OraclesEvaluation:ICST:2011',
@@ -12428,7 +12428,7 @@ const jsbib = [{
   'author': 'Kavir Shrestha and Matthew J. Rutherford'
 }, {
   'ID': 'Goffi:IntrinsicRedundancy:PAUSE:2017',
-  'author': 'Goffi, Alberto and Gorla, Alessandra and Mattavelli, Andrea and Pezz{\\`e}, Mauro',
+  'author': 'Goffi, Alberto and Gorla, Alessandra and Mattavelli, Andrea and Pezzè, Mauro',
   'title': 'Intrinsic Redundancy for Reliability and Beyond',
   'booktitle': 'PAUSE: Present and Ulterior Software Engineering',
   'pdf': 'papers/2017-pause-goffi-redundancy.pdf',
@@ -12590,7 +12590,7 @@ const jsbib = [{
   'title': 'Cloud Reliable Infrastructure CURIX-Deliverable 1-Failure Prediction and Fault Localization',
   'ENTRYTYPE': 'techreport',
   'year': '2017',
-  'author': 'Monni, Cristina and Pezz{\\`e}, Mauro and Riganelli,\nOliviero and Xin, Rui',
+  'author': 'Monni, Cristina and Pezzè, Mauro and Riganelli,\nOliviero and Xin, Rui',
   'ID': 'Monni:Curix:Deliverable1:2017'
 }, {
   'ID': 'Xenserver:Cloud:2017',
@@ -12881,7 +12881,7 @@ const jsbib = [{
   'booktitle': 'Proceedings of the International Symposium on Software Reliability Engineering',
   'ENTRYTYPE': 'inproceedings',
   'year': '2017',
-  'author': 'Gazzola, Luca and Mariani, Leonardo and Pastore, Fabrizio and Pezz{\\`e}, Mauro'
+  'author': 'Gazzola, Luca and Mariani, Leonardo and Pastore, Fabrizio and Pezzè, Mauro'
 }, {
   'journal': 'IEEE Transactions on Software Engineering',
   'ID': 'Mariani:gk-tail:tse:2017',
@@ -12891,7 +12891,7 @@ const jsbib = [{
   'number': '8',
   'pages': '715--738',
   'year': '2017',
-  'author': 'Mariani, Leonardo and Pezz{\\`e}, Mauro and Santoro, Mauro',
+  'author': 'Mariani, Leonardo and Pezzè, Mauro and Santoro, Mauro',
   'groups': 'STAR,LTA',
   'publisher': 'IEEE Computer Society'
 }, {
@@ -13365,7 +13365,7 @@ const jsbib = [{
   'title': 'D3 - Cloud Reliable Infrastructure CURIX - Results and Best Practice Runtime Healing Capabilities',
   'ENTRYTYPE': 'techreport',
   'year': '2017',
-  'author': 'Monni, Cristina and Pezz{\\`e}, Mauro',
+  'author': 'Monni, Cristina and Pezzè, Mauro',
   'ID': 'Monni:Curix:Deliverable3:2017'
 }, {
   'journal': 'Computer',
@@ -14307,7 +14307,7 @@ const jsbib = [{
   'pdf': 'papers/2018-issta-blasi-jdoctor.pdf',
   'ENTRYTYPE': 'inproceedings',
   'year': '2018',
-  'author': 'Blasi, Arianna and Goffi, Alberto and Kuznetsov, Konstantin and Gorla, Alessandra and Ernst, Michael D. and Pezz{\\`e}, Mauro and Delgado Castellanos, Sergio',
+  'author': 'Blasi, Arianna and Goffi, Alberto and Kuznetsov, Konstantin and Gorla, Alessandra and Ernst, Michael D. and Pezzè, Mauro and Delgado Castellanos, Sergio',
   'groups': 'STAR'
 }, {
   'series': 'SATToSE \'14',
@@ -14396,7 +14396,7 @@ const jsbib = [{
   'pages': '262--273',
   'ENTRYTYPE': 'inproceedings',
   'year': '2018',
-  'author': 'Leonardo Mariani and Cristina Monni and Mauro Pezz{\\`e}  and Oliviero Riganelli  and Rui Xin',
+  'author': 'Leonardo Mariani and Cristina Monni and Mauro Pezzè  and Oliviero Riganelli  and Rui Xin',
   'ID': 'Mariani:LOUD:ICST:2018',
   'groups': 'STAR'
 }, {
@@ -14439,7 +14439,7 @@ const jsbib = [{
   'pdf': 'papers/2018-ase-terragni-contest.pdf',
   'ENTRYTYPE': 'inproceedings',
   'year': '2018',
-  'author': 'Terragni, Valerio and Pezz{\\`e}, Mauro',
+  'author': 'Terragni, Valerio and Pezzè, Mauro',
   'groups': 'STAR'
 }, {
   'series': 'ISSTA companion \'18',
@@ -14449,7 +14449,7 @@ const jsbib = [{
   'booktitle': 'Proceedings of the International Symposium on Software Testing and Analysis',
   'ENTRYTYPE': 'inproceedings',
   'year': '2018',
-  'author': 'Pezz{\\`e}, Mauro and Rondena, Paolo and Zuddas, Daniele',
+  'author': 'Pezzè, Mauro and Rondena, Paolo and Zuddas, Daniele',
   'groups': 'STAR'
 }, {
   'ID': 'Tetali:PAforCloud:2015',
@@ -15149,7 +15149,7 @@ const jsbib = [{
   'pages': 'to appear',
   'ENTRYTYPE': 'inproceedings',
   'year': '2019',
-  'author': 'Monni, Cristina and Pezz{\\`e}, Mauro',
+  'author': 'Monni, Cristina and Pezzè, Mauro',
   'groups': 'STAR'
 }, {
   'series': 'ISSTA \'15',

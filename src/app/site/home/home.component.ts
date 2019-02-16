@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 import {root} from 'rxjs/internal-compatibility';
+import {NewsService} from '../../services/news.service';
+import {News} from '../../models/news.models';
 
 @Component({
   selector: 'app-home',
@@ -9,9 +11,12 @@ import {root} from 'rxjs/internal-compatibility';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  NEWS: News[];
+  constructor(private router: Router, private newsService: NewsService) { }
 
   ngOnInit() {
+    this.newsService.getNews()
+      .subscribe(news => {this.NEWS = news; });
   }
 
 }

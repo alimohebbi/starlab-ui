@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import doParse from 'bibtex-parser';
-import {BibpubService} from '../bibpub.service';
+import {BibpubService} from '../../services/bibpub.service';
 import * as Cite from 'citation-js';
 import * as bibCite from 'bibtex-parse-js';
 import jsbib from './listofbib';
@@ -21,8 +21,15 @@ export class PublicationComponent implements OnInit {
 
   ngOnInit() {
 
-    const temp = jsbib.sort((obj1, obj2) => (obj1.year > obj2.year) ? -1 : 0);
-    this.entries = temp;
+    const temp = jsbib.filter(entry => entry.groups === 'STAR');
+    this.entries = temp.sort((obj1, obj2) => {
+      if (Number(obj1.year) > Number(obj2.year)) {
+        return -1;
+      } else if (Number(obj1.year) < Number(obj2.year)) {
+        return 1;
+      }
+      return 0;
+    });
     // this.bibpubServie.getBib().subscribe(response => this.parseBibFromText(response.text()));
   }
 

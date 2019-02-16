@@ -36,42 +36,42 @@
       <div class="card example-1 scrollbar-morpheus-den">
         <div class="card-body">
           <div class="container">
-            <div class="row">
-              <div class="col-md-auto">
-                <span class=" mt-1 genric-btn primary circle small">Dec. 2012</span>
-              </div>
-              <div class="col">
-                Alessio Gambi and Mario Bisignani won the ATED - ICT Ticino price. by Pasquale
-                Salza, Fabio Palomba, Dario Di Nucci, Cosmo D'Uva, Andrea De Lucia, and Filomena Ferrucci was accepted at ICPC 2018.
-                Salza, Fabio Palomba, Dario Di Nucci, Cosmo D'Uva, Andrea De Lucia, and Filomena Ferrucci was accepted at ICPC 2018
-                Salza, Fabio Palomba, Dario Di Nucci, Cosmo D'Uva, Andrea De Lucia, and Filomena Ferrucci was accepted at ICPC 2018
-                <br>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-auto">
-                <span class=" mt-1 genric-btn primary circle small">Dec. 2012</span>
-              </div>
-              <div class="col">
-                Alessio Gambi and Mario Bisignani won the ATED - ICT Ticino price. by Pasquale
-                Salza, Fabio Palomba, Dario Di Nucci, Cosmo D'Uva, Andrea De Lucia, and Filomena Ferrucci was accepted at ICPC 2018. <br>              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-auto">
-                <span class=" mt-1 genric-btn primary circle small">Dec. 2012</span>
-              </div>
-              <div class="col">
-                Alessio Gambi and Mario Bisignani won the ATED - ICT Ticino price. by Pasquale
-                Salza, Fabio Palomba, Dario Di Nucci, Cosmo D'Uva, Andrea De Lucia, and Filomena Ferrucci was accepted at ICPC 2018. <br>              </div>
-            </div>
 
+            <div class="row" *ngFor="let feed of NEWS">
+              <div class="col-md-auto">
+                <span class=" genric-btn primary circle small">{{feed.pub_date | date:'MMM'}}
+                  . {{feed.pub_date | date:'yyyy'}}</span>
+              </div>
+              <div class="col" [innerHTML]="feed.news_text">
+
+              </div>
+            </div>
             <div class="row">
               <div class="col-md-auto">
                 <span class=" mt-1 genric-btn primary circle small">Dec. 2012</span>
               </div>
               <div class="col">
                 Alessio Gambi and Mario Bisignani won the ATED - ICT Ticino price. by Pasquale
-                Salza, Fabio Palomba, Dario Di Nucci, Cosmo D'Uva, Andrea De Lucia, and Filomena Ferrucci was accepted at ICPC 2018. <br>              </div>
+                Salza, Fabio Palomba, Dario Di Nucci, Cosmo D'Uva, Andrea De Lucia, and Filomena Ferrucci was accepted
+                at ICPC 2018. <br></div>
+            </div>
+            <div class="row">
+              <div class="col-md-auto">
+                <span class=" mt-1 genric-btn primary circle small">Dec. 2012</span>
+              </div>
+              <div class="col">
+                Alessio Gambi and Mario Bisignani won the ATED - ICT Ticino price. by Pasquale
+                Salza, Fabio Palomba, Dario Di Nucci, Cosmo D'Uva, Andrea De Lucia, and Filomena Ferrucci was accepted
+                at ICPC 2018. <br></div>
+            </div>
+            <div class="row">
+              <div class="col-md-auto">
+                <span class=" mt-1 genric-btn primary circle small">Dec. 2012</span>
+              </div>
+              <div class="col">
+                Alessio Gambi and Mario Bisignani won the ATED - ICT Ticino price. by Pasquale
+                Salza, Fabio Palomba, Dario Di Nucci, Cosmo D'Uva, Andrea De Lucia, and Filomena Ferrucci was accepted
+                at ICPC 2018. <br></div>
             </div>
 
 
@@ -106,7 +106,7 @@
 <!-- End Research Area -->
 
 <!-- Start Research Area -->
-<section class="services-area pb-100" >
+<section class="services-area pb-100">
   <div class="container">
     <div class="row">
       <div class="col-lg-4">

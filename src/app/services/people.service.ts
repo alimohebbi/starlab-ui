@@ -8,7 +8,7 @@ import {People} from '../models/people.models';
 })
 export class PeopleService {
   // private url = 'http://localhost:8000/api/people';
-  private url = 'http://alimohebbi.pythonanywhere.com/api/people';
+  private url = 'https://alimohebbi.pythonanywhere.com/api/people';
 
   constructor( private http: HttpClient) { }
 

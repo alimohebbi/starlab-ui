@@ -1,6 +1,6 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs';
-import { HttpClient } from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 import {People} from '../models/people.models';
 
 @Injectable({
@@ -8,9 +8,13 @@ import {People} from '../models/people.models';
 })
 export class PeopleService {
   // private url = 'http://localhost:8000/api/people';
-  private url = 'https://alimohebbi.pythonanywhere.com/api/people';
+  private url = 'http://star-lab.ddns.net/api/people';
 
-  constructor( private http: HttpClient) { }
+  // private url = 'https://alimohebbi.pythonanywhere.com/api/people';
+
+
+  constructor(private http: HttpClient) {
+  }
 
   getPeople(): Observable<People[]> {
     return this.http.get<People[]>(this.url);

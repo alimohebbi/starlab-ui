@@ -38,11 +38,11 @@
           <div class="container">
 
             <div class="row" *ngFor="let feed of NEWS">
-              <div class="col-md-auto">
-                <span class=" genric-btn primary circle small">{{feed.pub_date | date:'MMM'}}
+              <div class="col-2 mt-1">
+                <span class=" genric-btn btn-block  primary circle small">{{feed.pub_date | date:'MMM'}}
                   . {{feed.pub_date | date:'yyyy'}}</span>
               </div>
-              <div class="col" [innerHTML]="feed.news_text">
+              <div class="col-10 mt-1" [innerHTML]="feed.news_text">
 
               </div>
             </div>

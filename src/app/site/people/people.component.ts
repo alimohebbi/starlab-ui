@@ -21,6 +21,7 @@ export class PeopleComponent implements OnInit {
         this.PEOPLE = people;
         console.log(this.PEOPLE);
       });
-
   }
+
+
 }

@@ -7,9 +7,9 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
   providedIn: 'root'
 })
 export class NewsService {
-  private url = 'https://alimohebbi.pythonanywhere.com/api/news';
+  // private url = 'https://alimohebbi.pythonanywhere.com/api/news';
   // private url = 'http://localhost:8000/api/news';
-  // private url = 'http://star-lab.ddns.net/api/news';
+  private url = 'http://star-lab.ddns.net/api/news';
 
 
   constructor(private http: HttpClient) {

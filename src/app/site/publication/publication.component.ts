@@ -3,7 +3,7 @@ import doParse from 'bibtex-parser';
 import {BibpubService} from '../../services/bibpub.service';
 import * as Cite from 'citation-js';
 import * as bibCite from 'bibtex-parse-js';
-import jsbib from './listofbib';
+import jsbib from './listofbib2';
 
 @Component({
   selector: 'app-publication',
@@ -15,22 +15,33 @@ export class PublicationComponent implements OnInit {
   selectedBib: any;
   selectedEntry: any = '';
   entries;
+  currentYear;
+  loading: boolean;
 
   constructor(private bibpubServie: BibpubService) {
   }
 
   ngOnInit() {
-
-    const temp = jsbib.filter(entry => entry.groups === 'STAR');
-    this.entries = temp.sort((obj1, obj2) => {
-      if (Number(obj1.year) > Number(obj2.year)) {
-        return -1;
-      } else if (Number(obj1.year) < Number(obj2.year)) {
-        return 1;
-      }
-      return 0;
+    this.loading = true;
+    /*
+        const temp = jsbib.filter(entry => entry.groups === 'STAR');
+        this.entries = temp.sort((obj1, obj2) => {
+          if (Number(obj1.year) > Number(obj2.year)) {
+            return -1;
+          } else if (Number(obj1.year) < Number(obj2.year)) {
+            return 1;
+          }
+          return 0;
+        });*/
+    this.bibpubServie.getBib().subscribe(response => {
+      this.prepareBibData(response);
+      this.loading = false;
     });
-    // this.bibpubServie.getBib().subscribe(response => this.parseBibFromText(response.text()));
+  }
+
+
+  setCurrentYear(newYear) {
+    this.currentYear = newYear;
   }
 
 
@@ -80,33 +91,12 @@ export class PublicationComponent implements OnInit {
     this.selectedBib = this.toBibtexSingle(paper);
   }
 
-  toBibtex(json) {
-    let out = '';
-    for (const i of json) {
-      console.log(i);
-      out += '@' + i.ENTRYTYPE;
-      out += '{';
-      out += i.ID;
-
-      for (const jdx of Object.keys(i)) {
-        if (jdx !== 'ENTRYTYPE' && jdx !== 'ID') {
-
-          out += ', \n';
-          out += jdx + '= {' + i[jdx] + '}';
-        }
-      }
-
-    }
-    out += '\n}\n';
-    console.log(out);
-    return out;
-  }
 
   toBibtexSingle(i) {
     let out = '';
     console.log(i);
     out += '@' + i.ENTRYTYPE;
-    out += '{';
+    out += '{ ';
     out += i.ID;
 
     for (const jdx of Object.keys(i)) {
@@ -119,5 +109,17 @@ export class PublicationComponent implements OnInit {
     out += '\n}\n';
     console.log(out);
     return out;
+  }
+
+  private prepareBibData(response) {
+    const temp = response.filter(entry => entry.groups === 'STAR');
+    this.entries = temp.sort((obj1, obj2) => {
+      if (Number(obj1.year) > Number(obj2.year)) {
+        return -1;
+      } else if (Number(obj1.year) < Number(obj2.year)) {
+        return 1;
+      }
+      return 0;
+    });
   }
 }

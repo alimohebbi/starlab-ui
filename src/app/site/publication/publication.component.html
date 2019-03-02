@@ -19,26 +19,62 @@
   <section class="about-generic-area section-gap">
     <div class="container border-top-generic">
 
+      <!--<div class="spinner-border text-primary" role="status">-->
+      <!--<span class="sr-only">Loading...</span>-->
+      <!--</div>-->
 
-      <div class=" container alert alert-warning" *ngFor="let paper of entries">
-        <div class="row align-items-center">
-          <div class="col-10 ">
-            <div><span *ngIf="paper.title"><b class="paper-title">{{paper.title}} </b></span></div>
-            <span *ngIf="paper.author">{{paper.author}} </span>
-            <span *ngIf="paper.year">, {{paper.year}} </span>
-            <span *ngIf="paper.jouranl"><i>, {{paper.journal}}</i> </span>
-            <span *ngIf="paper.booktitle"><i>, {{paper.booktitle}}</i> </span>
-            <span *ngIf="paper.publisher">, {{paper.publisher}} </span>
-            <span *ngIf="paper.pages">{{paper.pages}}, </span>
-          </div>
-          <div class="col-2  btn btn-info " (click)="onSelect(paper);">bibtex</div>
+
+      <div *ngIf="loading == true" class="row d-flex justify-content-center">
+        <div id="loader">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="loading"></div>
         </div>
-        <div class="row" *ngIf="paper.ID === selectedEntry.ID">
-          <div class="col-6 alert alert-primary mt-2">
-            {{selectedBib}}
+        <div class="row mt-auto">
+          <div>Loading...</div>
+        </div>
+      </div>
+
+
+      <div *ngFor="let paper of entries">
+        <div *ngIf="currentYear !== paper.year;">
+          <h3>{{paper.year}}</h3>
+          {{setCurrentYear(paper.year)}}
+          <hr/>
+        </div>
+
+        <div class=" container alert btn-light">
+          <div class="row align-items-center">
+            <div class="col-10 ">
+              <div><span *ngIf="paper.title"><b class="paper-title">{{paper.title}} </b></span></div>
+              <span *ngIf="paper.author">{{paper.author}} </span>
+              <span *ngIf="paper.year">, {{paper.year}} </span>
+              <span *ngIf="paper.journal"><i>, {{paper.journal}}</i> </span>
+              <span *ngIf="paper.booktitle"><i>, {{paper.booktitle}}</i> </span>
+              <span *ngIf="paper.publisher">, {{paper.publisher}} </span>
+              <span *ngIf="paper.pages">, {{paper.pages}} </span>
+            </div>
+            <div class="col">
+              <div class=" btn btn-block btn-primary " role="button" (click)="onSelect(paper);">bibtex</div>
+              <a class=" btn btn-block btn-primary mt-1 " *ngIf="paper.pdf"
+                 href="http://star.inf.usi.ch/star/{{paper.pdf}}"
+                 role="button">PDF</a>
+            </div>
+          </div>
+          <div class="row" *ngIf="paper.ID === selectedEntry.ID">
+            <div class="col alert alert-primary mt-2">
+              {{selectedBib}}
+            </div>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 </div>

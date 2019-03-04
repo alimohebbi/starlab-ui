@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Software} from '../../models/software.models';
+import {SoftwareService} from '../../services/software.service';
 
 @Component({
   selector: 'app-software-data',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SoftwareDataComponent implements OnInit {
 
-  constructor() { }
+  SOFTWARE: Software[];
+
+  constructor(private softwareService: SoftwareService) {
+  }
 
   ngOnInit() {
+    this.softwareService.getSoftwareList()
+      .subscribe(softwareList => this.SOFTWARE = softwareList);
   }
 
 }

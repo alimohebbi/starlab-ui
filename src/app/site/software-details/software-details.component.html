@@ -1,0 +1,56 @@
+<section class="generic-banner relative">
+  <div class="container">
+    <div class="row height align-items-center justify-content-center">
+      <div class="col-lg-10">
+        <div class="generic-banner-content">
+          <h2 class="text-white">Software</h2>
+
+
+          <!--<p class="text-white">It won’t be entries bigger problem to find one video game lover in your <br> neighbor. Since the introduction of Virtual Game.</p>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="main-wrapper">
+
+  <!-- Start Generic Area -->
+  <section class="about-generic-area section-gap">
+    <div class="container border-top-generic ">
+      <div class=" row justify-content-center">
+        <div class="col-auto">
+          <h3>{{soft.title}}</h3>
+        </div>
+      </div>
+
+      <p class="mt-5">{{soft.introduction}}</p>
+      <hr>
+      <h5>Authors</h5>
+
+
+      <div class="row">
+        <!--<div class="clearfix" *ngIf="i % 2 == 0"></div>-->
+        <div class="mt-3 col-6 col-sm-4 col-lg-2" *ngFor="let person of PEOPLE">
+
+          <div class="card">
+            <div class="image-team ">
+              <img src="{{person.image}}" class="img img-responsive full-width " alt="{{person.first_name}}">
+            </div>
+            <div class="container ">
+              <h3>
+                <a class="team-member"
+                   href="{{person.web_page}}">
+                  <div>{{person.first_name}} </div>
+                  <div>{{person.last_name}}</div>
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="software-page" [innerHTML]="detail"></div>
+    </div>
+  </section>
+</div>

@@ -9,7 +9,7 @@ const httpOptions = {
 @Injectable({
   providedIn: 'root'
 })
-export class BibpubService {
+export class PublicationService {
   private bibUrl = 'http://localhost:8000/api/publications';
 
   constructor(private http: HttpClient) {

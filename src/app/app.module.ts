@@ -13,6 +13,7 @@ import {PublicationComponent} from './site/publication/publication.component';
 import {HttpClientModule} from '@angular/common/http';
 import {HttpModule} from '@angular/http';
 import {FilterByTitle} from './Pipes/filterbytitle';
+import { SoftwareDetailsComponent } from './site/software-details/software-details.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import {FilterByTitle} from './Pipes/filterbytitle';
     SoftwareDataComponent,
     PublicationComponent,
     FilterByTitle,
+    SoftwareDetailsComponent,
   ],
   imports: [
     BrowserModule,

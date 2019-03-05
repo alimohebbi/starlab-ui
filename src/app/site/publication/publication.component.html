@@ -22,24 +22,34 @@
       <!--<div class="spinner-border text-primary" role="status">-->
       <!--<span class="sr-only">Loading...</span>-->
       <!--</div>-->
-
-
-      <div *ngIf="loading == true" class="row d-flex justify-content-center">
-        <div id="loader">
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="loading"></div>
+      <div *ngIf="loading" class="row justify-content-center">
+        <div class="col-2 align-content-end">
+          <h3>Loading</h3>
         </div>
-        <div class="row mt-auto">
-          <div>Loading...</div>
+
+      </div>
+      <div *ngIf="loading == true" class="progress mt-2">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50"
+             aria-valuemin="0" aria-valuemax="100" [style.width.%]="progressStatus">{{progressStatus}}%
         </div>
       </div>
+
+      <!--<div *ngIf="loading == true" class="row d-flex justify-content-center">-->
+      <!--<div id="loader">-->
+      <!--<div class="dot"></div>-->
+      <!--<div class="dot"></div>-->
+      <!--<div class="dot"></div>-->
+      <!--<div class="dot"></div>-->
+      <!--<div class="dot"></div>-->
+      <!--<div class="dot"></div>-->
+      <!--<div class="dot"></div>-->
+      <!--<div class="dot"></div>-->
+      <!--<div class="loading"></div>-->
+      <!--</div>-->
+      <!--<div class="row mt-auto">-->
+      <!--<div>Loading...</div>-->
+      <!--</div>-->
+      <!--</div>-->
 
 
       <div *ngFor="let paper of entries">

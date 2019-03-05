@@ -10,7 +10,8 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class PublicationService {
-  private bibUrl = 'http://localhost:8000/api/publications';
+  // private bibUrl = 'http://localhost:8000/api/publications';
+  private bibUrl = 'https://alimohebbi.pythonanywhere.com/api/publications';
 
   constructor(private http: HttpClient) {
 
@@ -19,7 +20,6 @@ export class PublicationService {
 
   getBib(): Observable<any[]> {
 
-    // return this.http.get(this.heroesUrl, {responseType: 'text'});
     return this.http.get<any[]>(this.bibUrl);
   }
 

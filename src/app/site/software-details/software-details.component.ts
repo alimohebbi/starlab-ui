@@ -12,9 +12,9 @@ import {DomSanitizer} from '@angular/platform-browser';
 })
 export class SoftwareDetailsComponent implements OnInit {
 
-  private soft: Software;
-  private PEOPLE: People[];
-  private detail: any;
+  soft: Software;
+  PEOPLE: People[];
+  detail: any;
 
   constructor(private route: ActivatedRoute,
               private softwareService: SoftwareService,

@@ -11,7 +11,7 @@ export class SoftwareService {
   // private url = 'http://localhost:8000/api/software';
   private url = 'https://alimohebbi.pythonanywhere.com/api/software';
 
-  constructor(private  http: HttpClient ) {
+  constructor(private  http: HttpClient) {
   }
 
   getSoftwareList(): Observable<Software[]> {
@@ -32,7 +32,8 @@ export class SoftwareService {
 
   getHtmlDetail(url: string): Observable<string> {
     console.log(url);
-    return this.http.get(url  , {responseType: 'text'});
+    url = url.replace('http', 'https');
+    return this.http.get(url, {responseType: 'text'});
   }
 
 

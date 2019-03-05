@@ -68,13 +68,22 @@
   width: 100%;
 }
 
-::ng-deep .software-page li {
+
+/*detail section*/
+
+::ng-deep .software-page ol li {
   list-style-type: decimal;
   list-style-position: inside;
   padding-left: 20px;
 }
 
-::ng-deep ol {
+::ng-deep .software-page ul li {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
+::ng-deep .software-page ol, ::ng-deep .software-page ul {
   padding-left: 20px;
 }
 

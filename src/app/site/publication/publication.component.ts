@@ -36,21 +36,6 @@ export class PublicationComponent implements OnInit {
     this.currentYear = newYear;
   }
 
-
-  parseBibFromText(bibInput: string) {
-    const myRegex = this.cleanData(bibInput);
-    // console.log(doParse(myRegex));
-
-    console.log(myRegex);
-    const example = new Cite(myRegex, {forceType: '@bibtex/text'});
-
-    this.entries = example.format('bibliography', {
-      format: 'bibtex',
-      template: 'apa',
-      lang: 'en-US'
-    });
-  }
-
   cleanData(bibInput) {
     let myRegex = bibInput.replace(/^%.*\n?/mg, '');
     // myRegex = myRegex.replace(/^@String.*\n?/mg, '');
@@ -80,27 +65,13 @@ export class PublicationComponent implements OnInit {
       return;
     }
     this.selectedEntry = paper;
-    this.selectedBib = this.toBibtexSingle(paper);
+    this.selectedBib = this.toBibtex(paper);
   }
 
-
-  toBibtexSingle(i) {
-    let out = '';
-    console.log(i);
-    out += '@' + i.ENTRYTYPE;
-    out += '{ ';
-    out += i.ID;
-
-    for (const jdx of Object.keys(i)) {
-      if (jdx !== 'ENTRYTYPE' && jdx !== 'ID') {
-
-        out += ', \n';
-        out += jdx + '= {' + i[jdx] + '}';
-      }
-    }
-    out += '\n}\n';
-    console.log(out);
-    return out;
+  toBibtex(i) {
+    const out = this.publicationService.jsonToBibtex(i);
+    const cite = new Cite(out);
+    return cite.get({format: 'real', type: 'html', style: 'bibtex'});
   }
 
   private prepareBibData(response) {
@@ -116,9 +87,9 @@ export class PublicationComponent implements OnInit {
   }
 
   private progress() {
-    const source = interval(1000);
+    const source = interval(100);
     const example = source.pipe(takeWhile(() => this.progressStatus < 100 ? this.loading : false))
     ;
-    example.subscribe(() => this.progressStatus = this.progressStatus + 10);
+    example.subscribe(() => this.progressStatus = this.progressStatus + 1);
   }
 }

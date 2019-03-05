@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core';
 import {Observable, of} from 'rxjs';
 import {HttpClient, HttpHeaders, HttpResponse} from '@angular/common/http';
+import * as Cite from 'citation-js';
 
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
@@ -11,6 +12,7 @@ const httpOptions = {
 })
 export class PublicationService {
   // private bibUrl = 'http://localhost:8000/api/publications';
+
   private bibUrl = 'https://alimohebbi.pythonanywhere.com/api/publications';
 
   constructor(private http: HttpClient) {
@@ -40,4 +42,20 @@ export class PublicationService {
     };
   }
 
+  jsonToBibtex(value) {
+    let out = '';
+    out += '@' + value.ENTRYTYPE;
+    out += '{ ';
+    out += value.ID;
+    for (const jdx of Object.keys(value)) {
+      if (jdx !== 'ENTRYTYPE' && jdx !== 'ID') {
+
+        out += ', \n';
+        const temp = String(value[jdx]).replace(/(\r\n|\n|\r)/gm, ' ');
+        out += '' + jdx + '= {' + temp + '}';
+      }
+    }
+    out += '\n}\n';
+    return out;
+  }
 }

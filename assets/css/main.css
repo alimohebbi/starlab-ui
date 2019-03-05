@@ -1965,9 +1965,11 @@ h1, h2, h3, h4, h5, h6 {
   .navbar-nav {
     margin-top: 10px;
   }
+
   .navbar-nav a {
     padding: 0;
   }
+
   .navbar-nav li {
     padding: 15px 0;
   }
@@ -1996,6 +1998,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: all 200ms ease-in;
     transition: all 200ms ease-in;
   }
+
   .dropdown:hover .dropdown-menu {
     display: block;
     opacity: 1;

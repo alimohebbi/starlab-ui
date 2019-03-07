@@ -2171,15 +2171,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .banner-area {
-  margin-top: -56px;
-  border-radius: 10px;
-  background: url(../img/header-bg.jpg) center;
-  background-size: cover;
-
-}
-
-::ng-deep .banner-area {
-  margin-top: -56px;
+  margin-top: -62px;
   border-radius: 10px;
   background: url(../img/header-bg.jpg) center;
   background-size: cover;

@@ -2179,7 +2179,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 2000.98px) {
   .banner-area .fullscreen {
-    height: 800px !important;
+    height: 450px !important;
+    /*height: 800px !important;*/
   }
 }
 
@@ -2232,8 +2233,12 @@ h1, h2, h3, h4, h5, h6 {
 .banner-content h5, a {
   color: #8ab92d;
   font-weight: 300;
-  letter-spacing: 3px;
   font-size: 14px;
+}
+
+.banner-content a, .banner-content h5, .navbar a {
+  letter-spacing: 3px;
+
 }
 
 a[role=button] {

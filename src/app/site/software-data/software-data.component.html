@@ -28,8 +28,9 @@
               <h3 class="my-0 font-weight-normal text-center">{{soft.title}}</h3>
             </div>
             <div class="card-body d-flex flex-column">
-              <p>
-                {{soft.description}}
+              <p [innerHTML]="soft.description">
+
+
               </p>
               <a *ngIf="soft.detail || soft.introduction; else disable_button" routerLink="/software-data/{{soft.id}}"
                  class="btn btn-lg btn-block btn-primary mt-auto" role="button">

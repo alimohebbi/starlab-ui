@@ -1,6 +1,10 @@
 .btn-light {
-  white-space: pre-wrap;
+  white-space: normal;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);;
+}
+
+.alert-primary {
+  word-break: break-all;
 }
 
 .paper-title {
@@ -11,8 +15,9 @@
   padding-left: 20px;
 
 }
+
 ::ng-deep .alert-primary {
- font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
   font-size: smaller;
 }
 

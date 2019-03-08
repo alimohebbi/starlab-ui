@@ -96,7 +96,7 @@ letter-spacing: 0
   margin-right: auto;
 }
 
-::ng-deep h3, ::ng-deep h4, ::ng-deep h5 {
+::ng-deep .software-page h3, ::ng-deep .software-page h4, ::ng-deep .software-page h5 {
   margin-top: 30px;
   margin-bottom: 20px;
 }

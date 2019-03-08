@@ -19,9 +19,6 @@
   <section class="about-generic-area section-gap">
     <div class="container border-top-generic">
 
-      <!--<div class="spinner-border text-primary" role="status">-->
-      <!--<span class="sr-only">Loading...</span>-->
-      <!--</div>-->
       <div *ngIf="loading" class="row">
         <div class="col">
           <h3>Loading ...</h3>
@@ -37,7 +34,7 @@
         <div *ngIf="currentYear !== paper.year;">
           <h3>{{paper.year}}</h3>
           {{setCurrentYear(paper.year)}}
-          <hr/>
+          <hr class="border-info"/>
         </div>
 
         <div class=" container alert btn-light ">
@@ -45,13 +42,6 @@
             <div class="col-10 pl-4">
               <div class=" row" [innerHTML]="paper | citation"></div>
 
-<!--              <div class="row"><span *ngIf="paper.title"><b class="paper-title">{{paper.title}} </b></span></div>
-              <span *ngIf="paper.author">{{paper.author}} </span>
-              <span *ngIf="paper.year">, {{paper.year}} </span>
-              <span *ngIf="paper.journal"><i>, {{paper.journal}}</i> </span>
-              <span *ngIf="paper.booktitle"><i>, {{paper.booktitle}}</i> </span>
-              <span *ngIf="paper.publisher">, {{paper.publisher}} </span>
-              <span *ngIf="paper.pages">, {{paper.pages}} </span>-->
             </div>
             <div class="col">
               <div class=" btn btn-block btn-primary " role="button" (click)="onSelect(paper);">bibtex</div>

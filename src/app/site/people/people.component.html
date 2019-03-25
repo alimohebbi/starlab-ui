@@ -4,9 +4,6 @@
       <div class="col-lg-10">
         <div class="generic-banner-content">
           <h2 class="text-white">List of Current and Past Members</h2>
-
-
-          <!--<p class="text-white">It won’t be entries bigger problem to find one video game lover in your <br> neighbor. Since the introduction of Virtual Game.</p>-->
         </div>
       </div>
     </div>
@@ -25,7 +22,8 @@
       <!--new-->
       <div class="row">
         <!--<div class="clearfix" *ngIf="i % 2 == 0"></div>-->
-        <div class="mt-3 col-6 col-sm-4 col-lg-3" *ngFor="let person of PEOPLE | filterByTitle:{title: 'invest'}; let i = index">
+        <div class="mt-3 col-6 col-sm-4 col-lg-3"
+             *ngFor="let person of PEOPLE | filterByField:{val: 'invest', field:'title'}; let i = index">
 
           <div class="card">
             <div class="image-team">
@@ -44,11 +42,10 @@
 
       <h3 class="mt-5 about-title mb-30">Post-docs</h3>
 
-
-
       <div class="row">
         <!--<div class="clearfix" *ngIf="i % 2 == 0"></div>-->
-        <div class="mt-3 col-6 col-sm-4 col-lg-3" *ngFor="let person of PEOPLE | filterByTitle:{title: 'post'}; let i = index">
+        <div class="mt-3 col-6 col-sm-4 col-lg-3"
+             *ngFor="let person of PEOPLE | filterByField:{val: 'post', field:'title'}; let i = index">
 
           <div class="card">
             <div class="image-team">
@@ -66,12 +63,11 @@
       </div>
 
 
-
-
       <h3 class="mt-5 about-title mb-30">PhD Students</h3>
       <div class="row">
         <!--<div class="clearfix" *ngIf="i % 2 == 0"></div>-->
-        <div class="mt-3 col-6 col-sm-4 col-lg-3" *ngFor="let person of PEOPLE | filterByTitle:{title: 'phd'}; let i = index">
+        <div class="mt-3 col-6 col-sm-4 col-lg-3"
+             *ngFor="let person of PEOPLE | filterByField:{val: 'phd', field:'title'}; let i = index">
 
           <div class="card">
             <div class="image-team">
@@ -92,7 +88,8 @@
 
       <div class="row">
         <!--<div class="clearfix" *ngIf="i % 2 == 0"></div>-->
-        <div class="mt-3 col-6 col-sm-4 col-lg-3" *ngFor="let person of PEOPLE | filterByTitle:{title: 'former'}; let i = index">
+        <div class="mt-3 col-6 col-sm-4 col-lg-3"
+             *ngFor="let person of PEOPLE | filterByField:{val: 'former', field:'title'}; let i = index">
 
           <div class="card">
             <div class="image-team">

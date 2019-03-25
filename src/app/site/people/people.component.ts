@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {NewsService} from '../../services/news.service';
+import {HomeService} from '../../services/home.service';
 import {People} from '../../models/people.models';
 import {PeopleService} from '../../services/people.service';
 

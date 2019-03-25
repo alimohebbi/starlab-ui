@@ -1,5 +1,4 @@
 /*Scroll bar begin*/
-
 .square::-webkit-scrollbar-track {
 border-radius: 0 !important; }
 
@@ -12,7 +11,7 @@ width: 6px; }
 .example-1 {
 position: relative;
 overflow-y: scroll;
-height: 200px; }
+height: 300px; }
 
 .scrollbar-morpheus-den::-webkit-scrollbar-track {
 -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);

@@ -4,19 +4,8 @@
   <div class="container">
     <div class="row fullscreen d-flex align-items-center justify-content-center">
       <div class="banner-content col-lg-10  ">
-
-        <div class="row align-items-center justify-content-center mt-5 mt-md-3">
-          <h5 class="text-uppercase ">
-            <a href="http://www.usi.ch/">
-              USI Università della Svizzera italiana
-            </a>
-          </h5>
-          <div class="w-100"></div>
-          <h5 class="text-uppercase">Lugano, Switzerland</h5>
-        </div>
-
         <h1>
-          The Software Testing and Analysis Research (STAR) lab
+          The Software Testing and Analysis Research (STAR)
         </h1>
       </div>
     </div>
@@ -26,37 +15,100 @@
 
 <!-- Start portfolio-area Area -->
 <section class="portfolio-area section-gap" id="portfolio">
+
   <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="menu-content col-lg-10">
-        <div class="title text-center">
-          <h1 class="mb-10">News</h1>
-          <!--<p>Who are in extremely love with eco friendly system..</p>-->
-        </div>
-      </div>
-    </div>
-    <div class="panel-body-fix">
-      <!--news scroll begin-->
 
-      <div class="card example-1 scrollbar-morpheus-den">
-        <div class="card-body">
-          <div class="container">
 
-            <div class="row" *ngFor="let feed of NEWS">
-              <div class="col  mt-1">
-                <span class=" genric-btn btn-block  primary circle small">{{feed.pub_date | date:'MMM'}}
+    <!--news scroll begin-->
+    <div class="row">
+      <div class="col-12 col-md-7 mt-3">
+        <div class="card border-primary ">
+          <div class="card-header bg-dark-blue text-center"><h3 class="text-white">News</h3></div>
+          <div class="card-body example-1 scrollbar-morpheus-den square">
+            <div class="container">
+              <div class="row" *ngFor="let feed of NEWS">
+                <div class="col-12 col-lg-2 no-padding mt-1">
+                <span class=" genric-btn btn-block bg-dark-blue circle small p-1">{{feed.pub_date | date:'MMM'}}
                   . {{feed.pub_date | date:'yyyy'}}</span>
+                </div>
+                <div class="col-10 mt-1" [innerHTML]="feed.text">
+                </div>
               </div>
-              <div class="col-10 mt-1" [innerHTML]="feed.news_text">
 
-              </div>
+
             </div>
-
+            <!--news scroll ends-->
           </div>
         </div>
+
       </div>
-      <!--news scroll ends-->
+      <div class="col-12 col-md-5 mt-3">
+        <div class="card border-success  ">
+          <div class="card-header bg-success text-center"><h3 class="text-white">Highlights</h3></div>
+          <div class="card-body example-1 scrollbar-morpheus-den square">
+            <div class="container">
+              <div class="row" *ngFor="let feed of HIGHLIGHTS">
+                <div class="col col-lg-3 no-padding  mt-1">
+                <span class=" genric-btn btn-block bg-dark-blue circle small p-1">{{feed.date | date:'MMM'}}
+                  . {{feed.date | date:'yyyy'}}</span>
+                </div>
+                <div class="col-9 mt-1">
+                  <div [innerHTML]="feed.subject"></div>
+                  <div class="w-100"></div>
+                  <div [innerHTML]="feed.text">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--news scroll ends-->
+          </div>
+        </div>
+
+      </div>
     </div>
+    <div class="row mt-3">
+      <div class="col-7 ">
+        <div class="card border-warning ">
+          <div class="card-header bg-warning text-center"><h3 class="text-white">Ongoing Projects</h3></div>
+          <div class="card-body example-1 scrollbar-morpheus-den square">
+            <div class="container">
+              <div class="row" *ngFor="let feed of NEWS">
+                <div class="col col-lg-2 no-padding mt-1">
+                <span class=" genric-btn btn-block bg-dark-blue circle small p-1">{{feed.pub_date | date:'MMM'}}
+                  . {{feed.pub_date | date:'yyyy'}}</span>
+                </div>
+                <div class="col-10 mt-1" [innerHTML]="feed.news_text">
+                </div>
+              </div>
+
+
+            </div>
+            <!--news scroll ends-->
+          </div>
+        </div>
+
+      </div>
+      <div class="col-5">
+        <div class="card border-danger">
+          <div class="card-header bg-danger text-center"><h3 class="text-white">Ongoing Collaboration</h3></div>
+          <div class="card-body example-1 scrollbar-morpheus-den square">
+            <div class="container">
+              <div class="row" *ngFor="let feed of NEWS">
+                <div class="col col-lg-3 no-padding  mt-1">
+                <span class=" genric-btn btn-block bg-dark-blue circle small p-1">{{feed.pub_date | date:'MMM'}}
+                  . {{feed.pub_date | date:'yyyy'}}</span>
+                </div>
+                <div class="col-9 mt-1" [innerHTML]="feed.news_text">
+                </div>
+              </div>
+            </div>
+            <!--news scroll ends-->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
 
   </div>
 </section>
@@ -64,7 +116,7 @@
 
 
 <!-- Start Research Area -->
-<section class="service-area section-gap relative" id="service">
+<!--<section class="service-area section-gap relative" id="service">
   <div class="overlay overlay-bg"></div>
   <div class="container">
     <div class="row d-flex justify-content-center">
@@ -77,10 +129,10 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 <!-- End Research Area -->
 
-<!-- Start Research Area -->
+<!-- Start Research Area --><!--
 <section class="services-area pb-100">
   <div class="container">
     <div class="row">
@@ -114,46 +166,6 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 <!-- End Research Area -->
 
-<!-- Start review Area -->
-<section class="review-area section-gap" id="testimonial">
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="menu-content pb-60 col-lg-10">
-        <div class="title text-center">
-          <h1 class="mb-10">History and Collaborations</h1>
-
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="single-review">
-
-          <img src="assets/img/history-icon.png" alt="">
-          <img src="assets/img/collab-icon.png" alt="">
-          <div class="title d-flex flex-row">
-          </div>
-          <p>
-            Founded by Mauro Pezzè in 2006. <br>
-            It hosted over 30 PhD students and postdocs. <br>
-            Active main collaborations with: </p>
-          <ul class="unordered-list">
-            <li> The twin Laboratory for Software Testing and Analysis (LTA) of the Università di Milano Bicocca
-              (founded and directed by Mauro Pezzè since 2000) (Milano, Italy)and with
-            </li>
-            <li>Oregon University (Eugene, US).
-              <a href="http://ix.cs.uoregon.edu/~michal/">(Michal Young)</a>
-            </li>
-            <li>University of Washington (Seattle, US).
-              <a href="https://homes.cs.washington.edu/~mernst/">(Michal Ernst)</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End review Area -->

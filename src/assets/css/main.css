@@ -118,7 +118,7 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: Calibri, sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
@@ -2169,7 +2169,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 .banner-area {
   margin-top: -62px;
   border-radius: 10px;
@@ -2198,7 +2197,7 @@ h1, h2, h3, h4, h5, h6 {
 .banner-content h1 {
   color: #fff;
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1em;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -2643,6 +2642,20 @@ h6 {
 
 .switch-wrap p {
   margin: 0;
+}
+
+/*my css*/
+
+.bg-dark-blue {
+  color: #fff;
+  background-color: #0063d1;
+  border-color: #0063d1;
+}
+
+.bg-orange {
+  color: #fff;
+  background-color: #ef6604;
+  border-color: #ef6604;
 }
 
 

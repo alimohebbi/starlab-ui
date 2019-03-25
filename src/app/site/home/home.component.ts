@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 import {root} from 'rxjs/internal-compatibility';
-import {NewsService} from '../../services/news.service';
+import {HomeService} from '../../services/home.service';
 import {News} from '../../models/news.models';
+import {Highlight} from '../../models/highlight.models';
 
 @Component({
   selector: 'app-home',
@@ -12,11 +13,14 @@ import {News} from '../../models/news.models';
 export class HomeComponent implements OnInit {
 
   NEWS: News[];
-  constructor(private router: Router, private newsService: NewsService) { }
+  HIGHLIGHTS: Highlight[];
+  constructor(private router: Router, private homeService: HomeService) { }
 
   ngOnInit() {
-    this.newsService.getNews()
+    this.homeService.getNews()
       .subscribe(news => {this.NEWS = news; });
+    this.homeService.getHighlights()
+      .subscribe(highlights => {this.HIGHLIGHTS = highlights; });
   }
 
 }

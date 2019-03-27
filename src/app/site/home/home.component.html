@@ -34,8 +34,6 @@
                 <div class="col-10 mt-1" [innerHTML]="feed.text">
                 </div>
               </div>
-
-
             </div>
             <!--news scroll ends-->
           </div>
@@ -72,16 +70,14 @@
           <div class="card-header bg-warning text-center"><h3 class="text-white">Ongoing Projects</h3></div>
           <div class="card-body example-1 scrollbar-morpheus-den square">
             <div class="container">
-              <div class="row" *ngFor="let feed of NEWS">
-                <div class="col col-lg-2 no-padding mt-1">
-                <span class=" genric-btn btn-block bg-dark-blue circle small p-1">{{feed.pub_date | date:'MMM'}}
-                  . {{feed.pub_date | date:'yyyy'}}</span>
+              <div *ngFor="let research of RESEARCHES">
+                <div class="row mb-1">
+                  <h4>{{research.title}}</h4>
                 </div>
-                <div class="col-10 mt-1" [innerHTML]="feed.news_text">
+                <div class="row" *ngFor="let project of research.projects">
+                  <div class="col-12" [innerHTML]="project.name"></div>
                 </div>
               </div>
-
-
             </div>
             <!--news scroll ends-->
           </div>
@@ -93,14 +89,17 @@
           <div class="card-header bg-danger text-center"><h3 class="text-white">Ongoing Collaboration</h3></div>
           <div class="card-body example-1 scrollbar-morpheus-den square">
             <div class="container">
-              <div class="row" *ngFor="let feed of NEWS">
-                <div class="col col-lg-3 no-padding  mt-1">
-                <span class=" genric-btn btn-block bg-dark-blue circle small p-1">{{feed.pub_date | date:'MMM'}}
-                  . {{feed.pub_date | date:'yyyy'}}</span>
+
+              <div *ngFor="let collaboration of COLLABORATIONS">
+                <div class="row"><a href="{{collaboration.link}}">{{collaboration.university}}</a></div>
+                <div class="row" *ngFor="let researcher of collaboration.researchers">
+                  <div class="col"><a href="{{researcher.people.web_page}}">
+                    {{researcher.people.first_name}} {{researcher.people.last_name}}</a></div>
+                  <div class="col">{{researcher.field}}</div>
                 </div>
-                <div class="col-9 mt-1" [innerHTML]="feed.news_text">
-                </div>
+
               </div>
+
             </div>
             <!--news scroll ends-->
           </div>

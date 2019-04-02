@@ -51,11 +51,13 @@
 
 body {
   color: #777777;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-family: Calibri, "Poppins", sans-serif;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
+  /*background-image: url("../img/blue-back.jpg");*/
+  /*background: #0d1e5d;*/
 }
 
 ol, ul {
@@ -182,6 +184,7 @@ td, th {
   clear: both;
 }
 
+/*
 .fz-11 {
   font-size: 11px;
 }
@@ -553,6 +556,7 @@ td, th {
 .p-40 {
   padding: 40px;
 }
+*/
 
 .float-left {
   float: left;
@@ -1561,10 +1565,6 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #f1f1f1;
 }
 
-.primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
-  border: none;
-}
 
 .confirm-checkbox {
   width: 16px;
@@ -1599,10 +1599,6 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #f1f1f1;
 }
 
-.confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
-  border: none;
-}
 
 .disabled-checkbox {
   width: 16px;
@@ -1951,8 +1947,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-nav a {
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 530;
+  font-size: 13px;
   color: #fff;
   padding: 20px;
 }
@@ -2075,7 +2071,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .section-title {
@@ -2208,6 +2204,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 991.98px) {
+  .banner-area {
+    height: 300px;
+  }
+
   .banner-content h1 {
     font-size: 36px;
   }
@@ -2223,9 +2223,12 @@ h1, h2, h3, h4, h5, h6 {
   .banner-content h1 {
     font-size: 45px;
   }
+
+
 }
 
 @media (max-width: 414px) {
+
   .banner-content h1 {
     font-size: 40px;
   }
@@ -2238,7 +2241,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner-content a, .banner-content h5, .navbar a {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 
 }
 
@@ -2361,11 +2364,13 @@ a[role=button] {
   width: 100%;
 }
 
+/*
 .service-area {
   background: url(../img/service-bg.jpg) center;
   background-size: cover;
   border-radius: 10px;
 }
+*/
 
 .service-area .overlay-bg {
   border-radius: 10px;
@@ -2589,8 +2594,18 @@ h6 {
 
 @media (max-width: 767.98px) {
   .generic-banner .height {
-    height: 400px;
+    height: 250px;
   }
+
+  .generic-banner-content {
+    margin-top: 50px;
+  }
+
+  .generic-banner .generic-banner-content h2 {
+    margin-bottom: 5px;
+  }
+
+
 }
 
 .generic-banner .generic-banner-content h2 {
@@ -2652,10 +2667,11 @@ h6 {
   border-color: #0063d1;
 }
 
-.bg-orange {
-  color: #fff;
-  background-color: #ef6604;
-  border-color: #ef6604;
+.text-dark-blue {
+  color: #0063d1;
 }
 
-
+.bg-cream {
+  background-color: #e1ebeb;
+  border-color: #e1ebeb;
+}

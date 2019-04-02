@@ -4,7 +4,6 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {HeaderComponent} from './layout/header/header.component';
 import {FooterComponent} from './layout/footer/footer.component';
-import {HomeComponent} from './site/home/home.component';
 import {AppRoutingModule} from './app-routing.module';
 import {PeopleComponent} from './site/people/people.component';
 import {ResearchComponent} from './site/research/research.component';
@@ -12,16 +11,16 @@ import {SoftwareDataComponent} from './site/software-data/software-data.componen
 import {PublicationComponent} from './site/publication/publication.component';
 import {HttpClientModule} from '@angular/common/http';
 import {HttpModule} from '@angular/http';
-import {FilterByFieldPipe} from './Pipes/filterbytitle';
-import { SoftwareDetailsComponent } from './site/software-details/software-details.component';
-import { CitationPipe } from './Pipes/citation.pipe';
+import {FilterByFieldPipe} from './Pipes/filterbyfield';
+import {SoftwareDetailsComponent} from './site/software-details/software-details.component';
+import {CitationPipe} from './Pipes/citation.pipe';
+import {HomeModule} from './site/home/home.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent,
     PeopleComponent,
     ResearchComponent,
     SoftwareDataComponent,
@@ -34,8 +33,8 @@ import { CitationPipe } from './Pipes/citation.pipe';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    HttpModule
-
+    HttpModule,
+    HomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

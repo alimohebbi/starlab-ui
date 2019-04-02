@@ -29,7 +29,6 @@
              aria-valuemin="0" aria-valuemax="100" [style.width.%]="progressStatus">{{progressStatus}}%
         </div>
       </div>
-
       <div *ngFor="let paper of entries">
         <div *ngIf="currentYear !== paper.year;">
           <h3>{{paper.year}}</h3>

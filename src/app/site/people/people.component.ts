@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {HomeService} from '../../services/home.service';
 import {People} from '../../models/people.models';
 import {PeopleService} from '../../services/people.service';
@@ -11,15 +11,24 @@ import {PeopleService} from '../../services/people.service';
 export class PeopleComponent implements OnInit {
 
   PEOPLE: People[];
+  TITLES = {
+    researcher: 'Researchers',
+    phd: 'PhD Students',
+    community: 'Star Community',
+  };
+
+
+  TITLESKEYS: any;
+
 
   constructor(private peopleService: PeopleService) {
   }
 
   ngOnInit() {
+    this.TITLESKEYS = Object.keys(this.TITLES);
     this.peopleService.getPeople()
       .subscribe(people => {
         this.PEOPLE = people;
-        console.log(this.PEOPLE);
       });
   }
 

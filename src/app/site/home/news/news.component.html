@@ -1,0 +1,23 @@
+
+<div class="card rounded-0 ">
+  <div class="card-body example-1 scrollbar-morpheus-den square">
+    <div class="container">
+      <div *ngFor="let feed of NEWS">
+        <div class="row">
+          <div class="col-12 col-lg-2 no-padding mt-1 align-self-center">
+                <span class=" genric-btn btn-block bg-dark-blue circle small p-1">{{feed.pub_date | date:'MMM'}}
+                  . {{feed.pub_date | date:'yyyy'}}</span>
+          </div>
+          <div class="col-10 mt-1" [innerHTML]="feed.text">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col no-padding">
+            <hr class="border-primary">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

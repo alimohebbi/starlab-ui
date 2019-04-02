@@ -1,0 +1,21 @@
+<div class="card rounded-0 ">
+  <div class="card-body example-1 scrollbar-morpheus-den square">
+    <div class="container">
+      <div *ngFor="let research of RESEARCHES">
+        <div class="row mb-1 mt-1">
+          <h4>{{research.title}}</h4>
+        </div>
+        <div class="row mt-1" *ngFor="let project of research.projects">
+          <span><i class="fa fa-check" aria-hidden="true"></i></span>
+          <div class="col" [innerHTML]="project.name"></div>
+        </div>
+        <div class="row">
+          <div class="col no-padding">
+            <hr class="border-warning">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--news scroll ends-->
+  </div>
+</div>

@@ -1,5 +1,5 @@
 <!-- start banner Area -->
-<section class="banner-area relative" id="home">
+<section class="banner-area relative rounded-0" id="home">
   <div class="overlay overlay-bg"></div>
   <div class="container">
     <div class="row fullscreen d-flex align-items-center justify-content-center">
@@ -14,157 +14,54 @@
 <!-- End banner Area -->
 
 <!-- Start portfolio-area Area -->
-<section class="portfolio-area section-gap" id="portfolio">
+<section class="portfolio-area py-5" id="portfolio">
 
-  <div class="container">
-
-
-    <!--news scroll begin-->
+  <div class="mid-section-1 container-fluid bg-image bg-parallax overlay layer-1">
+  </div>
+  <div class="container mb-5 layer-2">
     <div class="row">
       <div class="col-12 col-md-7 mt-3">
-        <div class="card border-primary ">
-          <div class="card-header bg-dark-blue text-center"><h3 class="text-white">News</h3></div>
-          <div class="card-body example-1 scrollbar-morpheus-den square">
-            <div class="container">
-              <div class="row" *ngFor="let feed of NEWS">
-                <div class="col-12 col-lg-2 no-padding mt-1">
-                <span class=" genric-btn btn-block bg-dark-blue circle small p-1">{{feed.pub_date | date:'MMM'}}
-                  . {{feed.pub_date | date:'yyyy'}}</span>
-                </div>
-                <div class="col-10 mt-1" [innerHTML]="feed.text">
-                </div>
-              </div>
-            </div>
-            <!--news scroll ends-->
+        <div class="row mb-3">
+          <div class="col  text-center">
+            <h3 class="text-white">News</h3>
           </div>
         </div>
-
+        <app-news></app-news>
       </div>
       <div class="col-12 col-md-5 mt-3">
-        <div class="card border-success  ">
-          <div class="card-header bg-success text-center"><h3 class="text-white">Highlights</h3></div>
-          <div class="card-body example-1 scrollbar-morpheus-den square">
-            <div class="container">
-              <div class="row" *ngFor="let feed of HIGHLIGHTS">
-                <div class="col col-lg-3 no-padding  mt-1">
-                <span class=" genric-btn btn-block bg-dark-blue circle small p-1">{{feed.date | date:'MMM'}}
-                  . {{feed.date | date:'yyyy'}}</span>
-                </div>
-                <div class="col-9 mt-1">
-                  <div [innerHTML]="feed.subject"></div>
-                  <div class="w-100"></div>
-                  <div [innerHTML]="feed.text">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--news scroll ends-->
+        <div class="row mb-3">
+          <div class="col  text-center">
+            <h3 class="text-white">Highlights</h3>
           </div>
         </div>
-
-      </div>
-    </div>
-    <div class="row mt-3">
-      <div class="col-7 ">
-        <div class="card border-warning ">
-          <div class="card-header bg-warning text-center"><h3 class="text-white">Ongoing Projects</h3></div>
-          <div class="card-body example-1 scrollbar-morpheus-den square">
-            <div class="container">
-              <div *ngFor="let research of RESEARCHES">
-                <div class="row mb-1">
-                  <h4>{{research.title}}</h4>
-                </div>
-                <div class="row" *ngFor="let project of research.projects">
-                  <div class="col-12" [innerHTML]="project.name"></div>
-                </div>
-              </div>
-            </div>
-            <!--news scroll ends-->
-          </div>
-        </div>
-
-      </div>
-      <div class="col-5">
-        <div class="card border-danger">
-          <div class="card-header bg-danger text-center"><h3 class="text-white">Ongoing Collaboration</h3></div>
-          <div class="card-body example-1 scrollbar-morpheus-den square">
-            <div class="container">
-
-              <div *ngFor="let collaboration of COLLABORATIONS">
-                <div class="row"><a href="{{collaboration.link}}">{{collaboration.university}}</a></div>
-                <div class="row" *ngFor="let researcher of collaboration.researchers">
-                  <div class="col"><a href="{{researcher.people.web_page}}">
-                    {{researcher.people.first_name}} {{researcher.people.last_name}}</a></div>
-                  <div class="col">{{researcher.field}}</div>
-                </div>
-
-              </div>
-
-            </div>
-            <!--news scroll ends-->
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-  </div>
-</section>
-<!-- End portfolio-area Area -->
-
-
-<!-- Start Research Area -->
-<!--<section class="service-area section-gap relative" id="service">
-  <div class="overlay overlay-bg"></div>
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="menu-content pb-60 col-lg-10">
-        <div class="title text-center">
-          <h1 class="mb-10 text-white">Research Areas</h1>
-          <p>Active research in software engineering in the areas of software testing, program analysis,
-            self-healing complex systems, engineering scientific software systems </p>
-        </div>
+        <app-highlight></app-highlight>
       </div>
     </div>
   </div>
-</section>-->
-<!-- End Research Area -->
 
-<!-- Start Research Area --><!--
-<section class="services-area pb-100">
-  <div class="container">
+
+  <div class="mid-section-2 container-fluid bg-image bg-parallax overlay layer-1">
+  </div>
+  <div class="container layer-2">
     <div class="row">
-      <div class="col-lg-4">
-        <div class="single-service">
-          <img class="img-fluid" src="assets/img/software-test.png" alt="">
-          <h4>Software Testing</h4>
-          <span>Testing Concurrent and Distributed Systems</span><br>
-          <span>Testing Interactive Applications</span><br>
-          <span>Test oracles</span><br>
+      <div class="col-12 col-md-7 mt-3">
+        <div class="row mb-3  ">
+          <div class="col  text-center">
+            <h3 class="text-white">Ongoing Projects</h3>
+          </div>
         </div>
+        <app-researches></app-researches>
       </div>
-      <div class="col-lg-4">
-        <div class="single-service">
-          <img class="img-fluid" src="assets/img/self-healing.png" alt="">
-          <h4>Self-healing Complex Systems</h4>
-          <span>Failure prediction </span><br>
-          <span>fault localization</span><br>
-          <span> self-healing on-demand for complex software applications and cloud systems</span><br>
+      <div class="col-12 col-md-5 mt-3">
+        <div class="row mb-3">
+          <div class="col  text-center">
+            <h3 class="text-white">Ongoing Collaborations</h3>
+          </div>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="single-service">
-          <img class="img-fluid" src="assets/img/program-analysis.png" alt="">
-          <h4>Program Analysis</h4>
-          <p>
-            <span>Symbolic analysis of complex software systems</span><br>
-            <span>Engineering scientific software systems</span>
-          </p>
-        </div>
+        <app-collaborations></app-collaborations>
       </div>
     </div>
   </div>
-</section>-->
-<!-- End Research Area -->
 
+
+</section>

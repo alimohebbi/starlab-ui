@@ -10,9 +10,8 @@ import {Collaboration} from '../models/collaboration.models';
   providedIn: 'root'
 })
 export class HomeService {
-  // private baseURL = 'https://alimohebbi.pythonanywhere.com/api/';
-  private baseURL = 'http://localhost:8000/api/';
-
+  private baseURL = 'https://alimohebbi.pythonanywhere.com/api/';
+  // private baseURL = 'http://localhost:8000/api/';
   // private baseURL = 'http://star-lab.ddns.net/api/';
 
 

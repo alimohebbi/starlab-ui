@@ -11,7 +11,6 @@ const httpOptions = {
 })
 export class PublicationService {
   // private bibUrl = 'http://localhost:8000/api/publications';
-
   private bibUrl = 'https://alimohebbi.pythonanywhere.com/api/publications';
 
   constructor(private http: HttpClient) {

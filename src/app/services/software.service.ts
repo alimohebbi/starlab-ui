@@ -3,13 +3,13 @@ import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {Software} from '../models/software.models';
 import {People} from '../models/people.models';
+import {environment} from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SoftwareService {
-  // private url = 'http://localhost:8000/api/software';
-  private url = 'https://alimohebbi.pythonanywhere.com/api/software';
+  private url = environment.base_url;
 
   constructor(private  http: HttpClient) {
   }

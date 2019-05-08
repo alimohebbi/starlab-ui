@@ -5,12 +5,13 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {Highlight} from '../models/highlight.models';
 import {Research} from '../models/research.models';
 import {Collaboration} from '../models/collaboration.models';
+import {environment} from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class HomeService {
-  private baseURL = 'https://alimohebbi.pythonanywhere.com/api/';
+  private baseURL = environment.base_url;
   // private baseURL = 'http://localhost:8000/api/';
   // private baseURL = 'http://star-lab.ddns.net/api/';
 

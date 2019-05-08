@@ -31,8 +31,9 @@ export class SoftwareService {
   }
 
   getHtmlDetail(detailURL: string): Observable<string> {
+
+    // detailURL = detailURL.replace('http://', 'https://');
     console.log(detailURL);
-    detailURL = detailURL.replace('http', 'https');
     return this.http.get(detailURL, {responseType: 'text'});
   }
 

@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core';
 import {Observable, of} from 'rxjs';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {environment} from '../../environments/environment';
 
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
@@ -10,8 +11,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class PublicationService {
-  // private bibUrl = 'http://localhost:8000/api/publications';
-  private bibUrl = 'https://alimohebbi.pythonanywhere.com/api/publications';
+  private bibUrl = environment.base_url + 'publications';
 
   constructor(private http: HttpClient) {
 

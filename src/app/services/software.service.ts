@@ -9,7 +9,7 @@ import {environment} from '../../environments/environment';
   providedIn: 'root'
 })
 export class SoftwareService {
-  private url = environment.base_url;
+  private url = environment.base_url + 'software';
 
   constructor(private  http: HttpClient) {
   }
@@ -30,10 +30,10 @@ export class SoftwareService {
     return this.http.get<People[]>(authorURL);
   }
 
-  getHtmlDetail(url: string): Observable<string> {
-    console.log(url);
-    url = url.replace('http', 'https');
-    return this.http.get(url, {responseType: 'text'});
+  getHtmlDetail(detailURL: string): Observable<string> {
+    console.log(detailURL);
+    detailURL = detailURL.replace('http', 'https');
+    return this.http.get(detailURL, {responseType: 'text'});
   }
 
 

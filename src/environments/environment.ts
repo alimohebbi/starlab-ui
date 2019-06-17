@@ -4,7 +4,7 @@
 
 export const environment = {
     production: false,
-    base_url: 'https://alimohebbi.pythonanywhere.com/api/'
+    base_url: 'http://localhost:8000/api/'
   }
 ;
 

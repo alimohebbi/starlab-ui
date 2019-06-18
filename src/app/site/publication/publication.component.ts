@@ -75,7 +75,7 @@ export class PublicationComponent implements OnInit {
   }
 
   private prepareBibData(response) {
-    const temp = response.filter(entry => entry.groups === 'STAR');
+    const temp = response.filter(entry => (entry.groups === 'STAR' || entry.groups === 'STAR,LTA'));
     this.entries = temp.sort((obj1, obj2) => {
       if (Number(obj1.year) > Number(obj2.year)) {
         return -1;

@@ -15,6 +15,7 @@ import {FilterByFieldPipe} from './Pipes/filterbyfield';
 import {SoftwareDetailsComponent} from './site/software-details/software-details.component';
 import {CitationPipe} from './Pipes/citation.pipe';
 import {HomeModule} from './site/home/home.module';
+import { OpencallComponent } from './site/opencall/opencall.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import {HomeModule} from './site/home/home.module';
     FilterByFieldPipe,
     SoftwareDetailsComponent,
     CitationPipe,
+    OpencallComponent,
   ],
   imports: [
     BrowserModule,

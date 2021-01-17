@@ -4,7 +4,7 @@ import {HomeComponent} from './home.component';
 import {NewsComponent} from './news/news.component';
 import { HighlightComponent } from './highlight/highlight.component';
 import { ResearchesComponent } from './researches/researches.component';
-import { CollaborationsComponent } from './collaborations/collaborations.component';
+import { openingComponent } from './collaborations/collaborations.component';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { CollaborationsComponent } from './collaborations/collaborations.compone
     NewsComponent,
     HighlightComponent,
     ResearchesComponent,
-    CollaborationsComponent
+    openingComponent
   ],
   imports: [
     CommonModule

@@ -7,6 +7,7 @@ import {SoftwareDataComponent} from './site/software-data/software-data.componen
 import {PublicationComponent} from './site/publication/publication.component';
 import {SoftwareDetailsComponent} from './site/software-details/software-details.component';
 import {OpencallComponent} from './site/opencall/opencall.component';
+import {MaincolaborationComponent} from './site/maincolaboration/maincolaboration.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'software-data/:id', component: SoftwareDetailsComponent},
   {path: 'publications', component: PublicationComponent},
   {path: 'opencall', component: OpencallComponent},
+  {path: 'maincolaboration', component: MaincolaborationComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'},
 
 ];

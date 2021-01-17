@@ -6,6 +6,7 @@ import {Highlight} from '../models/highlight.models';
 import {Research} from '../models/research.models';
 import {Collaboration} from '../models/collaboration.models';
 import {environment} from '../../environments/environment';
+import {openings} from '../models/opening.models';
 
 @Injectable({
   providedIn: 'root'
@@ -32,6 +33,11 @@ export class HomeService {
   getResearches(): Observable<Research[]> {
     const url = this.baseURL + 'researches';
     return this.http.get<Research[]>(url);
+  }
+
+  getopening(): Observable<openings[]> {
+    const url = this.baseURL + 'opening';
+    return this.http.get<openings[]>(url);
   }
 
   getCollaborations(): Observable<Collaboration[]> {

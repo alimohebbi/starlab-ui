@@ -1,3 +1,7 @@
 strong {
   font-size: 20px;
 }
+
+.container {
+  max-width: 1300px;
+}

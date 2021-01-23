@@ -1,0 +1,79 @@
+<section class="generic-banner relative">
+    <div class="container">
+      <div class="row height align-items-center justify-content-center">
+        <div class="col-lg-10">
+          <div class="generic-banner-content">
+            <h2 class="text-white">Projects</h2>
+            <!--<p class="text-white">It won’t be entries bigger problem to find one video game lover in your <br> neighbor. Since the introduction of Virtual Game.</p>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End banner Area -->
+  
+  <!-- About Generic Start -->
+  <div class="main-wrapper">
+  
+    <!-- Start Generic Area -->
+    <section class="about-generic-area section-gap">
+      <div class="container border-top-generic">
+        <div *ngFor="let project of projects">
+          <div *ngIf="currentYear !== project.year;">
+            <h3>{{project.year}}</h3>
+            {{setCurrentYear(project.year)}}
+            <hr class="border-info"/>
+          </div>
+          <h4 class="project-title">{{project.title}}</h4>
+          <div *ngFor="let p of project.projects">
+            <p class="project-name">{{p.name}}</p>
+          </div>
+        </div>
+  
+      </div>
+    </section>
+  </div>
+
+  <div class="page-content container"><div class="wrapper">
+    <div id="projects-container" class="projects-container"></div>
+</div></div>
+
+<script>
+    loadProjects = () => {
+        var sortedProjects = sortByDateDesc(researches);
+        
+        sortedProjects.forEach((el,idx) => {
+            var date = new Date(el.date_added);
+
+            if (idx === 0 || date.getFullYear() !== previous.year) {
+                var year = document.createElement('h2');
+
+                year.classList.add('year-projects');
+
+                year.innerHTML = date.getFullYear();
+
+                document.getElementById('projects-container').append(year);
+
+                previous.year = date.getFullYear();
+            }
+            
+            var h3 = document.createElement('h3');
+
+            h3.classList.add('title-projects');
+            
+            h3.innerHTML = el.title;
+            
+            document.getElementById('projects-container').append(h3); 
+
+            el.projects.forEach((project) => {
+                var p = document.createElement('p');
+
+                p.classList.add('p-projects');
+    
+                p.innerHTML = project.name;
+    
+                document.getElementById('projects-container').append(p); 
+            });
+        });
+    };
+</script>

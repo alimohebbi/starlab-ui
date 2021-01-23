@@ -17,6 +17,7 @@ import {CitationPipe} from './Pipes/citation.pipe';
 import {HomeModule} from './site/home/home.module';
 import { OpencallComponent } from './site/opencall/opencall.component';
 import { MaincolaborationComponent } from './site/maincolaboration/maincolaboration.component';
+import { ProjectsComponent } from './site/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MaincolaborationComponent } from './site/maincolaboration/maincolaborat
     FooterComponent,
     PeopleComponent,
     ResearchComponent,
+    ProjectsComponent,
     SoftwareDataComponent,
     PublicationComponent,
     FilterByFieldPipe,

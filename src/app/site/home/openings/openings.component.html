@@ -1,0 +1,38 @@
+<h1 class="openings-title">Openings</h1>
+<div class="card rounded-0 ">
+  <div class="card-body feed-box scrollbar-morpheus-den square">
+    <div class="container openings-content">
+        <p>Approaches that span from software engineering to machine learning,
+          natural language processing and formal methods to address the main challenges
+          that characterize smart ecosystems, ultra-large complex systems that emerge
+          from autonomous cyber physical  systems and people, like smart cities,
+          smart buildings, smart grids.</p> 
+          
+      <div *ngFor="let feed of openingComponent">
+        <div class="row">
+          <div class="no-padding mt-1 align-self-center">
+            <ul class="unordered-list">
+            <li> Position:   {{feed.title}}, {{feed.count}} Person(s)
+              <ul class="unordered-list">
+              <li> Short description:   {{feed.desc}}           
+              </li>
+              </ul>
+            </li>
+              
+            </ul>
+          </div>
+          
+        </div>
+    
+      </div>
+      <br>
+      <div  *ngIf="openingComponent"   >
+        
+        <li> Please send a CV and a research statement to mauro.pezze@usi.ch or mauro.pezze@sit.ch       
+        </li>
+    
+    </div> 
+  </div>
+    <!--news scroll ends-->
+  </div>
+</div>

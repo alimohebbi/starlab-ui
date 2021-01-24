@@ -95,6 +95,7 @@ div {
 
 .layer-2 {
   z-index: 1;
-  margin-top: -150px;
+  /*margin-top: -150px;*/
+  margin-top: 50px;
 }
 

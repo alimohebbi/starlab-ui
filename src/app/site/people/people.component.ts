@@ -13,7 +13,6 @@ export class PeopleComponent implements OnInit {
   PEOPLE: People[];
   TITLES = {
     researcher: 'Researchers',
-    phd: 'PhD Students',
     community: 'Star Community',
   };
 

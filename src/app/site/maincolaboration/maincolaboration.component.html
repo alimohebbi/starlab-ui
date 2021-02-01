@@ -10,39 +10,43 @@
   </div>
 </section>
 
+<section class="about-generic-area section-gap">
+  <div class="container border-top-generic">
 
-<div class="card rounded-0">
-  <div class="card-body feed-box scrollbar-morpheus-den square">
-    <div class="container">
 
-      <div *ngFor="let collaboration of mainCOLLABORATIONS">
-        <div class="row  university ">
-         <div class="col-auto pr-0 pl-0 align-self-center">
-            <span class="align-self-center"><i class="fa fa-university" aria-hidden="true"></i></span>
-         </div>
+    <div class="card-body feed-box scrollbar-morpheus-den square">
+      <div class="container">
 
-          <div class="col pt-1 pl-0" >
-            <a href="{{collaboration.link}}">
-            <h4  class="p-1">{{collaboration.university}}</h4>
-          </a>
+        <div *ngFor="let collaboration of mainCOLLABORATIONS">
+          <div class="row  university ">
+            <div class="col-auto pr-0 pl-0 align-self-center">
+              <span class="align-self-center"><i class="fa fa-university" aria-hidden="true"></i></span>
+            </div>
+
+            <div class="col pt-1 pl-0">
+              <a href="{{collaboration.link}}">
+                <h4 class="p-1">{{collaboration.university}}</h4>
+              </a>
+            </div>
+          </div>
+          <div class="row mb-1" *ngFor="let researcher of collaboration.researchers">
+
+            <div class="col researcher"><a href="{{researcher.people.web_page}}">
+              <span><i class="fa fa-user " aria-hidden="true"></i></span>
+
+              {{researcher.people.first_name}} {{researcher.people.last_name}}</a></div>
+            <div class="col">{{researcher.field}}</div>
+          </div>
+          <div class="row">
+            <div class="col no-padding">
+              <hr class="border-primary ">
+            </div>
           </div>
         </div>
-        <div class="row mb-1" *ngFor="let researcher of collaboration.researchers">
 
-          <div class="col researcher"><a href="{{researcher.people.web_page}}">
-            <span><i class="fa fa-user " aria-hidden="true"></i></span>
-
-            {{researcher.people.first_name}} {{researcher.people.last_name}}</a></div>
-          <div class="col">{{researcher.field}}</div>
-        </div>
-        <div class="row">
-          <div class="col no-padding">
-            <hr class="border-primary ">
-          </div>
-        </div>
       </div>
-
+      <!--news scroll ends-->
     </div>
-    <!--news scroll ends-->
+
   </div>
-</div>
+</section>

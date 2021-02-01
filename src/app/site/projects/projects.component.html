@@ -1,39 +1,42 @@
 <section class="generic-banner relative">
-    <div class="container">
-      <div class="row height align-items-center justify-content-center">
-        <div class="col-lg-10">
-          <div class="generic-banner-content">
-            <h2 class="text-white">Projects</h2>
-            <!--<p class="text-white">It won’t be entries bigger problem to find one video game lover in your <br> neighbor. Since the introduction of Virtual Game.</p>-->
+  <div class="container">
+    <div class="row height align-items-center justify-content-center">
+      <div class="col-lg-10">
+        <div class="generic-banner-content">
+          <h2 class="text-white">Projects</h2>
+          <!--<p class="text-white">It won’t be entries bigger problem to find one video game lover in your <br> neighbor. Since the introduction of Virtual Game.</p>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End banner Area -->
+
+<!-- About Generic Start -->
+<div class="main-wrapper">
+
+  <!-- Start Generic Area -->
+  <section class="about-generic-area section-gap">
+    <div class="container border-top-generic">
+      <div *ngFor="let project of projects">
+        <h4 class="project-title">{{project.title}}</h4>
+        <ul class="unordered-list">
+          <div *ngFor="let p of project.projects">
+            <li class="project-name">{{p.name}}</li>
+          </div>
+        </ul>
+        <div class="row">
+          <div class="col no-padding">
+            <hr class="border-primary">
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End banner Area -->
-  
-  <!-- About Generic Start -->
-  <div class="main-wrapper">
-  
-    <!-- Start Generic Area -->
-    <section class="about-generic-area section-gap">
-      <div class="container border-top-generic">
-        <div *ngFor="let project of projects">
-          <div *ngIf="currentYear !== project.year;">
-            <h3>{{project.year}}</h3>
-            {{setCurrentYear(project.year)}}
-            <hr class="border-info"/>
-          </div>
-          <h4 class="project-title">{{project.title}}</h4>
-          <div *ngFor="let p of project.projects">
-            <p class="project-name">{{p.name}}</p>
-          </div>
-        </div>
-  
-      </div>
-    </section>
-  </div>
+</div>
 
-  <div class="page-content container"><div class="wrapper">
+<div class="page-content container">
+  <div class="wrapper">
     <div id="projects-container" class="projects-container"></div>
-</div></div>
+  </div>
+</div>

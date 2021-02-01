@@ -1,38 +1,42 @@
-<h1 class="openings-title">Openings</h1>
 <div class="card rounded-0 ">
   <div class="card-body feed-box scrollbar-morpheus-den square">
     <div class="container openings-content">
-        <p>Approaches that span from software engineering to machine learning,
-          natural language processing and formal methods to address the main challenges
-          that characterize smart ecosystems, ultra-large complex systems that emerge
-          from autonomous cyber physical  systems and people, like smart cities,
-          smart buildings, smart grids.</p> 
-          
+      <p>We blend approaches that span from software engineering to machine learning,
+        natural language processing and formal methods to address the main challenges
+        that characterize smart ecosystems, ultra-large complex systems that emerge
+        from autonomous cyber physical systems and people, like smart cities,
+        smart buildings, smart grids.</p>
+
+      <div *ngIf="openingComponent" class="mb-3">
+        <h3>Current Openings</h3>
+      </div>
       <div *ngFor="let feed of openingComponent">
-        <div class="row">
-          <div class="no-padding mt-1 align-self-center">
-            <ul class="unordered-list">
-            <li> Position:   {{feed.title}}, {{feed.count}} Person(s)
+        <div class=" mt-1 align-self-center">
+          <ul class="unordered-list">
+            <li><strong> Position: </strong>   {{feed.title}}, {{feed.count}} Person(s)
               <ul class="unordered-list">
-              <li> Short description:   {{feed.desc}}           
-              </li>
+                <div><strong> Short description: </strong>   {{feed.desc}}
+                </div>
               </ul>
             </li>
-              
-            </ul>
-          </div>
-          
+          </ul>
         </div>
-    
+        <div class="row">
+          <div class="col no-padding">
+            <hr class="border-primary">
+          </div>
+        </div>
       </div>
       <br>
-      <div  *ngIf="openingComponent"   >
-        
-        <li> Please send a CV and a research statement to mauro.pezze@usi.ch or mauro.pezze@sit.ch       
-        </li>
-    
-    </div> 
-  </div>
+       <div *ngIf="(openingComponent | json) === ([] | json)">
+        <li><strong>Unfortunately we don't have any position at the moment</strong></li>
+      </div>
+
+      <div *ngIf="(openingComponent | json) !== ([] | json)">
+        <strong>Process:</strong><span> please send a CV and a research statement to mauro.pezze@usi.ch or mauro.pezze@sit.ch
+        </span>
+      </div>
+    </div>
     <!--news scroll ends-->
   </div>
 </div>

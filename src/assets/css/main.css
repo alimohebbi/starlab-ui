@@ -1197,6 +1197,18 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 
+.unordered-list-black li:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+  background: #fff;
+  top: 4px;
+  left: 0;
+  border-radius: 50%;
+}
+
 .ordered-list {
   margin-left: 30px;
 }

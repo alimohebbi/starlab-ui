@@ -11,9 +11,9 @@
         <h3>Current Openings</h3>
       </div>
       <div *ngFor="let feed of openingComponent">
-        <div class=" mt-1 align-self-center">
+        <div class="  align-self-center">
           <ul class="unordered-list">
-            <li><strong> Position: </strong>   {{feed.title}}, {{feed.count}} Person(s)
+            <li class="ml-2"><strong> Position: </strong>   {{feed.title}}, {{feed.count}} Person(s)
               <ul class="unordered-list">
                 <div><strong> Short description: </strong>   {{feed.desc}}
                 </div>
@@ -21,19 +21,20 @@
             </li>
           </ul>
         </div>
-        <div class="row">
-          <div class="col no-padding">
-            <hr class="border-primary">
+        <div class="row ">
+          <div class="col ">
+            <hr class="border-primary m-1">
           </div>
         </div>
       </div>
       <br>
-       <div *ngIf="(openingComponent | json) === ([] | json)">
+      <div *ngIf="(openingComponent | json) === ([] | json)">
         <li><strong>Unfortunately we don't have any position at the moment</strong></li>
       </div>
 
       <div *ngIf="(openingComponent | json) !== ([] | json)">
-        <strong>Process:</strong><span> please send a CV and a research statement to mauro.pezze@usi.ch or mauro.pezze@sit.ch
+        <strong>Process:</strong><span> please send a CV and a research statement to <a
+        href="mailto:mauro.pezze@usi.ch">mauro.pezze@usi.ch</a> or <a href="mailto:mauro.pezze@sit.ch"> mauro.pezze@sit.ch </a>
         </span>
       </div>
     </div>

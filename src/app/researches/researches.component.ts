@@ -1,11 +1,11 @@
 import {Component, OnInit} from '@angular/core';
-import {HomeService} from '../../../services/home.service';
-import {Research} from '../../../models/research.models';
+import {HomeService} from '../services/home.service';
+import {Research} from '../models/research.models';
 
 @Component({
   selector: 'app-researches',
   templateUrl: './researches.component.html',
-  styleUrls: ['./researches.component.css', '../home.component.css']
+  styleUrls: ['./researches.component.css', '../site/home/home.component.css']
 })
 export class ResearchesComponent implements OnInit {
   RESEARCHES: Research[];

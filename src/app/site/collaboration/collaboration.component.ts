@@ -4,13 +4,13 @@ import {Collaboration} from '../../models/collaboration.models';
 
 
 @Component({
-  selector: 'app-maincolaboration',
-  templateUrl: './maincolaboration.component.html',
-  styleUrls: ['./maincolaboration.component.css']
+  selector: 'app-collaboration',
+  templateUrl: './collaboration.component.html',
+  styleUrls: ['./collaboration.component.css']
 })
 
 
-export class MaincolaborationComponent implements OnInit {
+export class CollaborationComponent implements OnInit {
   mainCOLLABORATIONS: Collaboration[];
   constructor(private homeService: HomeService) { }
 

@@ -16,7 +16,7 @@ import {SoftwareDetailsComponent} from './site/software-details/software-details
 import {CitationPipe} from './Pipes/citation.pipe';
 import {HomeModule} from './site/home/home.module';
 import { OpencallComponent } from './site/opencall/opencall.component';
-import { MaincolaborationComponent } from './site/maincolaboration/maincolaboration.component';
+import { CollaborationComponent } from './site/collaboration/collaboration.component';
 import { ProjectsComponent } from './site/projects/projects.component';
 
 @NgModule({
@@ -33,7 +33,7 @@ import { ProjectsComponent } from './site/projects/projects.component';
     SoftwareDetailsComponent,
     CitationPipe,
     OpencallComponent,
-    MaincolaborationComponent,
+    CollaborationComponent,
   ],
   imports: [
     BrowserModule,

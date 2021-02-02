@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
   // base_url: 'http://195.176.181.46/api/'
-  base_url: 'http://6a981112dcea.ngrok.io'
+  base_url: 'http://6a981112dcea.ngrok.io/api/'
 };

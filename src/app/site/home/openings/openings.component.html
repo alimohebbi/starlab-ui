@@ -15,7 +15,8 @@
           <ul class="unordered-list">
             <li class="ml-2"><strong> Position: </strong>   {{feed.title}}
               <ul class="unordered-list">
-                <div><strong> Short description: </strong>   {{feed.desc}}
+                <div><strong> Short description: </strong>
+                  <div [innerHTML]="feed.desc"></div>
                 </div>
               </ul>
             </li>

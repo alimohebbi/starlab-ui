@@ -32,7 +32,7 @@ export class SoftwareService {
 
   getHtmlDetail(detailURL: string): Observable<string> {
 
-    // detailURL = detailURL.replace('http://', 'https://');
+    detailURL = detailURL.replace('http://', 'https://');
     console.log(detailURL);
     return this.http.get(detailURL, {responseType: 'text'});
   }

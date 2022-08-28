@@ -1,4 +1,6 @@
-# PersonalPage
+# StarLab UI
+
+This project provides front-end application of [StarLab](https://star.inf.usi.ch/#/home) website.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
 

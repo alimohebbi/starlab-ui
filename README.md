@@ -1,8 +1,14 @@
 # StarLab UI
 
-This project provides front-end application of [StarLab](https://star.inf.usi.ch/#/home) website.
+This project provides front-end application of [Star Research Groups](https://star.inf.usi.ch/#/home) website.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
+
+## Screenshots
+![1](./screenshots/1.png)
+![2](./screenshots/2.png)
+![3](./screenshots/3.png)
+
 
 ## Development server
 
